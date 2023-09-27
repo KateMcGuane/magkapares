@@ -17,9 +17,13 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-
-
 ### Future Features
+
+---
+
+## Design
+
+###
 
 ## Technologies Used
 
