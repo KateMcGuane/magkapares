@@ -97,25 +97,16 @@ The site was deployed early using Github Pages. The is how the live site was dep
 7. Click Save. Your live Github Pages site is now deployed at the URL shown.
 8. Folloq up:
   * Go to repository home of website.
-  * Click 'Environments' in the right-hand-side panel
-  * Click 'View deployment'
+  * Click 'Environments' in the right-hand-side panel.
+  * Click 'View deployment'.
 
+The live link can be found here - https://katemcguane.github.io/magkapares/
+
+---
 
 ## Testing 
 
 Refer to the [TESTING.md](TESTING.md) for all relevant testing.
-
-
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab. 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-maths/
 
 ---
 
