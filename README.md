@@ -30,15 +30,15 @@ The website is designed with the essence of the Tagalog language in mind. It ill
 
 ### Colour Scheme
 
-The colour scheme of the website illustrates variety and fun through the colour palette. 100s of Thousands were the inspiration for this palette of choice.
+The colour scheme of the website was inspired by the tropical and rich colours of the Phillippines. 100s of They can be found in their coastlines, dense forests and colourful fruits. 
 
 This palette reflects the hero image that is features across each webpage. Many of the colours were extracted from this image and are accented throughout the website.
 
-![Hobby Website Colour Palette](docs/sprinkles-23.png)
+![Magkapares Website Colour Palette](docs/sprinkles-23.png)
 
 This palette has stronger tones to it. It is used primarily for elements such as headings or areas of highlighted interest. This is to illustrate contrast and essential elements of importance.
 
-![Hobby Website Colour Palette](docs/sprinkles-20.png)
+![Magkapares Website Colour Palette](docs/sprinkles-20.png)
 
 Both colour palettes were created using the [Coolors](https://coolors.co/) website.
 
@@ -92,8 +92,13 @@ The site was deployed early using Github Pages. The is how the live site was dep
 2. Find the repository for this project, Kate McGuane / magkapares.
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
-5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
-6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+5. In the Source section (Build & Deployment), deploy from a branch.
+6. In the Branch section (Build & Deployment), choose main from the Select Branch drop down menu. Choose Root from the Select Folder drop down menu.
+7. Click Save. Your live Github Pages site is now deployed at the URL shown.
+8. Folloq up:
+  * Go to repository home of website.
+  * Click 'Environments' in the right-hand-side panel
+  * Click 'View deployment'
 
 
 ## Testing 
