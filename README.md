@@ -72,7 +72,7 @@ HTML, CSS, JavaScript
 ### Frameworks, Libraries & Programs Used
 
 - GitHub
-- Codeanywhere
+- VS Code
 - Google Fonts
 - Font Awesome
 - Canva
@@ -121,6 +121,10 @@ The live link can be found here - https://code-institute-org.github.io/love-math
 #### MarkUp
 - Referred to other completed Project 2/ JavaScript-based projects from fellow students to see what elements are more specific to this project type. Credit due to the following projects:
 *
+
+### Code Institute
+* Referred back to the Love Running Walkthrough project as a general guide when constructing HTML & CSS.
+
 
 ### Acknowledgements
 - To Sarah, thank you so much for your time, energy and commitment to helping me understand what I was doing. Most notably, understanding Git a bit better, and helping me set up my VS Code workspace. I am positive that all those growing pains will pay off in the near future.
