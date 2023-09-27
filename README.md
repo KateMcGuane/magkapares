@@ -3,6 +3,8 @@
 
 Magkapares is the Tagalog (Filipino) equivalent of the word "pairs". This project was inspired by my own learning of the Tagalog language. I wanted to create an interactive learning game based on the memory card game. 
 This game will exercise memory and recollection, all the while learning a new language. It is suitable for children and adults alike. 
+The website acts as a stepping stone to learning more about the Phillippines, in a fun way through learning a language.
+
 
 ## Table of Contents
 
@@ -23,7 +25,43 @@ In this section, you should go over the different parts of your project, and des
 
 ## Design
 
-###
+The website is designed with the essence of the Tagalog language in mind. It illustrates the colourfulness of the Filipino culture & country. 
+
+
+### Colour Scheme
+
+The colour scheme of the website illustrates variety and fun through the colour palette. 100s of Thousands were the inspiration for this palette of choice.
+
+This palette reflects the hero image that is features across each webpage. Many of the colours were extracted from this image and are accented throughout the website.
+
+![Hobby Website Colour Palette](docs/sprinkles-23.png)
+
+This palette has stronger tones to it. It is used primarily for elements such as headings or areas of highlighted interest. This is to illustrate contrast and essential elements of importance.
+
+![Hobby Website Colour Palette](docs/sprinkles-20.png)
+
+Both colour palettes were created using the [Coolors](https://coolors.co/) website.
+
+### Typography
+
+Both fonts were sourced from [Google Fonts](https://fonts.google.com/).
+
+- Fredericka The Great
+
+  - This has an illustration-type quality to it, which reflects the theme of the website. It adds some fun, and mirrors the chosen style of favicon.
+
+- Poppins
+  - This is a legible font with many varieties of weight to choose from. It is versatile and accomodates all structural styling needs. It is a very accessible font, and easy to read.
+
+### Imagery
+
+All images were source from [Raw Pixel](https://www.rawpixel.com/).
+
+### Favicon
+
+The favicon reflects the origins of the game; a memory card game. It is rectangular-shaped, with a black question mark and bright pink background to ensure that it stands out when other tabs are open.
+
+---
 
 ## Technologies Used
 
@@ -41,6 +79,10 @@ HTML, CSS, JavaScript
 - Favicon.io
 - Coolors
 - Raw Pixel
+ 
+ All specific uses to the following webpages can be found within their relative subtitle of application.
+
+ ---
 
 ## Deployment
 
@@ -74,7 +116,11 @@ The live link can be found here - https://code-institute-org.github.io/love-math
 
 ## Credits 
 
+### Resources
 
+#### MarkUp
+- Referred to other completed Project 2/ JavaScript-based projects from fellow students to see what elements are more specific to this project type. Credit due to the following projects:
+*
 
 ### Acknowledgements
 - To Sarah, thank you so much for your time, energy and commitment to helping me understand what I was doing. Most notably, understanding Git a bit better, and helping me set up my VS Code workspace. I am positive that all those growing pains will pay off in the near future.
