@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Validator Testing]()
+- [Validator Testing](#validator-testing)
 
 ### Validator Testing 
 
