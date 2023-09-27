@@ -114,11 +114,20 @@ Refer to the [TESTING.md](TESTING.md) for all relevant testing.
 
 ### Resources
 
-#### MarkUp
-- Referred to other completed Project 2/ JavaScript-based projects from fellow students to see what elements are more specific to this project type. Credit due to the following projects:
-*
+#### Code
 
-### Code Institute
+#### Media
+
+#### MarkUp
+Referred to structures and resources used by CI Students & Github markup:
+* [Student README: Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md)
+* [Student README: My To Do List](https://github.com/luandretta/my-to-do-list/tree/main)
+* 
+
+
+
+
+#### Code Institute
 * Referred back to the Love Running Walkthrough project as a general guide when constructing HTML & CSS.
 
 
