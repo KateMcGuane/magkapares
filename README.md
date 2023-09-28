@@ -46,16 +46,16 @@ Both colour palettes were created using the [Coolors](https://coolors.co/) websi
 
 Both fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
-- Fredericka The Great
+- Patrick Hand SC
 
-  - This has an illustration-type quality to it, which reflects the theme of the website. It adds some fun, and mirrors the chosen style of favicon.
+  - This has an illustration-type quality to it, which reflects the theme of the website. It adds some fun, and reflects the overall feel of the page.
 
-- Poppins
+- Quicksand
   - This is a legible font with many varieties of weight to choose from. It is versatile and accomodates all structural styling needs. It is a very accessible font, and easy to read.
 
 ### Imagery
 
-All images were source from [Raw Pixel](https://www.rawpixel.com/).
+All images were sourced from [Raw Pixel](https://www.rawpixel.com/).
 
 ### Favicon
 
