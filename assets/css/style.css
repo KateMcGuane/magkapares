@@ -7,7 +7,7 @@
     margin: 0;
     box-sizing: border-box;
     background-color: aliceblue;
-    background-image: url("..images/background.png")
+    background-image: url("../images/background.png");
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 
 header {
     padding: 0 1rem;
-    position: absolute;
+    position: relative;
     z-index: 99;
     width: 100%;
     display: flex;
@@ -29,14 +29,29 @@ header {
 
 h1 {
     font-family: 'Patrick Hand SC', sans-serif;
+    font-size: 150%;
     letter-spacing: 2px;
 }
 
 main {
+    background-color: orange;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-image: none;
+    background-color: deeppink;
+    position: relative;
+    width: 100px;
+    height: 150px;
+    text-align: center;
+}
 footer {
     background-color: purple;
 }
