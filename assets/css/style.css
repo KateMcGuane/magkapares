@@ -15,7 +15,11 @@ body {
 }
 
 header {
-    background-color: aqua;#
+    background-color: #fff777;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
 
 h1 {
