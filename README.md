@@ -71,9 +71,9 @@ HTML, CSS, JavaScript
 
 ### Frameworks, Libraries & Programs Used
 
-- GitHub
+- [GitHub](https://github.com/)
 - VS Code
-- Google Fonts
+- [Google Fonts](https://fonts.google.com/)
 - Font Awesome
 - Canva
 - Favicon.io
