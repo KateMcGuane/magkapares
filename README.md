@@ -116,6 +116,8 @@ Refer to the [TESTING.md](TESTING.md) for all relevant testing.
 
 #### Code
 
+* Copied some of the code from my own Project 1, [Hobby](https://github.com/KateMcGuane/hobby). 
+
 #### Media
 
 #### MarkUp
