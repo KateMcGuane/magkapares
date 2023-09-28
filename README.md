@@ -74,7 +74,7 @@ HTML, CSS, JavaScript
 - [GitHub](https://github.com/)
 - VS Code
 - [Google Fonts](https://fonts.google.com/)
-- Font Awesome
+- [Font Awesome](https://fontawesome.com/)
 - Canva
 - Favicon.io
 - Coolors
