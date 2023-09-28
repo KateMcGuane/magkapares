@@ -11,10 +11,15 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header {
-    background-color: aqua;
+    background-color: aqua;#
+}
+
+h1 {
+    font-family: 'Patrick Hand SC', sans-serif;
 }
 
 main {
