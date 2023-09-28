@@ -95,7 +95,7 @@ The site was deployed early using Github Pages. The is how the live site was dep
 5. In the Source section (Build & Deployment), deploy from a branch.
 6. In the Branch section (Build & Deployment), choose main from the Select Branch drop down menu. Choose Root from the Select Folder drop down menu.
 7. Click Save. Your live Github Pages site is now deployed at the URL shown.
-8. Folloq up:
+8. Follow up:
   * Go to repository home of website.
   * Click 'Environments' in the right-hand-side panel.
   * Click 'View deployment'.

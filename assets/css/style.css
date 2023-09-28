@@ -1,3 +1,18 @@
-body {
+/* Asterisk wildcrd selector to override default styles added by the broswer */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
     background-color: aqua;
+}
+
+main {
+    background-color: orange;
+}
+
+footer {
+    background-color: purple;
 }
