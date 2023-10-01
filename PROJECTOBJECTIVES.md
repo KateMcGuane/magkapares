@@ -72,9 +72,12 @@ LO2 Test a front-end web application through the development, implementation and
 
 LO3 Deploy a Front-End web application to a Cloud platform
 
-3.1	Deploy a final version of the code to a cloud-based hosting platform (e.g. GitHub Pages) and test to ensure it matches the development version
+3.1 Deploy a final version of the code to a cloud-based hosting platform (e.g. GitHub Pages) and test to ensure it matches the development version
+
 3.2	Use Git & GitHub for version control of an interactive web application up to deployment.
+
 3.3	Remove commented-out code before pushing final changes to version control and deploying.
+
 3.4	Ensure that there are no broken internal links
 
 ---
