@@ -21,6 +21,9 @@ div {
     text-align: center;
 }
 
+h2 {
+    padding: 10px;
+}
 
 .container {
     background-color: aquamarine;
