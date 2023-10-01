@@ -75,7 +75,7 @@ HTML, CSS, JavaScript
 - VS Code
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
-- Canva
+- [Canva](https://www.canva.com/)
 - Favicon.io
 - Coolors
 - Raw Pixel
@@ -116,7 +116,7 @@ Refer to the [TESTING.md](TESTING.md) for all relevant testing.
 
 #### Code
 
-* Copied some of the code from my own Project 1, [Hobby](https://github.com/KateMcGuane/hobby). 
+* Copied some of the code from my own Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified to suit the needs of this project.
 
 #### Media
 
