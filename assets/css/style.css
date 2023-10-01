@@ -9,14 +9,13 @@
     font-family: sans-serif;}
 
 body {
-    min-width: 100vh;
-    min-width: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 div {
     display: flex;
     flex-direction: column;
-    min-width: 100vh;
     margin: 10px;
     text-align: center;
 }
@@ -27,8 +26,8 @@ h2 {
 
 .container {
     background-color: aquamarine;
-    min-width: 100vh;
-    min-height: 75vh;
+    min-width: 50vh;
+    min-height: 50vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -55,3 +54,6 @@ h2 {
 #reset-button {
     padding: 0.2em;
 }
+
+
+    
