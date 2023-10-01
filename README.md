@@ -55,7 +55,9 @@ Both fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
 ### Imagery
 
-All images were sourced from [Raw Pixel](https://www.rawpixel.com/).
+* All card-images created using [Canva](https://www.canva.com/)
+
+
 
 ### Favicon
 
@@ -76,7 +78,7 @@ HTML, CSS, JavaScript
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Canva](https://www.canva.com/)
-- Favicon.io
+- [Favicon.io](https://favicon.io/favicon-converter/)
 - Coolors
 - Raw Pixel
  
