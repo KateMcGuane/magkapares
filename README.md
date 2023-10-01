@@ -137,5 +137,6 @@ Referred to structures and resources used by CI Students & Github markup:
 - To Sarah, thank you so much for your time, energy and commitment to helping me understand what I was doing. Most notably, understanding Git a bit better, and helping me set up my VS Code workspace. I am positive that all those growing pains will pay off in the near future.
 - Thank you to my tutor, Laura, who provided reassurance throughout this project.
 - Thank you to my fellow students for sharing what they developed, valuable resources, in addition to the struggles and wins.
+- Thank you to my partner Mikhail, for your support and nourishing meals. 
 ---
 Developed by Kate McGuane for Code Institute Portfolio Project 2, 2023
