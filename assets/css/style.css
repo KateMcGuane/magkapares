@@ -20,8 +20,18 @@ div {
     text-align: center;
 }
 
+.active {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
 h2 {
     padding: 10px;
+}
+
+span {
+    padding: .5em;
 }
 
 .container {
