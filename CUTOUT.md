@@ -4,7 +4,7 @@ This file is an accumulation of bits of code taken out of my website to establis
 
 
 HTML
- <!-- Header -->
+ `<!-- Header -->
     <header>
         <h1 id="logo">Magkapares</h1>
     </header>
@@ -52,13 +52,13 @@ HTML
                     <i class="fa-brands fa-facebook"></i></a>
             </li>
         </ul>
-    </footer>
+    </footer>`
 
 
 
 CSS
 
-body {
+`body {
     background-image: url("../images/background.png");
     background-color: red;
     background-repeat: no-repeat;
@@ -160,5 +160,5 @@ footer {
   
   /* MEDIA QUERY: Large devices (laptops & desktops, 992px & up) 
   MAY NEED TO REMOVE*/
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 992px) {`
     
