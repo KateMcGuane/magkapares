@@ -27,6 +27,12 @@ div {
     align-items: center;
 }
 
+#timer-container {
+    background-color: #ffa523;
+    padding: 1rem;
+    margin: 0;
+}
+
 h2 {
     padding: 10px;
 }
