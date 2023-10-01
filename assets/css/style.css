@@ -8,11 +8,16 @@
     box-sizing: border-box;
     font-family: sans-serif;}
 
-.instruction {
+body {
+    min-width: 100vh;
+    min-width: 100vh;
+}
+
+h2 {
     display: flex;
     flex-direction: column;
     min-width: 100vh;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
 }
 
