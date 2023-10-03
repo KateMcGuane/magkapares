@@ -17,12 +17,15 @@ How will a user interact with our app:
         ii. it doesn't match;
             --> both selected cards flipped, return to original position (face down);
 
-4. Process repeats until all cards are matched OR countdown timer reaches 0;
+4. Process repeats until all cards are matched (no cards left) OR countdown timer reaches 0;
     a. all cards matched before timer runs out --> WIN GAME;
     b. timer runs out --> LOSE GAME;
         => cards no longer clickable when the countdown timer reaches 0;#
 
 5. Can click reset to start a new game;
+
+
+
 
 
 
