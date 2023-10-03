@@ -120,6 +120,7 @@ Refer to the [TESTING.md](TESTING.md) for all relevant testing.
 
 * Copied some of the code from my own Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified to suit the needs of this project.
 * Used a tutorial from JavaScript Academy on [YouTube](https://www.youtube.com/watch?v=xWdkt6KSirw.) as a guide for the Memory Card Game.
+* Used [How to Build a JavaScript Countdown Timer](https://webdesign.tutsplus.com/how-to-build-a-javascript-countdown-timer--cms-93144t) to help with timer.
 
 #### Media
 

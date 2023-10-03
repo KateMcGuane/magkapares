@@ -130,7 +130,7 @@ footer {
     color: #3a3a3a;
     display: flex;
     flex-direction: row;
-}
+}``
 
  
 
@@ -160,5 +160,5 @@ footer {
   
   /* MEDIA QUERY: Large devices (laptops & desktops, 992px & up) 
   MAY NEED TO REMOVE*/
-  @media screen and (min-width: 992px) {`
+  @media screen and (min-width: 992px) {
     
