@@ -8,7 +8,7 @@ How will a user interact with our app:
 
 2. Once any card is clicked;
     a. a number is added to the counter (moves);
-    b. the countdown timer starts (seconds remaining);
+    b. the countdown timer starts (seconds remaining); //3 for testing
     
 3. Click on any second card;
     a. another number added to the counter;
@@ -19,8 +19,19 @@ How will a user interact with our app:
 
 4. Process repeats until all cards are matched (no cards left) OR countdown timer reaches 0;
     a. all cards matched before timer runs out --> WIN GAME;
+            i. What happens when you win?;
+                --> cards are no longer clickable
+                --> timer stops
+                --> message
+            ii. What triggers that function?
+                --> all the cards are face up
     b. timer runs out --> LOSE GAME;
-        => cards no longer clickable when the countdown timer reaches 0;#
+            i. What happens when you lose?; 
+                --> cards are no longer clickable
+                --> timer stops
+                --> message
+            ii. What triggers that function?
+                --> seconds reach 0
 
 5. Can click reset to start a new game;
 
