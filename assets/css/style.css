@@ -53,8 +53,8 @@ span {
 }
 
 .card-box {
-    min-width: 75px;
-    min-height: 75px;
+    min-width: 125px;
+    min-height: 125px;
     border: 5px solid #ffa523;
 }
 
