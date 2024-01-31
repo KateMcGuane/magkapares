@@ -1,23 +1,5 @@
-PROJECT IDEA
-
-Memory Game
-
-External user’s goal:
-
-- The site’s users want to play an online game that has elements of chance.
-Site owner's goal:
-
-The site’s goal is to provide a challenging game with increasing levels of difficulty to entertain online users.
-Potential features to include:
-
-* Pattern matching functionality
-* A limited number of tries before the game is over
-* A score tracking system
-* The ability to play against the computer
-
----
-
-LEARNING OUTCOMES
+LEARNING OUTCOMES 
+[Taken from Code Institute Portfolio 2 Assessment Guide]
 
 * LO1	Design an interactive Front-End web application using HTML and CSS and JavaScript based on the principles of user experience design, accessibility and responsivity
 * LO2	Test a front-end web application through the development, implementation and deployment stages

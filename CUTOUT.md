@@ -130,7 +130,7 @@ footer {
     color: #3a3a3a;
     display: flex;
     flex-direction: row;
-}``
+}`
 
  
 

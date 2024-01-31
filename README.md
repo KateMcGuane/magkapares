@@ -25,14 +25,11 @@ In this section, you should go over the different parts of your project, and des
 
 ## Design
 
-The website is designed with the essence of the Tagalog language in mind. It illustrates the colourfulness of the Filipino culture & country. 
-
-
 ### Colour Scheme
 
-The colour scheme of the website was inspired by the tropical and rich colours of the Phillippines. 100s of They can be found in their coastlines, dense forests and colourful fruits. 
+The colour scheme of the website was inspired by the tropical and rich colours of the Phillippines. They can be found in their coastlines, dense forests and colourful foods. 
 
-This palette reflects the hero image that is features across each webpage. Many of the colours were extracted from this image and are accented throughout the website.
+Many of the colours were extracted from this image and are accented throughout the website.
 
 ![Magkapares Website Colour Palette](docs/sprinkles-23.png)
 
@@ -55,13 +52,12 @@ Both fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
 ### Imagery
 
-* All card-images created using [Canva](https://www.canva.com/)
-
+All card-images created using [Canva](https://www.canva.com/)
 
 
 ### Favicon
 
-The favicon reflects the origins of the game; a memory card game. It is rectangular-shaped, with a black question mark and bright pink background to ensure that it stands out when other tabs are open.
+The favicon is rectangular-shaped (card), with a black question mark and bright pink background to ensure that it stands out when other tabs are open.
 
 ---
 
@@ -119,7 +115,9 @@ Refer to the [TESTING.md](TESTING.md) for all relevant testing.
 #### Code
 
 * Copied some of the code from my own Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified to suit the needs of this project.
-* Used a tutorial from JavaScript Academy on [YouTube](https://www.youtube.com/watch?v=xWdkt6KSirw.) as a guide for the Memory Card Game.
+* Used a tutorial from JavaScript Academy on [YouTube](https://www.youtube.com/watch?v=xWdkt6KSirw.) as a guide for the Memory Card Game. Specifics include:
+- 
+* Used a tutorial from dcode on [YouTube](https://www.youtube.com/watch?v=bznJPt4t_4s&ab_channel=dcode) as an additional guide for the Memory Card Game.
 * Used [How to Build a JavaScript Countdown Timer](https://webdesign.tutsplus.com/how-to-build-a-javascript-countdown-timer--cms-93144t) to help with timer.
 
 #### Media
@@ -139,8 +137,7 @@ Referred to structures and resources used by CI Students & Github markup:
 
 ### Acknowledgements
 - To Sarah, thank you so much for your time, energy and commitment to helping me understand what I was doing. Most notably, understanding Git a bit better, and helping me set up my VS Code workspace. I am positive that all those growing pains will pay off in the near future.
-- Thank you to my tutor, Laura, who provided reassurance throughout this project.
 - Thank you to my fellow students for sharing what they developed, valuable resources, in addition to the struggles and wins.
 - Thank you to my partner Mikhail, for your support and nourishing meals. 
 ---
-Developed by Kate McGuane for Code Institute Portfolio Project 2, 2023
+Developed by Kate McGuane for Code Institute Portfolio Project 2, 2024

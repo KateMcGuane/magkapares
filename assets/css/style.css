@@ -41,7 +41,7 @@ span {
     padding: .5em;
 }
 
-.container {
+.card-container {
     background-color: aquamarine;
     min-width: 50vh;
     min-height: 50vh;

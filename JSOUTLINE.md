@@ -1,6 +1,33 @@
 # Magkapares
 A memory card game.
 
+## Desired Features
+
+- When you click on the title "Magkapares", the heading flips around/fades into the English version of the word., "Pairs".
+
+External user’s goal:
+
+- The site’s users want to play an online game that has elements of chance.
+Site owner's goal:
+
+The site’s goal is to provide a challenging game with increasing levels of difficulty to entertain online users.
+Potential features to include:
+
+* Pattern matching functionality
+* A limited number of tries before the game is over
+* A score tracking system
+* The ability to play against the computer
+
+
+## JavaScript Games Course
+
+- simple grid based game
+- player have to flip over two cards
+- if two cards match => one point for you; cards get taken off the board
+- leaves you with reaminder of cards to flip over
+- game finishes when you flip over all cards
+
+
 ## Roadmap
 How will a user interact with our app:
 
