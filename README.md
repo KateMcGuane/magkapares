@@ -1,7 +1,7 @@
 # Magkapares
 
 
-Magkapares is the Tagalog (Filipino) equivalent of the word "pairs". This project was inspired by my own learning of the Tagalog language. I wanted to create an interactive learning game based on the memory card game. 
+Magkapares is the Tagalog (Filipino) equivalent of the word "Pairs". This project was inspired by my own learning of the Tagalog language. I wanted to create an interactive learning game based on the memory card game. 
 This game will exercise memory and recollection, all the while learning a new language. It is suitable for children and adults alike. 
 The website acts as a stepping stone to learning more about the Phillippines, in a fun way through learning a language.
 
