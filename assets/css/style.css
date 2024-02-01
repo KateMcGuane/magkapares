@@ -43,20 +43,20 @@ span {
 
 .card-container {
     background-color: aquamarine;
-    min-width: 50vh;
-    min-height: 50vh;
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
     justify-content: center;
-    align-content: center;
-    gap: 10px 10px;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 125px);
+    grid-template-rows: repeat(4, calc(125px / 2 * 3));
 }
 
 .card-box {
     width: 125px;
-    height: 175px;
+    height: calc(125px / 2* 3);
     background-color: hotpink;
     border: 5px solid #ffa523;
+    border-radius: 10px;
+    position: relative; /*will use this to absolute position image & background image to card*/
 }
 
 .btn-container {

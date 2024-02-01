@@ -162,3 +162,18 @@ footer {
   MAY NEED TO REMOVE*/
   @media screen and (min-width: 992px) {
     
+
+    
+
+//from October, cut out on 01/02/24
+
+.card-container {
+    background-color: aquamarine;
+    min-width: 50vh;
+    min-height: 50vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px 10px;
+}
