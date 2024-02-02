@@ -163,7 +163,7 @@ footer {
   @media screen and (min-width: 992px) {
     
 
-    
+
 
 //from October, cut out on 01/02/24
 
@@ -176,4 +176,33 @@ footer {
     justify-content: center;
     align-content: center;
     gap: 10px 10px;
+}
+
+
+02/02/2024
+
+ <!-- Should be able to style how you need for responsiveness within css -->
+    <div class="active">
+      <span id="timer-container">
+        <h2 class="timer">60</h2><h5>Seconds Remaining</h5>
+      </span>
+      <span>
+        <h3>Click on any card to get started!</h3>
+      </span>
+      <span>
+        <h2 class="counter">0</h2><h5>Moves</h5>
+      </span>
+    </div>
+
+.active {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#timer-container {
+    background-color: #ffa523;
+    padding: 1rem;
+    margin: 0;
 }

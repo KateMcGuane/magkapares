@@ -20,19 +20,6 @@ div {
     text-align: center;
 }
 
-.active {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    align-items: center;
-}
-
-#timer-container {
-    background-color: #ffa523;
-    padding: 1rem;
-    margin: 0;
-}
-
 h2 {
     padding: 10px;
 }
