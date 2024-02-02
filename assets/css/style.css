@@ -11,6 +11,7 @@
 body {
     height: 100vh;
     display: grid;
+    background-color: #ffa523;
 }
 
 div {
@@ -41,7 +42,7 @@ span {
     width: 100px;
     height: calc(100px / 2 * 3);
     background-color: hotpink;
-    border: 5px solid #ffa523;
+    border: 5px solid #9366e9;
     border-radius: 10px;
     position: relative; /*will use this to absolute position image & background image to card*/
 }
