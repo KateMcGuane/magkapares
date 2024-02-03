@@ -118,7 +118,6 @@ Refer to the [TESTING.md](TESTING.md) for all relevant testing.
 * Used a tutorial from JavaScript Academy on [YouTube](https://www.youtube.com/watch?v=xWdkt6KSirw.) as a guide for the Memory Card Game. Specifics include:
 - 
 * Used a tutorial from dcode on [YouTube](https://www.youtube.com/watch?v=bznJPt4t_4s&ab_channel=dcode) as an additional guide for the Memory Card Game.
-* Used [How to Build a JavaScript Countdown Timer](https://webdesign.tutsplus.com/how-to-build-a-javascript-countdown-timer--cms-93144t) to help with timer.
 
 #### Media
 
