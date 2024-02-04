@@ -115,9 +115,9 @@ Refer to the [TESTING.md](TESTING.md) for all relevant testing.
 #### Code
 
 * Copied some of the code from my own Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified to suit the needs of this project.
-* Used a tutorial from JavaScript Academy on [YouTube](https://www.youtube.com/watch?v=xWdkt6KSirw.) as a guide for the Memory Card Game. Specifics include:
-- 
-* Used a tutorial from dcode on [YouTube](https://www.youtube.com/watch?v=bznJPt4t_4s&ab_channel=dcode) as an additional guide for the Memory Card Game.
+* Used my mentors project as a guide towards my own project [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).
+//* Used a tutorial from JavaScript Academy on [YouTube](https://www.youtube.com/watch?v=xWdkt6KSirw.) as a guide for the Memory Card Game. Specifics include:
+//* Used a tutorial from dcode on [YouTube](https://www.youtube.com/watch?v=bznJPt4t_4s&ab_channel=dcode) as an additional guide for the Memory Card Game.
 
 #### Media
 
@@ -136,7 +136,7 @@ Referred to structures and resources used by CI Students & Github markup:
 
 ### Acknowledgements
 - To Sarah, thank you so much for your time, energy and commitment to helping me understand what I was doing. Most notably, understanding Git a bit better, and helping me set up my VS Code workspace. I am positive that all those growing pains will pay off in the near future.
-- Thank you to my fellow students for sharing what they developed, valuable resources, in addition to the struggles and wins.
+- Thank you to my mentor,
 - Thank you to my partner Mikhail, for your support and nourishing meals. 
 ---
 Developed by Kate McGuane for Code Institute Portfolio Project 2, 2024

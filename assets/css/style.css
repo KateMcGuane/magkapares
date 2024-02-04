@@ -47,19 +47,7 @@ span {
     position: relative; /*will use this to absolute position image & background image to card*/
 }
 
-.btn-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-}
 
-#reset-button {
-    padding: 0.2em;
-}
 
 
     

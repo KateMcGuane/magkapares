@@ -54,7 +54,9 @@ HTML
         </ul>
     </footer>`
 
-
+    <div class="btn-container">
+      <button id="reset-button">Reset Game</button>
+    </div>
 
 CSS
 
@@ -132,7 +134,19 @@ footer {
     flex-direction: row;
 }`
 
- 
+ .btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#reset-button {
+    padding: 0.2em;
+}
 
 
 /* MEDIA QUERY: tablets & larger (768px & up) */
