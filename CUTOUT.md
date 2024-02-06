@@ -220,3 +220,24 @@ footer {
     padding: 1rem;
     margin: 0;
 }
+
+
+<div class="card-box">9
+        <!--<img src="assets/images/card-images/card-back.png" alt="warm sunset colors" class="card-back">
+        <img src="assets/images/card-images/" alt="" class="card-front">--> 
+      </div>
+
+      <div class="card-box">10
+        <!--<img src="assets/images/card-images/card-back.png" alt="warm sunset colors" class="card-back">
+        <img src="assets/images/card-images/" alt="" class="card-front">--> 
+      </div>
+
+      <div class="card-box">11
+        <!--<img src="assets/images/card-images/card-back.png" alt="warm sunset colors" class="card-back">
+        <img src="assets/images/card-images/" alt="" class="card-front">--> 
+      </div>
+
+      <div class="card-box">12
+        <!--<img src="assets/images/card-images/card-back.png" alt="warm sunset colors" class="card-back">
+        <img src="assets/images/card-images/" alt="" class="card-front">--> 
+      </div>
