@@ -1,3 +1,4 @@
+//card data, including pairNumber, image, alt & words
 const cardData = [
     {
         'pairNumber': 1,
@@ -49,15 +50,37 @@ const cardData = [
       },
 ]
 
+//variables
 
-let cards = document.querySelectorAll('.card-box');
-//click card function
+let cardContainer = document.getElementById('card-container');
+
+
+
+//game initialization
+function startGame() {
+    shuffleCards()
+}
+
+//calling on all cards in the DOM
+let cards = document.getElementsByClassName('card-box');
+console.log(cards);
+
+for (let i =0; i < cards.length; i++) {
+    cards[i].addEventListener('click', cardClicked);
+}
+
+//
+function cardClicked(event) {
+console.log(event.target.id);
+}
+
+
+/**click card function
 
 let handleCardClick = event => {
-    console.log(event);
+console.log(event);
 }
 //what do you want to happen when the card is clicked?
 for (let i = 0; i < cards.length; i++) {
-    cards[i].addEventListener('click', handleCardClick);
-} 
-
+  cards[i].addEventListener('click', handleCardClick);
+}*/

@@ -28,14 +28,18 @@ span {
     padding: .5em;
 }
 
-.card-container {
-    background-color: aquamarine;
+#card-container {
+   background-color: aquamarine;
+   /* display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;*/
     display: grid;
     justify-content: center;
     align-items: center;
     grid-gap: 5px;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: repeat(3, calc(100px / 2 * 3));
+    
 }
 
 .card-box {
