@@ -54,17 +54,24 @@ console.log(cardData);
 
 const cardContainer = document.getElementById('card-container');
 
+//Game Initilizer
 //Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 let shufflecardData = cardData.sort(() => Math.random() - 0.5);
-console.log(shufflecardData);
-console.log(shufflecardData.length);
+//console.log(shufflecardData);
+//console.log(shufflecardData.length);
+
 
 for (let i=0; i < shufflecardData.length; i++) {
-  console.log(shufflecardData[i].pair, shufflecardData[i].word);
+  //console.log(shufflecardData[i].pair, shufflecardData[i].word);
+
+  //new div element with id, attribute, classes(card-box, card-back); child of card-container
   const card = document.createElement('div');
   card.id = shufflecardData[i].word;
   card.setAttribute('data-pair', shufflecardData[i].pair);
+
   card.classList.add('card-box');
+
+  //new img element with attribute, class ('card-back'); child of card
   const cardImage = document.createElement('img');
   cardImage.classList.add('card-back');
   cardImage.setAttribute('src', shufflecardData[i].image);
@@ -100,9 +107,6 @@ function handleCardClick(event) {
         // clear out current card & make sure everything gets flipped back
   }
 }
-
-
-
 
 
 
