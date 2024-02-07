@@ -28,8 +28,8 @@ In this section, you should go over the different parts of your project, and des
 ### Colour Scheme
 
 The colour scheme of the website was inspired by the tropical and rich colours of the Phillippines. They can be found in their coastlines, dense forests and colourful foods. 
-
 Many of the colours chosen reflect many of those seen in the Philippines as a place and its culture. 
+
 ![Magkapares Website Colour Palette](documentation/philippines.png)
 
 ### Typography
@@ -52,6 +52,14 @@ All card-images created using [Canva](https://www.canva.com/)
 
 The favicon is rectangular-shaped (card), with a black question mark and bright pink background to ensure that it stands out when other tabs are open.
 
+### Flowchart
+
+I used a flowchart to illustrate some of the main logical points before I began to code.
+
+![Magkapares Flowchart](documentation/magkapares-flowchart.png)
+
+
+
 ---
 
 ## Technologies Used
@@ -68,8 +76,8 @@ HTML, CSS, JavaScript
 - [Font Awesome](https://fontawesome.com/)
 - [Canva](https://www.canva.com/)
 - [Favicon.io](https://favicon.io/favicon-converter/)
-- Coolors
-- Raw Pixel
+- [Coolors](https://coolors.co/)
+- [Lucidchart](https://www.lucidchart.com/pages)
  
  All specific uses to the following webpages can be found within their relative subtitle of application.
 
