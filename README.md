@@ -35,13 +35,27 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
+- Cards are shown face down upon starting the game. 
+- When you click on the first card, a hidden image reveals itself.
+- When you click on another card, it matches and disappears, removing it as a selection option.
+- When you choose a card that doesn't match, the cards return to their original facedown position.
+- The game is complete when all the cards have matched.
+
 ### Future Features
 
+## Visuals
+- Enhance assets such as images, with clearer visuals and wording.
 - When you hover on the title "Magkapares", the heading flips around/fades into the English version of the word, "Pairs".
 - You can click the information [i] icon that creates a pop-up window when you click on it of how to play the game.
+
+## Audio
+- Sound effects to match the pronounciation of the words revealed. 
+
+## Gameplay
 - Create different levels within the game so that the user can progress and advance their memory/learning skills. 
 - A countdown timer that counts back from a set time limit.
 - A pop-up banner that states if the user has won when all the cards have matched or if they have run out of time before getting the chance.
+- A reset button so the player can play again.
 ---
 
 ## Design
