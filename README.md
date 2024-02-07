@@ -115,7 +115,7 @@ Refer to the [TESTING.md](TESTING.md) for all relevant testing.
 #### Code
 
 * Copied some of the code from my own Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified to suit the needs of this project.
-* Used my mentors project as a guide towards my own project [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).
+* Used my mentors project as a guide towards my own project. Referenced throughout where code was used [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).
 * Stackoverflow [How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
 #### Media

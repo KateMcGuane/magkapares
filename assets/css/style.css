@@ -57,9 +57,11 @@ div {
     position: relative; /*from flash_cards*/
     cursor: pointer; /*from flash_cards*/
 }
-.card-box.is-flipped {
+
+.is-flipped {
     transform: rotateY(180deg); /*from flash_cards*/
 }
+
 .card-back {
     background-color: #ffa523;
     transition: transform 900ms;

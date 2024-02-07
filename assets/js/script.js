@@ -69,7 +69,6 @@ for (let i=0; i < shufflecardData.length; i++) {
   card.id = shufflecardData[i].word;
   //assigning pair number to card
   card.setAttribute('data-pair', shufflecardData[i].pair);
-
   card.classList.add('card-box');
 
   //new img element with attribute, class ('card-back'); child of card
@@ -79,28 +78,35 @@ for (let i=0; i < shufflecardData.length; i++) {
   cardImage.setAttribute('src', shufflecardData[i].image);
   card.appendChild(cardImage);
   cardContainer.appendChild(card); 
-  
 }
 
+
+
 // Flip card on the click
-card.addEventListener('click', function (e) {
-  e.preventDefault();
-  card.classList.toggle('is-flipped');
-});
+// card.addEventListener('click', function (e) {
+  // e.preventDefault();
+  // card.classList.toggle('is-flipped');
+// });
 
 //calling on all cards in the DOM
 let cards = document.querySelectorAll('.card-box');
 console.log(cards);
 
+let currentCard = {
+  pair: null,
+  word: null,
+}
 for (let i =0; i < cards.length; i++) {
     cards[i].addEventListener('click', handleCardClick);
 }
+
+
 
 //logic checker
 function handleCardClick(event) {
   console.log(event.target.dataset.pair);
   //if we have flipped another card
-  if (currentCard.pair === 1) {
+  if (currentCard.pair === null) {
     console.log('firstCard');
     currentCard.pair = event.target.dataset.pair;
     currentCard.word = event.target.dataset.word;
@@ -119,10 +125,7 @@ function handleCardClick(event) {
 
 
 /*variables
-let currentCard = {
-  pair: 1,
-  word: null,
-}
+
 let cardHold = null;
 let cardMatch = null;
 let clearCard = null;*/
