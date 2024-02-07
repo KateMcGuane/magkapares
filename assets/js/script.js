@@ -67,6 +67,7 @@ for (let i=0; i < shufflecardData.length; i++) {
   //new div element with id, attribute, classes(card-box, card-back); child of card-container
   const card = document.createElement('div');
   card.id = shufflecardData[i].word;
+  //assigning pair number to card
   card.setAttribute('data-pair', shufflecardData[i].pair);
 
   card.classList.add('card-box');
@@ -74,10 +75,14 @@ for (let i=0; i < shufflecardData.length; i++) {
   //new img element with attribute, class ('card-back'); child of card
   const cardImage = document.createElement('img');
   cardImage.classList.add('card-back');
+  //assigning image to card img
   cardImage.setAttribute('src', shufflecardData[i].image);
   card.appendChild(cardImage);
   cardContainer.appendChild(card);
+  
+  
 }
+
 
 
 //calling on all cards in the DOM

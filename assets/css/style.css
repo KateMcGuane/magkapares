@@ -55,6 +55,7 @@ span {
 .card-back {
     background-color: #ffa523;
     border: 5px soolid #9366e9;
+    transform: rotateY(180deg); /*from flash_cards
 }
 
 
