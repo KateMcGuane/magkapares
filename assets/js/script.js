@@ -59,27 +59,37 @@ const cardContainer = document.getElementById('card-container');
 let shufflecardData = cardData.sort(() => Math.random() - 0.5);
 //console.log(shufflecardData);
 //console.log(shufflecardData.length);
+document.addEventListener('DOMContentLoaded', function () {
+  displayCards();
+  let cards = document.querySelectorAll('.card-box');
+  for (let i =0; i < cards.length; i++) {
+    cards[i].addEventListener('click', handleCardClick);
+}
+})
 
-
-for (let i=0; i < shufflecardData.length; i++) {
-  //console.log(shufflecardData[i].pair, shufflecardData[i].word);
-
-  //new div element with id, attribute, classes(card-box, card-back); child of card-container
-  const card = document.createElement('div');
-  card.id = shufflecardData[i].word;
-  //assigning pair number to card
-  card.setAttribute('data-pair', shufflecardData[i].pair);
-  card.classList.add('card-box');
-  card.classList.add('card-back');
-  //new img element with attribute, class ('card-back'); child of card
-  cardContainer.appendChild(card); 
-  //cardImage.classList.add('card-back');
-  //assigning given image to card img
-  const cardImage = document.createElement('img');
-  cardImage.setAttribute('src', shufflecardData[i].image);
-  //card.appendChild(cardImage);
- 
-  cardImage.setAttribute('alt', shufflecardData[i].image);  
+function displayCards() {
+  for (let i=0; i < shufflecardData.length; i++) {
+    //console.log(shufflecardData[i].pair, shufflecardData[i].word);
+  
+    //new div element with id, attribute, classes(card-box, card-back); child of card-container
+    const card = document.createElement('div');
+    card.id = shufflecardData[i].word;
+    //assigning pair number to card
+    card.setAttribute('data-pair', shufflecardData[i].pair);
+    card.classList.add('card-box');
+    card.classList.add('card-back');
+    //new img element with attribute, class ('card-back'); child of card
+    cardContainer.appendChild(card); 
+    //cardImage.classList.add('card-back');
+    //assigning given image to card img
+    const cardImage = document.createElement('img');
+    cardImage.setAttribute('src', shufflecardData[i].image);
+    //create class to add to image
+    cardImage.classList.add('image-hidden');
+    cardImage.id = `${shufflecardData[i].word}-image`;
+    cardImage.setAttribute('alt', shufflecardData[i].image); 
+    card.appendChild(cardImage); 
+  }
 }
 
 
@@ -92,26 +102,58 @@ for (let i=0; i < shufflecardData.length; i++) {
 // });
 
 //calling on all cards in the DOM
-let cards = document.querySelectorAll('.card-box');
-console.log(cards);
+
 
 let clickedCurrentCards = [];
 
-for (let i =0; i < cards.length; i++) {
-    cards[i].addEventListener('click', handleCardClick);
-}
+
 
 //logic checker
 function handleCardClick(event) {
+  let currentCardImage = document.getElementById(`${event.target.id}-image`)
+  currentCardImage.classList.remove('image-hidden')
+  
   console.log("event target pair: ",event.target.dataset.pair);
   console.log("current length of clickedCurrentCards: ", clickedCurrentCards.length);
-  clickedCurrentCards.push(event.target.id);
+  clickedCurrentCards.push({
+    id: event.target.id, 
+    pair: event.target.dataset.pair,
+    });
+
+
   console.log("clickedCurrentCards: ", clickedCurrentCards)
+ 
+   
+
     if (clickedCurrentCards.length >= 2) {
+      console.log(clickedCurrentCards[0]["pair"]);
+      console.log(clickedCurrentCards[1]["pair"]);
+      if (clickedCurrentCards[0]["pair"] === clickedCurrentCards[1]["pair"]) {
+        console.log('match');
+        let deleteFirstCard = document.getElementById(clickedCurrentCards[0]['id']);
+        let deleteSecondCard = document.getElementById(clickedCurrentCards[1]['id']);
+        deleteFirstCard.innerHTML = "<div>X</div>"
+        deleteSecondCard.innerHTML = "<div>X</div>"
+        deleteFirstCard.classList.remove('card-box');
+        deleteSecondCard.classList.remove('card-box');
+      } else {
+        let confirmation = window.confirm('no match, proceed')
+        if (confirmation) {
+          let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
+        let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
+        firstCardImage.classList.add('image-hidden')
+        secondCardImage.classList.add('image-hidden')
+        } 
+      }
       clickedCurrentCards = [];
     } else {
       console.log("No more than two!");
     }
+  
+
+
+
+  
 
   //if we have flipped another card
   // if (currentCard.pair === null) {

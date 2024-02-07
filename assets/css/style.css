@@ -67,9 +67,11 @@ div {
     transition: transform 900ms;
 }
 
-.card-back.is-flipped {
-    transform: rotateY('180deg');
+.image-hidden {
+    display: none;
 }
+
+
 
 
 
