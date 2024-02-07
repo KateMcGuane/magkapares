@@ -116,8 +116,7 @@ Refer to the [TESTING.md](TESTING.md) for all relevant testing.
 
 * Copied some of the code from my own Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified to suit the needs of this project.
 * Used my mentors project as a guide towards my own project [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).
-//* Used a tutorial from JavaScript Academy on [YouTube](https://www.youtube.com/watch?v=xWdkt6KSirw.) as a guide for the Memory Card Game. Specifics include:
-//* Used a tutorial from dcode on [YouTube](https://www.youtube.com/watch?v=bznJPt4t_4s&ab_channel=dcode) as an additional guide for the Memory Card Game.
+* Stackoverflow [How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
 #### Media
 

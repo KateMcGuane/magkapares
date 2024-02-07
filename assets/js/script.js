@@ -1,4 +1,4 @@
-//card data, including pairNumber, image, alt & words
+//card data, including pair, image, alt & words
 const cardData = [
     {
         'pair': 1,
@@ -49,19 +49,32 @@ const cardData = [
         'word': 'itlog',
       },
 ]
+console.log(cardData);
 
-//variables
-let currentCard = {
-    pair: null,
-    word: null
+
+const cardContainer = document.getElementById('card-container');
+
+//Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+let shufflecardData = cardData.sort(() => Math.random() - 0.5);
+console.log(shufflecardData);
+console.log(shufflecardData.length);
+
+for (let i=0; i < shufflecardData.length; i++) {
+  console.log(shufflecardData[i].pair, shufflecardData[i].word);
+  const card = document.createElement('div');
+  card.id = shufflecardData[i].word;
+  card.setAttribute('data-pair', shufflecardData[i].pair);
+  card.classList.add('card-box');
+  const cardImage = document.createElement('img');
+  cardImage.classList.add('card-back');
+  cardImage.setAttribute('src', shufflecardData[i].image);
+  card.appendChild(cardImage);
+  cardContainer.appendChild(card);
 }
-let cardHold = null;
-let cardMatch = null;
-
 
 
 //calling on all cards in the DOM
-let cards = document.querySelectorAll('.card-box img');
+let cards = document.querySelectorAll('.card-box');
 console.log(cards);
 
 for (let i =0; i < cards.length; i++) {
@@ -72,12 +85,13 @@ for (let i =0; i < cards.length; i++) {
 function handleCardClick(event) {
   console.log(event.target.dataset.pair);
   //if we have flipped another card
-  if (currentCard.pair === null) {
+  if (currentCard.pair === 1) {
     console.log('firstCard');
     currentCard.pair = event.target.dataset.pair;
     currentCard.word = event.target.dataset.word;
   } else {
     console.log('checking against firstCard');
+    
     //check if the current card pair is the same as the event targets pair & check if current card word is not equal to the event target word
         // console.log('match')
         // clear out current card
@@ -92,12 +106,14 @@ function handleCardClick(event) {
 
 
 
-/*//game initialization
-function startGame() {
-    shuffleCards()
+/*variables
+let currentCard = {
+  pair: 1,
+  word: null,
 }
-
-let cardContainer = document.getElementById('card-container');*/
+let cardHold = null;
+let cardMatch = null;
+let clearCard = null;*/
 
 
 
