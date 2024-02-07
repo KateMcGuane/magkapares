@@ -45,18 +45,26 @@ span {
 /*holds front of card*/
 .card-box {
     width: 100px;
-    height: calc(100px / 2 * 3);
+    height: 100px;
     background-color: hotpink;
     border: 5px solid #9366e9;
     border-radius: 10px;
-    position: relative; /*will use this to absolute position image & background image to card*/
+    transition: transform 900ms; /*from flash_cards*/
+    transform-style: preserve-3d; /*from flash_cards*/
+    position: relative; /*from flash_cards*/
+    cursor: pointer; /*from flash_cards*/
 }
-
+.card-box.is-flipped {
+    transform: rotateY(180deg); /*from flash_cards*/
+}
 .card-back {
     background-color: #ffa523;
-    border: 5px soolid #9366e9;
-    transform: rotateY(180deg); /*from flash_cards
+    transition: transform 900ms;
+    
+    z-index: 99;
 }
+
+img {}
 
 
     

@@ -75,15 +75,18 @@ for (let i=0; i < shufflecardData.length; i++) {
   //new img element with attribute, class ('card-back'); child of card
   const cardImage = document.createElement('img');
   cardImage.classList.add('card-back');
-  //assigning image to card img
+  //assigning given image to card img
   cardImage.setAttribute('src', shufflecardData[i].image);
   card.appendChild(cardImage);
-  cardContainer.appendChild(card);
-  
+  cardContainer.appendChild(card); 
   
 }
 
-
+// Flip card on the click
+card.addEventListener('click', function (e) {
+  e.preventDefault();
+  card.classList.toggle('is-flipped');
+});
 
 //calling on all cards in the DOM
 let cards = document.querySelectorAll('.card-box');
