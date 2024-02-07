@@ -23,8 +23,8 @@ The website acts as a stepping stone to learning more about the Phillippines, in
 
 ### Site owner's goal:
 
-The site’s goal is to provide a challenging game with increasing levels of difficulty to entertain online users.
-Potential features to include:
+The site’s goal is to provide a fun and beginner friendly learning/memorization game.
+
 
 ---
 
@@ -43,15 +43,15 @@ In this section, you should go over the different parts of your project, and des
 
 ### Future Features
 
-## Visuals
+#### Visuals
 - Enhance assets such as images, with clearer visuals and wording.
 - When you hover on the title "Magkapares", the heading flips around/fades into the English version of the word, "Pairs".
 - You can click the information [i] icon that creates a pop-up window when you click on it of how to play the game.
 
-## Audio
+#### Audio
 - Sound effects to match the pronounciation of the words revealed. 
 
-## Gameplay
+#### Gameplay
 - Create different levels within the game so that the user can progress and advance their memory/learning skills. 
 - A countdown timer that counts back from a set time limit.
 - A pop-up banner that states if the user has won when all the cards have matched or if they have run out of time before getting the chance.
