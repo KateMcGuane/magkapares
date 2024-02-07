@@ -41,7 +41,7 @@ div {
     align-items: center;
     grid-gap: 5px;
     grid-template-columns: repeat(4, 100px);
-    /*grid-template-rows: repeat(4, 100px);*/
+    grid-template-rows: repeat(4, 100px);
     
 }
 
@@ -65,7 +65,7 @@ div {
 .card-back {
     background-color: #ffa523;
     transition: transform 900ms;
-    z-index: 99;
+    z-index: 0;
 }
 
 

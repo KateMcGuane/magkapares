@@ -78,6 +78,7 @@ for (let i=0; i < shufflecardData.length; i++) {
   cardImage.setAttribute('src', shufflecardData[i].image);
   card.appendChild(cardImage);
   cardContainer.appendChild(card); 
+  cardImage.setAttribute('alt', shufflecardData[i].image);
 }
 
 
