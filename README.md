@@ -29,15 +29,8 @@ In this section, you should go over the different parts of your project, and des
 
 The colour scheme of the website was inspired by the tropical and rich colours of the Phillippines. They can be found in their coastlines, dense forests and colourful foods. 
 
-Many of the colours were extracted from this image and are accented throughout the website.
-
-![Magkapares Website Colour Palette](docs/sprinkles-23.png)
-
-This palette has stronger tones to it. It is used primarily for elements such as headings or areas of highlighted interest. This is to illustrate contrast and essential elements of importance.
-
-![Magkapares Website Colour Palette](docs/sprinkles-20.png)
-
-Both colour palettes were created using the [Coolors](https://coolors.co/) website.
+Many of the colours chosen reflect many of those seen in the Philippines as a place and its culture. 
+![Magkapares Website Colour Palette](documentation/philippines.png)
 
 ### Typography
 
@@ -104,7 +97,11 @@ The live link can be found here - https://katemcguane.github.io/magkapares/
 
 ## Testing 
 
-Refer to the [TESTING.md](TESTING.md) for all relevant testing.
+I used Chrome Devleoper Tools to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created.
+
+### Existing Bugs
+
+* When the second card is clicked on the game, it does not display the image unless they are a matching pair. This will be resolved in future versions. For now, an alert will pop up to say that the pairs do not match, so the user is still aware that it is a mis-match.
 
 ---
 
@@ -124,18 +121,15 @@ Refer to the [TESTING.md](TESTING.md) for all relevant testing.
 Referred to structures and resources used by CI Students & Github markup:
 * [Student README: Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md)
 * [Student README: My To Do List](https://github.com/luandretta/my-to-do-list/tree/main)
-* 
-
-
-
+* [Mentor README: Yingwen](https://github.com/IuliiaKonovalova/flash_cards/tree/main)
 
 #### Code Institute
 * Referred back to the Love Running Walkthrough project as a general guide when constructing HTML & CSS.
 
 
 ### Acknowledgements
-- To Sarah, thank you so much for your time, energy and commitment to helping me understand what I was doing. Most notably, understanding Git a bit better, and helping me set up my VS Code workspace. I am positive that all those growing pains will pay off in the near future.
-- Thank you to my mentor,
+- To Sarah, thank you so much for your time, energy and commitment to helping me understand a bit better, and helping me set up my VS Code workspace. I am positive that all those growing pains will pay off in the near future.
+- Thank you to my mentor, Juliia, who managed to fit a super-human amount into our sessions. Your guidance, patience and empathy kept me going.
 - Thank you to my partner Mikhail, for your support and nourishing meals. 
 ---
 Developed by Kate McGuane for Code Institute Portfolio Project 2, 2024
