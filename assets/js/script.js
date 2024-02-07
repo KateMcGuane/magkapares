@@ -54,11 +54,13 @@ console.log(cardData);
 
 const cardContainer = document.getElementById('card-container');
 
-//Game Initilizer
+
 //Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 let shufflecardData = cardData.sort(() => Math.random() - 0.5);
 //console.log(shufflecardData);
 //console.log(shufflecardData.length);
+
+
 document.addEventListener('DOMContentLoaded', function () {
   displayCards();
   let cards = document.querySelectorAll('.card-box');
@@ -78,10 +80,12 @@ function displayCards() {
     card.setAttribute('data-pair', shufflecardData[i].pair);
     card.classList.add('card-box');
     card.classList.add('card-back');
-    //new img element with attribute, class ('card-back'); child of card
+    //card is now a child element of the cardContainer
     cardContainer.appendChild(card); 
-    //cardImage.classList.add('card-back');
-    //assigning given image to card img
+
+    
+
+    //new img element with attribute, child of card; assigning given image to card img
     const cardImage = document.createElement('img');
     cardImage.setAttribute('src', shufflecardData[i].image);
     //create class to add to image
@@ -93,13 +97,6 @@ function displayCards() {
 }
 
 
-
-
-// Flip card on the click
-// card.addEventListener('click', function (e) {
-  // e.preventDefault();
-  // card.classList.toggle('is-flipped');
-// });
 
 //calling on all cards in the DOM
 
