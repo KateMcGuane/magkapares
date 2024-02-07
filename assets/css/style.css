@@ -8,6 +8,17 @@
     box-sizing: border-box;
     font-family: sans-serif;}
 
+header {
+    padding: 0 1rem;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: orange;
+}
+
 body {
     min-height: 100vh;
     background-color: #ffa523;
