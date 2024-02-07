@@ -58,14 +58,17 @@ div {
     cursor: pointer; /*from flash_cards*/
 }
 
-.is-flipped {
-    transform: rotateY(180deg); /*from flash_cards*/
-}
+/*.is-flipped {
+    transform: rotateY(180deg); }/*from flash_cards*/
+
 
 .card-back {
     background-color: #ffa523;
     transition: transform 900ms;
-    z-index: 0;
+}
+
+.card-back.is-flipped {
+    transform: rotateY('180deg');
 }
 
 

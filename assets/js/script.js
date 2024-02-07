@@ -9,7 +9,7 @@ const cardData = [
       {
         'pair': 1,
         'image': 'assets/images/card-images/bread-tg.png',
-        'alt': 'image of a loaf of bread; translates to tinapay in tagalog',
+        'alt': 'image of a loaf of bread; translates to "tinapay" in tagalog',
         'word': 'tinapay',
       },
       {
@@ -21,7 +21,7 @@ const cardData = [
       {
         'pair': 2,
         'image': 'assets/images/card-images/fruit-tg.png',
-        'alt': 'image of a bowl of fruit; translates to prutas in tagalog',
+        'alt': 'image of a bowl of fruit; translates to "prutas" in tagalog',
         'word': 'prutas',
       },
       {
@@ -33,7 +33,7 @@ const cardData = [
       {
         'pair': 3,
         'image': 'assets/images/card-images/fish-tg.png',
-        'alt': 'image of a cooked fish; translates to isda in tagalog',
+        'alt': 'image of a cooked fish; translates to "isda" in tagalog',
         'word': 'isda',
       },
       {
@@ -45,7 +45,7 @@ const cardData = [
       {
         'pair': 4,
         'image': 'assets/images/card-images/egg-tg.png',
-        'alt': 'image of an egg; translates to itlog in tagalog',
+        'alt': 'image of an egg; translates to "itlog" in tagalog',
         'word': 'itlog',
       },
 ]
@@ -70,16 +70,18 @@ for (let i=0; i < shufflecardData.length; i++) {
   //assigning pair number to card
   card.setAttribute('data-pair', shufflecardData[i].pair);
   card.classList.add('card-box');
-
+  card.classList.add('card-back');
   //new img element with attribute, class ('card-back'); child of card
-  const cardImage = document.createElement('img');
-  cardImage.classList.add('card-back');
-  //assigning given image to card img
-  cardImage.setAttribute('src', shufflecardData[i].image);
-  card.appendChild(cardImage);
   cardContainer.appendChild(card); 
-  cardImage.setAttribute('alt', shufflecardData[i].image);
+  //cardImage.classList.add('card-back');
+  //assigning given image to card img
+  const cardImage = document.createElement('img');
+  cardImage.setAttribute('src', shufflecardData[i].image);
+  //card.appendChild(cardImage);
+ 
+  cardImage.setAttribute('alt', shufflecardData[i].image);  
 }
+
 
 
 
@@ -93,26 +95,31 @@ for (let i=0; i < shufflecardData.length; i++) {
 let cards = document.querySelectorAll('.card-box');
 console.log(cards);
 
-let currentCard = {
-  pair: null,
-  word: null,
-}
+let clickedCurrentCards = [];
+
 for (let i =0; i < cards.length; i++) {
     cards[i].addEventListener('click', handleCardClick);
 }
 
-
-
 //logic checker
 function handleCardClick(event) {
-  console.log(event.target.dataset.pair);
+  console.log("event target pair: ",event.target.dataset.pair);
+  console.log("current length of clickedCurrentCards: ", clickedCurrentCards.length);
+  clickedCurrentCards.push(event.target.id);
+  console.log("clickedCurrentCards: ", clickedCurrentCards)
+    if (clickedCurrentCards.length >= 2) {
+      clickedCurrentCards = [];
+    } else {
+      console.log("No more than two!");
+    }
+
   //if we have flipped another card
-  if (currentCard.pair === null) {
-    console.log('firstCard');
-    currentCard.pair = event.target.dataset.pair;
-    currentCard.word = event.target.dataset.word;
-  } else {
-    console.log('checking against firstCard');
+  // if (currentCard.pair === null) {
+  //   console.log('firstCard');
+  //   currentCard.pair = event.target.dataset.pair;
+  //   currentCard.word = event.target.dataset.word;
+  // } else {
+  //   console.log('checking against firstCard');
     
     //check if the current card pair is the same as the event targets pair & check if current card word is not equal to the event target word
         // console.log('match')
@@ -120,7 +127,7 @@ function handleCardClick(event) {
     // else
         // not a match console.log('not a match')
         // clear out current card & make sure everything gets flipped back
-  }
+//   }
 }
 
 
