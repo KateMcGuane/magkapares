@@ -141,14 +141,20 @@ The live link can be found here - https://katemcguane.github.io/magkapares/
 
 ## Testing 
 
-I used Chrome Devleoper Tools to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created.
+I used Chrome Devleoper Tools to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created, most notably while logging to the console for JavaScript. 
+
+### Accessibility & Performance
+
+Lighthouse in DevTools indicated that the website was performing relatively well. Improvements can be incorporated to future versions.
+
+
 
 ### Known Bugs
 
 1. When the second card is clicked on the game, it does not display the image unless they are a matching pair. This will be resolved in future versions. For now, an alert will pop up to say that the pairs do not match, so the user is still aware that it is a mis-match.
 2. The styling for when the cards are clicked is slightly off and needs to be fixed (this was the only error until my final review, see point 3).
 3. I missed a bug that I created at some point while adding my final CSS. I did not have enough time to rectify this bug. It shows up when the pairs match, the card containers take up the entire screen.
-4. The reset button does not have any functionality incorported; the JavaScript code needs to be written for it. I ran out time before I could add it in without compromising the game with additional bugs.
+4. The reset button does not have any functionality incorported; the JavaScript code needs to be written for it. I ran out time before I could add it in, and did not want to compromise the game with additional bugs.
 
 
 ---
