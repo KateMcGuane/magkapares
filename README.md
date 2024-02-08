@@ -5,7 +5,8 @@ Magkapares is the Tagalog (Filipino) equivalent of the word "Pairs". This projec
 This game will exercise memory and recollection, all the while learning a new language. It is suitable for children and adults alike. 
 The website acts as a stepping stone to learning more about the Phillippines, in a fun way through learning a language.
 
-
+![View deployed website here:](https://katemcguane.github.io/magkapares/
+)
 ## Table of Contents
 
 * [Features](Features)
@@ -144,8 +145,11 @@ I used Chrome Devleoper Tools to assist in the testing process throughout the pr
 
 ### Known Bugs
 
-* When the second card is clicked on the game, it does not display the image unless they are a matching pair. This will be resolved in future versions. For now, an alert will pop up to say that the pairs do not match, so the user is still aware that it is a mis-match.
-* The styling for when the cards are clicked is slightly off and needs to be fixed.
+1. When the second card is clicked on the game, it does not display the image unless they are a matching pair. This will be resolved in future versions. For now, an alert will pop up to say that the pairs do not match, so the user is still aware that it is a mis-match.
+2. The styling for when the cards are clicked is slightly off and needs to be fixed (this was the only error until my final review, see point 3).
+3. I missed a bug that I created at some point while adding my final CSS. I did not have enough time to rectify this bug. It shows up when the pairs match, the card containers take up the entire screen.
+4. The reset button does not have any functionality incorported; the JavaScript code needs to be written for it. I ran out time before I could add it in without compromising the game with additional bugs.
+
 
 ---
 
