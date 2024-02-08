@@ -6,7 +6,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;}
+    font-family: sans-serif;
+}
+
 
 header {
     padding: 0 1rem;
@@ -16,12 +18,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    background-color: orange;
+    background-color: #e3433d; 
 }
 
 body {
     min-height: 100vh;
-    background-color: #ffa523;
+    background-color: #d7ad25;
 }
 
 div {
@@ -32,7 +34,7 @@ div {
 }
 
 #card-container {
-   background-color: aquamarine;
+   background-color: #1effbc;
    /* display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;*/
@@ -49,8 +51,8 @@ div {
 .card-box {
     width: 100px;
     height: 100px;
-    background-color: hotpink;
-    border: 5px solid #9366e9;
+    background-color: #d7ad25;
+    border: 5px solid #3c28a1;
     border-radius: 10px;
     transition: transform 900ms; /*from flash_cards*/
     transform-style: preserve-3d; /*from flash_cards*/
@@ -63,7 +65,7 @@ div {
 
 
 .card-back {
-    background-color: #ffa523;
+    background-color: #d7ad25;
     transition: transform 900ms;
 }
 
