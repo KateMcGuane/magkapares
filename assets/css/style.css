@@ -6,9 +6,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
+body {
+    background-image: url("../images/background.png");
+    background-color: #d7ad25;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    /*min-height: 100vh;
+    background-color: #d7ad25;*/
+}
 
 header {
     padding: 0 1rem;
@@ -21,9 +35,8 @@ header {
     background-color: #e3433d; 
 }
 
-body {
-    min-height: 100vh;
-    background-color: #d7ad25;
+h1 {
+    font-family: "Patrick Hand SC", sans-serif;
 }
 
 div {
@@ -34,7 +47,7 @@ div {
 }
 
 #card-container {
-   background-color: #1effbc;
+    background-color: #1effbc;
    /* display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;*/
@@ -43,7 +56,21 @@ div {
     align-items: center;
     grid-gap: 5px;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px); /*NO RESPONSIVNESS*/
+
+    /*    background-color: #1effbc;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    /*    background-color: #1effbc;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 125px); NO RESPONSIVENESS
     
 }
 
