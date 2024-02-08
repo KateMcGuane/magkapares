@@ -52,6 +52,7 @@ div {
     align-items: center;
 }
 
+/*holds front of card*/
 .card-box {
     width: 100px;
     height: 100px;
@@ -66,13 +67,20 @@ div {
 
 .card-back {
     background-color: #d7ad25;
-    transition: transform 900ms;
 }
 
 .image-hidden {
     display: none;
 }
 
+#reset-button {
+    padding: 5px;
+    border: 5px solid #24c956;
+    border-radius: 10px;
+    flex: display;
+    justify-content: center;
+    align-items: center;
+}
 
 
 

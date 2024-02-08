@@ -93,9 +93,13 @@ function displayCards() {
     cardImage.id = `${shufflecardData[i].word}-image`;
     cardImage.setAttribute('alt', shufflecardData[i].image); 
     card.appendChild(cardImage); 
+
   }
 }
 
+function resetButton() {
+  let resetButton = document.getElementById('reset-button')
+}
 
 
 //calling on all cards in the DOM
