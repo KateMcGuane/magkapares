@@ -20,8 +20,6 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-    /*min-height: 100vh;
-    background-color: #d7ad25;*/
 }
 
 header {
@@ -47,34 +45,13 @@ div {
 }
 
 #card-container {
-    background-color: #1effbc;
-   /* display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;*/
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-gap: 5px;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(4, 100px); /*NO RESPONSIVNESS*/
-
-    /*    background-color: #1effbc;
+   background-color: #1effbc;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-
-    /*    background-color: #1effbc;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-gap: 5px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 125px); NO RESPONSIVENESS
-    
 }
 
-/*holds front of card*/
 .card-box {
     width: 100px;
     height: 100px;
@@ -86,10 +63,6 @@ div {
     position: relative; /*from flash_cards*/
     cursor: pointer; /*from flash_cards*/
 }
-
-/*.is-flipped {
-    transform: rotateY(180deg); }/*from flash_cards*/
-
 
 .card-back {
     background-color: #d7ad25;
