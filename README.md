@@ -7,10 +7,6 @@ The website acts as a stepping stone to learning more about the Phillippines, in
 
 ![View deployed website here:](https://katemcguane.github.io/magkapares/
 )
-## Table of Contents
-
-* [Features](Features)
-* 
 
 ---
 
