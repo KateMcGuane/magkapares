@@ -42,6 +42,7 @@ In this section, you should go over the different parts of your project, and des
 - When you choose a card that doesn't match, the cards return to their original facedown position.
 - The game is complete when all the cards have matched.
 
+
 ### Future Features
 
 #### Visuals
@@ -57,7 +58,10 @@ In this section, you should go over the different parts of your project, and des
 - A countdown timer that counts back from a set time limit.
 - A pop-up banner that states if the user has won when all the cards have matched or if they have run out of time before getting the chance.
 - A reset button so the player can play again.
+
+
 ---
+
 
 ## Design
 
@@ -98,24 +102,25 @@ I used a flowchart to illustrate some of the main logical points before I began 
 
 ---
 
+
 ## Technologies Used
 
 ### Languages Used
 
-HTML, CSS, JavaScript
+HTML, CSS, JavaScript.
 
 ### Frameworks, Libraries & Programs Used
 
 - [GitHub](https://github.com/)
-- VS Code
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Canva](https://www.canva.com/)
 - [Favicon.io](https://favicon.io/favicon-converter/)
 - [Coolors](https://coolors.co/)
 - [Lucidchart](https://www.lucidchart.com/pages)
+- VS Code
  
- All specific uses to the following webpages can be found within their relative subtitle of application.
+ Any specific uses to the following webpages can be found within their relative subtitle of application.
 
  ---
 
@@ -143,9 +148,28 @@ The live link can be found here - https://katemcguane.github.io/magkapares/
 
 I used Chrome Devleoper Tools to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created, most notably while logging to the console for JavaScript. 
 
+### Validator Testing
+
+#### HTML
+
+[HTML Testing](documentation/magkapares_validator_w3.png)
+
+#### CSS
+
+[CSS Testing](documentation/magkapares_css%20validator_w3.png)
+
+#### JavaScript
+
+[JavaScript Testing pt1](documentation/magkapares_jshint_pt1.PNG)
+[JavaScript Testing pt2](documentation/magkapares_jshint_pt2.PNG)
+
+
 ### Accessibility & Performance
 
 Lighthouse in DevTools indicated that the website was performing relatively well. Improvements can be incorporated to future versions.
+
+[Lighthouse Testing](documentation/magkapares_lighthouse_testing.png)
+
 
 
 
