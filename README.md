@@ -152,23 +152,23 @@ I used Chrome Devleoper Tools to assist in the testing process throughout the pr
 
 #### HTML
 
-[HTML Testing](documentation/magkapares_validator_w3.png)
+![HTML Testing](documentation/magkapares_validator_w3.png)
 
 #### CSS
 
-[CSS Testing](documentation/magkapares_css%20validator_w3.png)
+![CSS Testing](documentation/magkapares_css%20validator_w3.png)
 
 #### JavaScript
 
-[JavaScript Testing pt1](documentation/magkapares_jshint_pt1.PNG)
-[JavaScript Testing pt2](documentation/magkapares_jshint_pt2.PNG)
+![JavaScript Testing pt1](documentation/magkapares_jshint_pt1.PNG)
+![JavaScript Testing pt2](documentation/magkapares_jshint_pt2.PNG)
 
 
 ### Accessibility & Performance
 
 Lighthouse in DevTools indicated that the website was performing relatively well. Improvements can be incorporated to future versions.
 
-[Lighthouse Testing](documentation/magkapares_lighthouse_testing.png)
+![Lighthouse Testing](documentation/magkapares_lighthouse_testing.png)
 
 
 
