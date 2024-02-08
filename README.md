@@ -142,9 +142,10 @@ The live link can be found here - https://katemcguane.github.io/magkapares/
 
 I used Chrome Devleoper Tools to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created.
 
-### Existing Bugs
+### Known Bugs
 
 * When the second card is clicked on the game, it does not display the image unless they are a matching pair. This will be resolved in future versions. For now, an alert will pop up to say that the pairs do not match, so the user is still aware that it is a mis-match.
+* The styling for when the cards are clicked is slightly off and needs to be fixed.
 
 ---
 

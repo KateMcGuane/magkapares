@@ -107,8 +107,8 @@ let clickedCurrentCards = [];
 
 //logic checker
 function handleCardClick(event) {
-  let currentCardImage = document.getElementById(`${event.target.id}-image`)
-  currentCardImage.classList.remove('image-hidden')
+  let currentCardImage = document.getElementById(`${event.target.id}-image`);
+  currentCardImage.classList.remove('image-hidden');
   
   console.log("event target pair: ",event.target.dataset.pair);
   console.log("current length of clickedCurrentCards: ", clickedCurrentCards.length);
@@ -118,7 +118,7 @@ function handleCardClick(event) {
     });
 
 
-  console.log("clickedCurrentCards: ", clickedCurrentCards)
+  console.log("clickedCurrentCards: ", clickedCurrentCards);
  
    
 
@@ -129,44 +129,24 @@ function handleCardClick(event) {
         console.log('match');
         let deleteFirstCard = document.getElementById(clickedCurrentCards[0]['id']);
         let deleteSecondCard = document.getElementById(clickedCurrentCards[1]['id']);
-        deleteFirstCard.innerHTML = "<div>X</div>"
-        deleteSecondCard.innerHTML = "<div>X</div>"
+
         deleteFirstCard.classList.remove('card-box');
         deleteSecondCard.classList.remove('card-box');
       } else {
-        let confirmation = window.confirm('no match, proceed')
-        if (confirmation) {
-          let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
-        let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
-        firstCardImage.classList.add('image-hidden')
-        secondCardImage.classList.add('image-hidden')
-        } 
+        let confirmation = window.confirm('no match, proceed');
+        
+        
+      if (confirmation) {
+      let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
+      let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
+      firstCardImage.classList.add('image-hidden');
+      secondCardImage.classList.add('image-hidden');
+      } 
       }
       clickedCurrentCards = [];
     } else {
       console.log("No more than two!");
     }
-  
-
-
-
-  
-
-  //if we have flipped another card
-  // if (currentCard.pair === null) {
-  //   console.log('firstCard');
-  //   currentCard.pair = event.target.dataset.pair;
-  //   currentCard.word = event.target.dataset.word;
-  // } else {
-  //   console.log('checking against firstCard');
-    
-    //check if the current card pair is the same as the event targets pair & check if current card word is not equal to the event target word
-        // console.log('match')
-        // clear out current card
-    // else
-        // not a match console.log('not a match')
-        // clear out current card & make sure everything gets flipped back
-//   }
 }
 
 
