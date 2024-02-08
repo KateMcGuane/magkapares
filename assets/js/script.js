@@ -49,16 +49,11 @@ const cardData = [
         'word': 'itlog',
       },
 ]
-console.log(cardData);
-
 
 const cardContainer = document.getElementById('card-container');
 
-
 //Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 let shufflecardData = cardData.sort(() => Math.random() - 0.5);
-//console.log(shufflecardData);
-//console.log(shufflecardData.length);
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -69,23 +64,26 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 })
 
+
 function displayCards() {
   for (let i=0; i < shufflecardData.length; i++) {
-    //console.log(shufflecardData[i].pair, shufflecardData[i].word);
   
     //new div element with id, attribute, classes(card-box, card-back); child of card-container
     const card = document.createElement('div');
     card.id = shufflecardData[i].word;
+
     //assigning pair number to card
     card.setAttribute('data-pair', shufflecardData[i].pair);
     card.classList.add('card-box');
     card.classList.add('card-back');
+
     //card is now a child element of the cardContainer
     cardContainer.appendChild(card); 
 
     //new img element with attribute, child of card; assigning given image to card img
     const cardImage = document.createElement('img');
     cardImage.setAttribute('src', shufflecardData[i].image);
+
     //create class to add to image
     cardImage.classList.add('image-hidden');
     cardImage.id = `${shufflecardData[i].word}-image`;
@@ -102,20 +100,14 @@ function handleCardClick(event) {
   let currentCardImage = document.getElementById(`${event.target.id}-image`);
   currentCardImage.classList.remove('image-hidden');
   
-  console.log("event target pair: ",event.target.dataset.pair);
-  console.log("current length of clickedCurrentCards: ", clickedCurrentCards.length);
   clickedCurrentCards.push({
     id: event.target.id, 
     pair: event.target.dataset.pair,
     });
 
-  console.log("clickedCurrentCards: ", clickedCurrentCards);
-
     if (clickedCurrentCards.length >= 2) {
-      console.log(clickedCurrentCards[0]["pair"]);
-      console.log(clickedCurrentCards[1]["pair"]);
+
       if (clickedCurrentCards[0]["pair"] === clickedCurrentCards[1]["pair"]) {
-        console.log('match');
         let deleteFirstCard = document.getElementById(clickedCurrentCards[0]['id']);
         let deleteSecondCard = document.getElementById(clickedCurrentCards[1]['id']);
 
@@ -133,7 +125,6 @@ function handleCardClick(event) {
       }
       clickedCurrentCards = [];
     } else {
-      console.log("No more than two!");
     }
 }
 

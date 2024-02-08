@@ -163,13 +163,13 @@ I used Chrome Devleoper Tools to assist in the testing process throughout the pr
 * Used my mentors project as a guide towards my own project. Referenced throughout where code was used [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).
 * Stackoverflow [How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
 
-#### Media
 
 #### MarkUp
 Referred to structures and resources used by CI Students & Github markup:
 * [Student README: Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md)
 * [Student README: My To Do List](https://github.com/luandretta/my-to-do-list/tree/main)
 * [Mentor README: Yingwen](https://github.com/IuliiaKonovalova/flash_cards/tree/main)
+
 
 #### Code Institute
 * Referred back to the Love Running Walkthrough project as a general guide when constructing HTML & CSS.
