@@ -1,24 +1,134 @@
-# Testing
+# Magkapares - Testing
+
+![Magkapares shown on a variety of screen sizes](INSERT_FILE_HERE)
+
+Visit the deployed site [Magkapares](INSERT_LINK_HERE) here.
 
 
-## Table of Contents
+---
 
-- [Validator Testing](#validator-testing)
+## Compatability
 
-### Validator Testing 
+The website was tested on three different browsers: Brave, Chrome, & Microsoft Edge. It was compatable across all three.
 
-- HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
-- CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-- JavaScript
-    - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
-      - The following metrics were returned: 
+  ### Brave
+  ![Brave](INSERT_GIF_FILE_HERE)
+
+
+  ### Chrome
+  ![Chrome](INSERT_GIF_FILE_HERE)
+
+  ### Microsoft Edge
+  ![Microsoft Edge](INSERT_GIF_FILE_HERE)
+
+
+See [Gameplay](LINK_TO_SECTION) for everything that was tested for on these browsers.
+
+
+---
+
+
+## Responsiveness
+
+The website was tested manually throughout the project development using DevTools to check for responsiveness.
+
+The responsiveness was confirmed with [Responsive Website Design Tester](https://responsivedesignchecker.com/). The following are samples of some of the responsiveness implemented.
+
+
+  ### Desktop Screens
+  ![Desktop Responsiveness](INSERT_GIF_FILE_HERE)
+
+
+  ### Tablet Screens
+  ![Tablet Responsiveness](INSERT_GIF_FILE_HERE)
+
+
+  ### Mobile Screens
+  ![Mobile Responsiveness](INSERT_GIF_FILE_HERE)
+
+
+---
+
+
+### Validator Testing
+
+#### HTML
+    No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+    (INSERT_GIF_FILE_HERE)
+
+#### CSS
+    No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    (INSERT_GIF_FILE_HERE)
+
+#### JavaScript
+    No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+    (INSERT_GIF_FILE_HERE)
+      - The following metrics were returned:
       - There are 11 functions in this file.
       - Function with the largest signature takes 2 arguments, while the median is 0.
       - Largest function has 10 statements in it, while the median is 3.
       - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
 
-### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+---
+
+
+## LightHouse report
+
+
+I used Lighthouse in DevTools to confirm that the website is performing well, accessiblility and readability of fonts & colours. Testing was done for both mobile & desktop.
+
+  #### Desktop
+  ![Magkapares Lighthouse Mobile](INSERT_FILE_HERE)
+  #### Mobile
+  ![Magkapares Lighthouse Desktop](INSERT_FILE_HERE)
+
+DUPLICATE THE ABOVE & LABEL FOR ANY EXTRA PAGES CREATED.
+
+
+---
+
+
+## Gameplay
+
+| Feature | Action | Expected Result | Tested | Comments |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
+
+
+---
+
+## Bugs
+
+  ### Solved Bugs
+
+  | # | Bug | How I solved the issue | Screenshots |
+  | --- | --- | --- | --- |
+  | 1 | --- | --- | --- |
+  | 2 | --- | --- | --- |
+  | 3 | --- | --- | --- |
+  | 4 | --- | --- | --- |
+  | 5 | --- | --- | --- |
+  | 6 | --- | --- | --- |
+  | 7 | --- | --- | --- |
+  | 8 | --- | --- | --- |
+  | 9 | --- | --- | --- |
+  | 10 | --- | --- | --- |
+
+
+
+  - Once all of the solutions were carried out, I reviewed each issue to ensure all corrections were applied & no further issues were occurring.
+
+  ### Known Bugs
+
+  - There are no known bugs at this time.

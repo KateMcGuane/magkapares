@@ -1,8 +1,8 @@
 # Magkapares
 
 
-Magkapares is the Tagalog (Filipino) equivalent of the word "Pairs". This project was inspired by my own learning of the Tagalog language. I wanted to create an interactive learning game based on the memory card game. 
-This game will exercise memory and recollection, all the while learning a new language. It is suitable for children and adults alike. 
+Magkapares is the Tagalog (Filipino) equivalent of the word "Pairs". This project was inspired by my own learning of the Tagalog language. I wanted to create an interactive learning game based on the memory card game.
+This game will exercise memory and recollection, all the while learning a new language. It is suitable for children and adults alike.
 The website acts as a stepping stone to learning more about the Phillippines, in a fun way through learning a language.
 
 The live link can be found here - https://katemcguane.github.io/magkapares/
@@ -24,14 +24,14 @@ The site’s goal is to provide a fun and beginner friendly learning/memorizatio
 
 ---
 
-## Features 
+## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 
 ### Existing Features
 
-- Cards are shown face down upon starting the game. 
+- Cards are shown face down upon starting the game.
 - When you click on the first card, a hidden image reveals itself.
 - When you click on another card, it matches and disappears, removing it as a selection option.
 - When you choose a card that doesn't match, the cards return to their original facedown position.
@@ -46,10 +46,10 @@ In this section, you should go over the different parts of your project, and des
 - You can click the information [i] icon that creates a pop-up window when you click on it of how to play the game.
 
 #### Audio
-- Sound effects to match the pronounciation of the words revealed. 
+- Sound effects to match the pronounciation of the words revealed.
 
 #### Gameplay
-- Create different levels within the game so that the user can progress and advance their memory/learning skills. 
+- Create different levels within the game so that the user can progress and advance their memory/learning skills.
 - A countdown timer that counts back from a set time limit.
 - A pop-up banner that states if the user has won when all the cards have matched or if they have run out of time before getting the chance.
 - A reset button so the player can play again.
@@ -63,7 +63,7 @@ In this section, you should go over the different parts of your project, and des
 ### Colour Scheme
 
 The colour scheme of the website was inspired by the tropical and rich colours of the Phillippines. They can be found in their coastlines, dense forests and colourful foods. 
-Many of the colours chosen reflect many of those seen in the Philippines as a place and its culture. 
+Many of the colours chosen reflect many of those seen in the Philippines as a place and its culture.
 
 ![Magkapares Website Colour Palette](documentation/philippines.png)
 
@@ -114,7 +114,7 @@ HTML, CSS, JavaScript.
 - [Coolors](https://coolors.co/)
 - [Lucidchart](https://www.lucidchart.com/pages)
 - VS Code
- 
+
  Any specific uses to the following webpages can be found within their relative subtitle of application.
 
  ---
@@ -139,9 +139,9 @@ The live link can be found here - https://katemcguane.github.io/magkapares/
 
 ---
 
-## Testing 
+## Testing
 
-I used Chrome Devleoper Tools to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created, most notably while logging to the console for JavaScript. 
+I used Chrome Devleoper Tools to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created, most notably while logging to the console for JavaScript.
 
 ### Validator Testing
 
@@ -178,7 +178,7 @@ Lighthouse in DevTools indicated that the website was performing relatively well
 
 ---
 
-## Credits 
+## Credits
 
 ### Resources
 
@@ -203,6 +203,6 @@ Referred to structures and resources used by CI Students & Github markup:
 ### Acknowledgements
 - To Sarah, thank you so much for your time, energy and commitment to helping me understand a bit better, and helping me set up my VS Code workspace. I am positive that all those growing pains will pay off in the near future.
 - Thank you to my mentor, Juliia, who managed to fit a super-human amount into our sessions. Your guidance, patience and empathy kept me going.
-- Thank you to my partner Mikhail, for your support and nourishing meals. 
+- Thank you to my partner Mikhail, for your support and nourishing meals.
 ---
 Developed by Kate McGuane for Code Institute Portfolio Project 2, 2024

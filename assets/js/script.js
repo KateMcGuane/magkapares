@@ -52,7 +52,7 @@ const cardData = [
 
 const cardContainer = document.getElementById('card-container');
 
-//Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+// Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 let shufflecardData = cardData.sort(() => Math.random() - 0.5);
 
 
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function displayCards() {
   for (let i=0; i < shufflecardData.length; i++) {
-  
+
     //new div element with id, attribute, classes(card-box, card-back); child of card-container
     const card = document.createElement('div');
     card.id = shufflecardData[i].word;
@@ -78,7 +78,7 @@ function displayCards() {
     card.classList.add('card-back');
 
     //card is now a child element of the cardContainer
-    cardContainer.appendChild(card); 
+    cardContainer.appendChild(card);
 
     //new img element with attribute, child of card; assigning given image to card img
     const cardImage = document.createElement('img');
@@ -87,8 +87,8 @@ function displayCards() {
     //create class to add to image
     cardImage.classList.add('image-hidden');
     cardImage.id = `${shufflecardData[i].word}-image`;
-    cardImage.setAttribute('alt', shufflecardData[i].image); 
-    card.appendChild(cardImage); 
+    cardImage.setAttribute('alt', shufflecardData[i].image);
+    card.appendChild(cardImage);
   }
 }
 
@@ -99,9 +99,9 @@ let clickedCurrentCards = [];
 function handleCardClick(event) {
   let currentCardImage = document.getElementById(`${event.target.id}-image`);
   currentCardImage.classList.remove('image-hidden');
-  
+
   clickedCurrentCards.push({
-    id: event.target.id, 
+    id: event.target.id,
     pair: event.target.dataset.pair,
     });
 
@@ -115,13 +115,13 @@ function handleCardClick(event) {
         deleteSecondCard.classList.remove('card-box');
       } else {
         let confirmation = window.confirm('no match, proceed');
-         
+
       if (confirmation) {
       let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
       let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
       firstCardImage.classList.add('image-hidden');
       secondCardImage.classList.add('image-hidden');
-      } 
+      }
       }
       clickedCurrentCards = [];
     } else {
