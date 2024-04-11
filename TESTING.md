@@ -131,4 +131,9 @@ DUPLICATE THE ABOVE & LABEL FOR ANY EXTRA PAGES CREATED.
 
   ### Known Bugs
 
-  - There are no known bugs at this time.
+### Known Bugs
+
+1. When the second card is clicked on the game, it does not display the image unless they are a matching pair. This will be resolved in future versions. For now, an alert will pop up to say that the pairs do not match, so the user is still aware that it is a mis-match.
+2. The styling for when the cards are clicked is slightly off and needs to be fixed (this was the only error until my final review, see point 3).
+3. I missed a bug that I created at some point while adding my final CSS. I did not have enough time to rectify this bug. It shows up when the pairs match, the card containers take up the entire screen.
+4. The reset button does not have any functionality incorported; the JavaScript code needs to be written for it. I ran out time before I could add it in, and did not want to compromise the game with additional bugs.
