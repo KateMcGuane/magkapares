@@ -50,8 +50,10 @@ const cardData = [
   },
 ]
 
-const cardContainer = document.getElementById('card-container');
 
+const results = document.getElementById("results")
+const cardContainer = document.getElementById('card-container');
+let match = false
 // Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 let shufflecardData = cardData.sort(() => Math.random() - 0.5);
 
@@ -105,6 +107,8 @@ function handleCardClick(event) {
     pair: event.target.dataset.pair,
   });
 
+  console.log(event.target.dataset.pair)
+
   if (clickedCurrentCards.length >= 2) {
 
     if (clickedCurrentCards[0]["pair"] === clickedCurrentCards[1]["pair"]) {
@@ -114,14 +118,26 @@ function handleCardClick(event) {
       deleteFirstCard.classList.remove('card-box');
       deleteSecondCard.classList.remove('card-box');
     } else {
-      let confirmation = window.confirm('no match, proceed');
+      /* Remove pop-up notification */
+      // let confirmation = window.confirm('no match, proceed');
+      match = false
+      results.innerHTML = "is not a match"
 
-      if (confirmation) {
-        let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
-        let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
+      // if (!match) {
+      //   let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
+      //   let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
+      //   firstCardImage.classList.add('image-hidden');
+      //   secondCardImage.classList.add('image-hidden');
+      // }
+      let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
+      let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
+
+      /* Timeout added from https://github.com/IuliiaKonovalova/May-Hackathon-Chats */
+      setTimeout(function () {
         firstCardImage.classList.add('image-hidden');
         secondCardImage.classList.add('image-hidden');
-      }
+        results.innerHTML = "try more"
+      }, 2500);
     }
     clickedCurrentCards = [];
   } else {

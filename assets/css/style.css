@@ -69,6 +69,11 @@ div {
     /*from flash_cards*/
 }
 
+.card-back img{
+    width: 100px;
+    height: 100px;
+}
+
 .card-back {
     background-color: #d7ad25;
 }
