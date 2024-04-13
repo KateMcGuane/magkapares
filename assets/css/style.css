@@ -10,7 +10,7 @@
 }
 
 body {
-background-image: url("../images/philippines-map.png");
+    background-image: url("../images/philippines-map.png");
     background-color: #d7ad25;
     background-repeat: no-repeat;
     background-position: center;
@@ -30,7 +30,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    background-color: #e3433d; 
+    background-color: #e3433d;
 }
 
 h1 {
@@ -59,10 +59,14 @@ div {
     background-color: #d7ad25;
     border: 5px solid #3c28a1;
     border-radius: 10px;
-    transition: transform 900ms; /*from flash_cards*/
-    transform-style: preserve-3d; /*from flash_cards*/
-    position: relative; /*from flash_cards*/
-    cursor: pointer; /*from flash_cards*/
+    transition: transform 900ms;
+    /*from flash_cards*/
+    transform-style: preserve-3d;
+    /*from flash_cards*/
+    position: relative;
+    /*from flash_cards*/
+    cursor: pointer;
+    /*from flash_cards*/
 }
 
 .card-back {
@@ -78,6 +82,7 @@ button {
     margin: auto;
 }
 
+/*decorative for now*/
 #reset-button {
     padding: 5px;
     border: 5px solid #3c28a1;
@@ -85,9 +90,3 @@ button {
     background-color: #24c956;
     font-weight: bold;
 }
-
-
-
-
-
-    
