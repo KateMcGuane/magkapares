@@ -104,7 +104,9 @@ I used a flowchart to illustrate some of the main logical points before I began 
 
 ### Languages Used
 
-HTML, CSS, JavaScript.
+  - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used to create the page structure.
+  - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) was used to create the layout and add styles.
+  - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) was used to add interactivity to the game & page.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -113,7 +115,6 @@ HTML, CSS, JavaScript.
 - [Coolors](https://coolors.co/) was used to create a colour palette for the site.
 - [DevTools] was used to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created, most notably while logging to the console for JavaScript.
 - [Favicon.io](https://favicon.io/favicon-converter/) was used to convert the favicon image into suitable sizes.
-- [Font Awesome](https://fontawesome.com/) ???
 - [GitHub](https://github.com/) was used to store associated files & developments of the website.
 - [Gitpod](https://www.gitpod.io/) was the IDE used on the second edition of this project.
 - [Google Fonts](https://fonts.google.com/) was used to extract fonts for the website.
