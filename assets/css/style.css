@@ -52,7 +52,7 @@ div {
     align-items: center;
 }
 
-/*holds front of card*/
+/* Holds front of card */
 .card-box {
     width: 100px;
     height: 100px;
@@ -69,6 +69,7 @@ div {
     /*from flash_cards*/
 }
 
+/* Target specifics of card div */
 .card-back img{
     width: 100px;
     height: 100px;

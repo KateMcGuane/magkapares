@@ -129,6 +129,7 @@ function handleCardClick(event) {
       //   firstCardImage.classList.add('image-hidden');
       //   secondCardImage.classList.add('image-hidden');
       // }
+
       let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
       let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
 
