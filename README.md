@@ -154,13 +154,13 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
 ## Credits
 
- ### Resources
+### Resources
 
-  #### Code
+#### Code
 
-  - Copied some of the code from my own Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified to suit the needs of this project.
-  - Used my mentors project as a guide towards my own project. Referenced throughout where code was used [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).
-  - Stackoverflow [How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)
+| First Edition | Second Edition |
+| --- | --- |
+| <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project as a guide towards my own project. Referenced throughout where code was used [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).</li> <li>Stackoverflow [How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array).</li></ul> | <ul><li>[Battle City](https://github.com/Dima-Bulavenko/BattleCity), a project I worked on, was used to help re-structure the layout of this project.</li></ul>
 
 
   #### MarkUp
