@@ -22,7 +22,7 @@ body {
     flex: 1 0 auto;
 }
 
-header {
+/* header {
     padding: 0 1rem;
     position: relative;
     z-index: 99;
@@ -31,17 +31,17 @@ header {
     justify-content: center;
     align-items: baseline;
     background-color: #e3433d;
-}
-
-h1 {
-    font-family: "Patrick Hand SC", sans-serif;
-}
+} */
 
 div {
     display: flex;
     flex-direction: column;
     margin: 10px;
     text-align: center;
+}
+
+h1 {
+    font-family: "Patrick Hand SC", sans-serif;
 }
 
 #card-container {
@@ -76,7 +76,7 @@ div {
 }
 
 .card-back {
-    background-color: #d7ad25;
+    background-color: #e3433d;
 }
 
 .image-hidden {
@@ -86,13 +86,18 @@ div {
 button {
     display: block;
     margin: auto;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 7px;
 }
 
+#start-button {
+    border: 3px solid #3c28a1;
+    background-color: hotpink;
+
+}
 /*decorative for now*/
 #reset-button {
-    padding: 5px;
-    border: 5px solid #3c28a1;
-    border-radius: 10px;
+    border: 3px solid #3c28a1;
     background-color: #24c956;
-    font-weight: bold;
 }
