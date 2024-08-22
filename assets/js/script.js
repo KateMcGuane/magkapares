@@ -1,4 +1,4 @@
-// card data, including pair, image, alt & words
+// card data array, including pair, image, alt & words
 const cardData = [
   {
     'pair': 1,
@@ -51,7 +51,7 @@ const cardData = [
 ]
 
 
-const results = document.getElementById("results")
+const results = document.getElementById("results");
 const cardContainer = document.getElementById('card-container');
 let match = false
 // Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array

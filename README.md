@@ -1,9 +1,6 @@
-![Magkapares Logo](INSERT_PNG_FILE_HERE_OF_LOGO)
-
 # *Magkapares*
 
-
-Magkapares is the Tagalog (Filipino) equivalent of the word "Pairs". This project was inspired by my own learning of the Tagalog language. I wanted to create an interactive learning game based on the memory card game.
+Magkapares is the Tagalog (Filipino) equivalent of the word "Pairs". This project was inspired by my own learning of the Tagalog language. I wanted to create an interactive learning game based on the classic memory card game.
 This game will exercise memory and recollection, all the while learning a new language. It is suitable for children and adults alike.
 The website acts as a stepping stone to learning more about the Phillippines, in a fun way through learning a language.
 
@@ -16,13 +13,13 @@ The website acts as a stepping stone to learning more about the Phillippines, in
 
 ### External user’s goal:
 
-- Play a memorization game.
-- Learn a language.
-- Entertainment.
+- Play a memorisation game
+- Learn a language
+- Entertainment
 
 ### Site owner's goal:
 
-The site’s goal is to provide a fun and beginner friendly learning/memorization game.
+The site’s goal is to provide a fun and beginner friendly learning/memorisation game.
 
 
 ---
@@ -73,6 +70,8 @@ I used a flowchart to illustrate some of the main logical points before I began 
 | --- | --- | --- | --- |
 
 
+THIS WHOLE FEATURES SECTION NEEDS TO BE RE-STRUCTURED.
+
 ### Existing Features
 
 - Cards are shown face down upon starting the game.
@@ -86,7 +85,8 @@ I used a flowchart to illustrate some of the main logical points before I began 
 
   #### Potential Future Developments
 
-  | Feature | Description |
+  | | Feature | Description |
+  | --- | --- | --- |
   | Visuals | - Enhance assets such as images, with clearer visuals and wording.
   <br> - When you hover on the title "Magkapares", the heading flips around/fades into the English version of the word, "Pairs".
   <br> - You can click the information [i] icon that creates a pop-up window when you click on it of how to play the game. |
@@ -160,7 +160,7 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
 | First Edition | Second Edition |
 | --- | --- |
-| <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project as a guide towards my own project. Referenced throughout where code was used [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).</li> <li>Stackoverflow [How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array).</li></ul> | <ul><li>[Battle City](https://github.com/Dima-Bulavenko/BattleCity), a project I worked on, was used to help re-structure the layout of this project.</li></ul>
+| <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project as a guide towards my own project. Referenced throughout where code was used [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).</li> <li>Stackoverflow [How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array).</li></ul> | <ul><li>[Battle City](https://github.com/Dima-Bulavenko/BattleCity), a project I worked on, was used to help re-structure the layout of this project.</li><li>[Learn JavaScript by Building 7 Games - Full Course](https://www.youtube.com/watch?v=ec8vSKJuZTk) helped me re-structure the layout of my project & how I approached it.</ul>
 
 
   #### MarkUp

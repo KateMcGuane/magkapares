@@ -53,21 +53,21 @@ The responsiveness was confirmed with [Responsive Website Design Tester](https:/
 ### Validator Testing
 
 #### HTML
-    No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
-    (INSERT_GIF_FILE_HERE)
+  No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-maths%2F)
+  (INSERT_GIF_FILE_HERE)
 
 #### CSS
-    No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-    (INSERT_GIF_FILE_HERE)
+  No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-maths%252F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  (INSERT_GIF_FILE_HERE)
 
 #### JavaScript
-    No errors were found when passing through the official [Jshint validator](https://jshint.com/)
-    (INSERT_GIF_FILE_HERE)
-      - The following metrics were returned:
-      - There are 11 functions in this file.
-      - Function with the largest signature takes 2 arguments, while the median is 0.
-      - Largest function has 10 statements in it, while the median is 3.
-      - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
+  No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+  (INSERT_GIF_FILE_HERE)
+    - The following metrics were returned:
+    - There are 11 functions in this file.
+    - Function with the largest signature takes 2 arguments, while the median is 0.
+    - Largest function has 10 statements in it, while the median is 3.
+    - The most complex function has a cyclomatic complexity value of 4 while the median is 2.
 
 
 ---
@@ -131,9 +131,7 @@ DUPLICATE THE ABOVE & LABEL FOR ANY EXTRA PAGES CREATED.
 
   ### Known Bugs
 
-### Known Bugs
-
-1. When the second card is clicked on the game, it does not display the image unless they are a matching pair. This will be resolved in future versions. For now, an alert will pop up to say that the pairs do not match, so the user is still aware that it is a mis-match.
-2. The styling for when the cards are clicked is slightly off and needs to be fixed (this was the only error until my final review, see point 3).
-3. I missed a bug that I created at some point while adding my final CSS. I did not have enough time to rectify this bug. It shows up when the pairs match, the card containers take up the entire screen.
-4. The reset button does not have any functionality incorported; the JavaScript code needs to be written for it. I ran out time before I could add it in, and did not want to compromise the game with additional bugs.
+  1. When the second card is clicked on the game, it does not display the image unless they are a matching pair. This will be resolved in future versions. For now, an alert will pop up to say that the pairs do not match, so the user is still aware that it is a mis-match.
+  2. The styling for when the cards are clicked is slightly off and needs to be fixed (this was the only error until my final review, see point 3).
+  3. I missed a bug that I created at some point while adding my final CSS. I did not have enough time to rectify this bug. It shows up when the pairs match, the card containers take up the entire screen.
+  4. The reset button does not have any functionality incorported; the JavaScript code needs to be written for it. I ran out time before I could add it in, and did not want to compromise the game with additional bugs.
