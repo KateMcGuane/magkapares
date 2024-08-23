@@ -9,8 +9,8 @@
     font-family: "Quicksand", sans-serif;
 }
 
-body {
-    /* background-image: url("../images/philippines-map.png"); */
+/* body {
+    background-image: url("../images/philippines-map.png");
     background-color: #d7ad25;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-}
+} */
 
 /* header {
     padding: 0 1rem;
@@ -33,71 +33,71 @@ body {
     background-color: #e3433d;
 } */
 
-div {
+/* div {
     display: flex;
     flex-direction: column;
     margin: 10px;
     text-align: center;
-}
+} */
 
-h1 {
+/* h1 {
     font-family: "Patrick Hand SC", sans-serif;
-}
+} */
 
-#card-container {
+/* #card-container {
     background-color: #1effbc;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /* Holds front of card */
-.card-box {
+/* .card-box {
     width: 100px;
     height: 100px;
     background-color: #d7ad25;
     border: 5px solid #3c28a1;
     border-radius: 10px;
     transition: transform 900ms;
-    /*from flash_cards*/
-    transform-style: preserve-3d;
-    /*from flash_cards*/
+    from flash_cards
+    /* transform-style: preserve-3d;
+    from flash_cards
     position: relative;
-    /*from flash_cards*/
+    from flash_cards
     cursor: pointer;
-    /*from flash_cards*/
-}
+    from flash_cards
+} */ 
 
 /* Target specifics of card div */
-.card-back img{
+/* .card-back img{
     width: 100px;
     height: 100px;
-}
+} */
 
-.card-back {
+/* .card-back {
     background-color: #e3433d;
-}
+} */
 
-.image-hidden {
+/* .image-hidden {
     display: none;
-}
+} */
 
-button {
+/* button {
     display: block;
     margin: auto;
     font-weight: bold;
     border-radius: 10px;
     padding: 7px;
-}
+} */
 
-#start-button {
+/* #start-button {
     border: 3px solid #3c28a1;
     background-color: hotpink;
+} */
 
-}
 /*decorative for now*/
-#reset-button {
+/* #reset-button {
     border: 3px solid #3c28a1;
     background-color: #24c956;
 } */
