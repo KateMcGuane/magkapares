@@ -9,6 +9,16 @@
     font-family: "Quicksand", sans-serif;
 }
 
+/* Sets dimension for gridDisplay */
+.grid {
+    margin: 5px 0 10px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 5px;
+    justify-content: center;
+    perspective: 1000px;
+}
+
 /* body {
     background-image: url("../images/philippines-map.png");
     background-color: #d7ad25;

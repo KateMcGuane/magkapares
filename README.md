@@ -168,10 +168,12 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
 #### Code
 
-| First Edition | Second Edition |
-| --- | --- |
-| <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project as a guide towards my own project. Referenced throughout where code was used [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).</li> <li>Stackoverflow [How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array).</li></ul> | <ul><li>[Battle City](https://github.com/Dima-Bulavenko/BattleCity), a project I worked on, was used to help re-structure the layout of this project.</li><li>[Learn JavaScript by Building 7 Games - Full Course](https://www.youtube.com/watch?v=ec8vSKJuZTk) helped me re-structure the layout of my project & how I approached it.</ul>
+As majority of the code was re-written for this project, so too may have been some of the references from the first edition. I have left them as reference as they contributed to my fundamental understanding of how this project should work.
 
+|  | First Edition | Second Edition |
+| --- | --- | --- |
+| CSS | <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project as a guide towards my own project. Referenced throughout where code was used [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).</li></ul> | [Alien Memory Game](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) had useful references for aligning the cards correctly & responsiveness.
+| JavaScript | | <ul><li>[Stackoverflow How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)</li> <li>[Battle City](https://github.com/Dima-Bulavenko/BattleCity), a project I worked on, was used to help re-structure the layout of this project.</li><li>[Learn JavaScript by Building 7 Games - Full Course](https://www.youtube.com/watch?v=ec8vSKJuZTk) helped me re-structure the layout of my project & how I approached the fundamental logic.</ul> |
 
   #### MarkUp
 
