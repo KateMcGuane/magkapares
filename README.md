@@ -9,6 +9,17 @@ The website acts as a stepping stone to learning more about the Phillippines, in
 
 ---
 
+## Refactoring
+
+Upon revision of this project, there were some key elements changed. The following are all major changes that were applied, along with the reasoning.
+
+| First Edition | Second Edition | Reason for change |
+| --- | --- | --- |
+| &lt;div&gt; id="results">Score: &lt;/div&gt; |	&lt;h3&gt;Score: &lt;span&gt;id="result">&lt;/span&gt;&lt;/h3&gt; | More semantically meaningful & better suited for dynamic content that needs to be updated frequently. This is essential as our score changes as the game progresses. |
+
+
+---
+
 ## User Stories
 
 ### External user’s goal:
@@ -20,7 +31,6 @@ The website acts as a stepping stone to learning more about the Phillippines, in
 ### Site owner's goal:
 
 The site’s goal is to provide a fun and beginner friendly learning/memorisation game.
-
 
 ---
 

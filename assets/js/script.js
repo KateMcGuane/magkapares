@@ -51,97 +51,99 @@ const cardData = [
 ]
 
 
-const results = document.getElementById("results");
-const cardContainer = document.getElementById('card-container');
-let match = false
-// Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-let shufflecardData = cardData.sort(() => Math.random() - 0.5);
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  displayCards();
-  let cards = document.querySelectorAll('.card-box');
-  for (let i = 0; i < cards.length; i++) {
-    cards[i].addEventListener('click', handleCardClick);
-  }
-})
+// const results = document.getElementById("results");
+// const cardContainer = document.getElementById('card-container');
+// let match = false
+// // Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+// let shufflecardData = cardData.sort(() => Math.random() - 0.5);
 
 
-function displayCards() {
-  for (let i = 0; i < shufflecardData.length; i++) {
-
-    // New div element with id, attribute, classes(card-box, card-back); child of card-container
-    const card = document.createElement('div');
-    card.id = shufflecardData[i].word;
-
-    // Assigning pair number to card
-    card.setAttribute('data-pair', shufflecardData[i].pair);
-    card.classList.add('card-box');
-    card.classList.add('card-back');
-
-    // card is now a child element of the cardContainer
-    cardContainer.appendChild(card);
-
-    // new img element with attribute, child of card; assigning given image to card img
-    const cardImage = document.createElement('img');
-    cardImage.setAttribute('src', shufflecardData[i].image);
-
-    // create class to add to image
-    cardImage.classList.add('image-hidden');
-    cardImage.id = `${shufflecardData[i].word}-image`;
-    cardImage.setAttribute('alt', shufflecardData[i].image);
-    card.appendChild(cardImage);
-  }
-}
-
-let clickedCurrentCards = [];
+// document.addEventListener('DOMContentLoaded', function () {
+//   displayCards();
+//   let cards = document.querySelectorAll('.card-box');
+//   for (let i = 0; i < cards.length; i++) {
+//     cards[i].addEventListener('click', handleCardClick);
+//   }
+// })
 
 
-// logic checker
-function handleCardClick(event) {
-  let currentCardImage = document.getElementById(`${event.target.id}-image`);
-  currentCardImage.classList.remove('image-hidden');
+// function displayCards() {
+//   for (let i = 0; i < shufflecardData.length; i++) {
 
-  clickedCurrentCards.push({
-    id: event.target.id,
-    pair: event.target.dataset.pair,
-  });
+//     // New div element with id, attribute, classes(card-box, card-back); child of card-container
+//     const card = document.createElement('div');
+//     card.id = shufflecardData[i].word;
 
-  console.log(event.target.dataset.pair)
+//     // Assigning pair number to card
+//     card.setAttribute('data-pair', shufflecardData[i].pair);
+//     card.classList.add('card-box');
+//     card.classList.add('card-back');
 
-  if (clickedCurrentCards.length >= 2) {
+//     // card is now a child element of the cardContainer
+//     cardContainer.appendChild(card);
 
-    if (clickedCurrentCards[0]["pair"] === clickedCurrentCards[1]["pair"]) {
-      let deleteFirstCard = document.getElementById(clickedCurrentCards[0]['id']);
-      let deleteSecondCard = document.getElementById(clickedCurrentCards[1]['id']);
+//     // new img element with attribute, child of card; assigning given image to card img
+//     const cardImage = document.createElement('img');
+//     cardImage.setAttribute('src', shufflecardData[i].image);
 
-      deleteFirstCard.classList.remove('card-box');
-      deleteSecondCard.classList.remove('card-box');
-    } else {
-      /* Remove pop-up notification */
-      // let confirmation = window.confirm('no match, proceed');
-      match = false
-      results.innerHTML = "is not a match"
+//     // create class to add to image
+//     cardImage.classList.add('image-hidden');
+//     cardImage.id = `${shufflecardData[i].word}-image`;
+//     cardImage.setAttribute('alt', shufflecardData[i].image);
+//     card.appendChild(cardImage);
+//   }
+// }
 
-      // if (!match) {
-      //   let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
-      //   let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
-      //   firstCardImage.classList.add('image-hidden');
-      //   secondCardImage.classList.add('image-hidden');
-      // }
+// let clickedCurrentCards = [];
 
-      let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
-      let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
 
-      /* Timeout added from https://github.com/IuliiaKonovalova/May-Hackathon-Chats */
-      setTimeout(function () {
-        firstCardImage.classList.add('image-hidden');
-        secondCardImage.classList.add('image-hidden');
-        results.innerHTML = "try more"
-      }, 2500);
-    }
-    clickedCurrentCards = [];
-  } else {
-  }
-}
+// // logic checker
+// function handleCardClick(event) {
+//   let currentCardImage = document.getElementById(`${event.target.id}-image`);
+//   currentCardImage.classList.remove('image-hidden');
+
+//   clickedCurrentCards.push({
+//     id: event.target.id,
+//     pair: event.target.dataset.pair,
+//   });
+
+//   console.log(event.target.dataset.pair)
+
+//   if (clickedCurrentCards.length >= 2) {
+
+//     if (clickedCurrentCards[0]["pair"] === clickedCurrentCards[1]["pair"]) {
+//       let deleteFirstCard = document.getElementById(clickedCurrentCards[0]['id']);
+//       let deleteSecondCard = document.getElementById(clickedCurrentCards[1]['id']);
+
+//       deleteFirstCard.classList.remove('card-box');
+//       deleteSecondCard.classList.remove('card-box');
+//     } else {
+//       /* Remove pop-up notification */
+//       // let confirmation = window.confirm('no match, proceed');
+//       match = false
+//       results.innerHTML = "is not a match"
+
+//       // if (!match) {
+//       //   let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
+//       //   let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
+//       //   firstCardImage.classList.add('image-hidden');
+//       //   secondCardImage.classList.add('image-hidden');
+//       // }
+
+//       let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
+//       let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
+
+//       /* Timeout added from https://github.com/IuliiaKonovalova/May-Hackathon-Chats */
+//       setTimeout(function () {
+//         firstCardImage.classList.add('image-hidden');
+//         secondCardImage.classList.add('image-hidden');
+//         results.innerHTML = "try more"
+//       }, 2500);
+//     }
+//     clickedCurrentCards = [];
+//   } else {
+//   }
+// }
 
