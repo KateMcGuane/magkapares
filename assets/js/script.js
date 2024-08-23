@@ -1,54 +1,74 @@
-// Card Data Array - including pair, image, alt & words
-const cardData = [
+// Card Data Array - with our card objects including pair, image, alt & words
+const cardArray = [
   {
     'pair': 1,
-    'image': 'assets/images/card-images/bread-en.png',
+    'img': 'assets/images/card-images/bread-en.png',
     'alt': 'image of a loaf of bread',
-    'word': 'bread',
+    'word': 'bread'
   },
   {
     'pair': 1,
-    'image': 'assets/images/card-images/bread-tg.png',
+    'img': 'assets/images/card-images/bread-tg.png',
     'alt': 'image of a loaf of bread; translates to "tinapay" in tagalog',
-    'word': 'tinapay',
+    'word': 'tinapay'
   },
   {
     'pair': 2,
-    'image': 'assets/images/card-images/fruit-en.png',
-    'alt': 'image of a bowl of fruit',
-    'word': 'fruit',
-  },
-  {
-    'pair': 2,
-    'image': 'assets/images/card-images/fruit-tg.png',
-    'alt': 'image of a bowl of fruit; translates to "prutas" in tagalog',
-    'word': 'prutas',
-  },
-  {
-    'pair': 3,
-    'image': 'assets/images/card-images/fish-en.png',
-    'alt': 'image of a cooked fish',
-    'word': 'fish',
-  },
-  {
-    'pair': 3,
-    'image': 'assets/images/card-images/fish-tg.png',
-    'alt': 'image of a cooked fish; translates to "isda" in tagalog',
-    'word': 'isda',
-  },
-  {
-    'pair': 4,
-    'image': 'assets/images/card-images/egg-en.png',
+    'img': 'assets/images/card-images/egg-en.png',
     'alt': 'image of an egg',
-    'word': 'egg',
+    'word': 'egg'
+  },
+  {
+    'pair': 2,
+    'img': 'assets/images/card-images/egg-tg.png',
+    'alt': 'image of an egg; translates to "itlog" in tagalog',
+    'word': 'itlog'
+  },
+  {
+    'pair': 3,
+    'img': 'assets/images/card-images/fish-en.png',
+    'alt': 'image of a cooked fish',
+    'word': 'fish'
+  },
+  {
+    'pair': 3,
+    'img': 'assets/images/card-images/fish-tg.png',
+    'alt': 'image of a cooked fish; translates to "isda" in tagalog',
+    'word': 'isda'
   },
   {
     'pair': 4,
-    'image': 'assets/images/card-images/egg-tg.png',
-    'alt': 'image of an egg; translates to "itlog" in tagalog',
-    'word': 'itlog',
+    'img': 'assets/images/card-images/fruit-en.png',
+    'alt': 'image of a bowl of fruit',
+    'word': 'fruit'
+  },
+  {
+    'pair': 4,
+    'img': 'assets/images/card-images/fruit-tg.png',
+    'alt': 'image of a bowl of fruit; translates to "prutas" in tagalog',
+    'word': 'prutas'
   },
 ]
+
+
+cardArray.sort(() => Math.random() - 0.5);
+
+// Where cards are 'stored'
+const gridDisplay = document.querySelector('.grid');
+
+
+// Create an element for each item in array
+function createBoard() {
+  for (let i = 0; i < cardArray.length; i++) {
+    const card = document.createElement('img');
+    card.setAttribute('src', 'assets/images/card-images/card-reverse.png');
+    card.setAttribute('data-id', i);
+    gridDisplay.appendChild(card);
+    console.log(card);
+  }
+}
+
+createBoard();
 
 
 
