@@ -1,4 +1,4 @@
-// card data array, including pair, image, alt & words
+// Card Data Array - including pair, image, alt & words
 const cardData = [
   {
     'pair': 1,
@@ -70,11 +70,11 @@ document.addEventListener('DOMContentLoaded', function () {
 function displayCards() {
   for (let i = 0; i < shufflecardData.length; i++) {
 
-    //new div element with id, attribute, classes(card-box, card-back); child of card-container
+    // New div element with id, attribute, classes(card-box, card-back); child of card-container
     const card = document.createElement('div');
     card.id = shufflecardData[i].word;
 
-    //assigning pair number to card
+    // Assigning pair number to card
     card.setAttribute('data-pair', shufflecardData[i].pair);
     card.classList.add('card-box');
     card.classList.add('card-back');
