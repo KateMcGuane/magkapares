@@ -2,49 +2,49 @@
 const cardArray = [
   {
     'pair': 1,
-    'img': 'assets/images/card-images/bread-en.png',
+    'image': 'assets/images/card-images/bread-en.png',
     'alt': 'image of a loaf of bread',
     'word': 'bread'
   },
   {
     'pair': 1,
-    'img': 'assets/images/card-images/bread-tg.png',
+    'image': 'assets/images/card-images/bread-tg.png',
     'alt': 'image of a loaf of bread; translates to "tinapay" in tagalog',
     'word': 'tinapay'
   },
   {
     'pair': 2,
-    'img': 'assets/images/card-images/egg-en.png',
+    'image': 'assets/images/card-images/egg-en.png',
     'alt': 'image of an egg',
     'word': 'egg'
   },
   {
     'pair': 2,
-    'img': 'assets/images/card-images/egg-tg.png',
+    'image': 'assets/images/card-images/egg-tg.png',
     'alt': 'image of an egg; translates to "itlog" in tagalog',
     'word': 'itlog'
   },
   {
     'pair': 3,
-    'img': 'assets/images/card-images/fish-en.png',
+    'image': 'assets/images/card-images/fish-en.png',
     'alt': 'image of a cooked fish',
     'word': 'fish'
   },
   {
     'pair': 3,
-    'img': 'assets/images/card-images/fish-tg.png',
+    'image': 'assets/images/card-images/fish-tg.png',
     'alt': 'image of a cooked fish; translates to "isda" in tagalog',
     'word': 'isda'
   },
   {
     'pair': 4,
-    'img': 'assets/images/card-images/fruit-en.png',
+    'image': 'assets/images/card-images/fruit-en.png',
     'alt': 'image of a bowl of fruit',
     'word': 'fruit'
   },
   {
     'pair': 4,
-    'img': 'assets/images/card-images/fruit-tg.png',
+    'image': 'assets/images/card-images/fruit-tg.png',
     'alt': 'image of a bowl of fruit; translates to "prutas" in tagalog',
     'word': 'prutas'
   },
@@ -62,7 +62,7 @@ const cardsChosen = []; /* Pushing selected cards into array */
 function createBoard() {
   for (let i = 0; i < cardArray.length; i++) {
     const card = document.createElement('img');
-    // card.setAttribute('class', 'card');
+    card.setAttribute('class', 'card');
     card.setAttribute('src', 'assets/images/card-images/card-reverse.png');
     card.setAttribute('data-id', i);
     card.addEventListener('click', flipCard)
@@ -81,6 +81,7 @@ function flipCard() {
   cardsChosen.push(cardArray[cardId].pair);
   console.log('clicked', cardId);
   console.log (cardsChosen);
+  this.setAttribute('src', cardArray[cardId].image);
 }
 
 // const results = document.getElementById("results");

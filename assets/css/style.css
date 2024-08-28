@@ -20,6 +20,12 @@
     perspective: 1000px;
 }
 
+.card {
+    height: 100px;
+    width: 100px;
+}
+
+
 /* body {
     background-image: url("../images/philippines-map.png");
     background-color: #d7ad25;
