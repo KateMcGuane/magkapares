@@ -56,6 +56,7 @@ cardArray.sort(() => Math.random() - 0.5);
 // Where cards are 'stored'
 const gridDisplay = document.querySelector('.grid');
 const cardsChosen = []; /* Pushing selected cards into array */
+const cardsChosenIds = [];
 
 
 // Create an element for each item in array
@@ -67,22 +68,39 @@ function createBoard() {
     card.setAttribute('data-id', i);
     card.addEventListener('click', flipCard)
     gridDisplay.appendChild(card);
-    // console.log(card);
   }
 }
 
 createBoard();
 
 
+function checkMatch() {
+  const cards = document.querySelectorAll('img');
+
+  console.log(cardArray.pair);
+
+  console.log("Check for match");
+  if (cardsChosen[0] == cardsChosen[1]) {
+    alert('You found a match')
+    cards[cardsChosenIds[0].setAttribute('src', 'assets/images/card-images/card-match.png')]
+  }
+}
+
 function flipCard() {
-  console.log(cardArray);
   /* Allowing us to interact with the element we click */
   const cardId = this.getAttribute('data-id');
   cardsChosen.push(cardArray[cardId].pair);
-  console.log('clicked', cardId);
-  console.log (cardsChosen);
+  cardsChosenIds.push(cardId);
+
+  console.log(cardsChosen);
+  console.log(cardsChosenIds);
+
   this.setAttribute('src', cardArray[cardId].image);
+  if (cardsChosen.length === 2) {
+    setTimeout( checkMatch, 500)
+  }
 }
+
 
 // const results = document.getElementById("results");
 // const cardContainer = document.getElementById('card-container');
