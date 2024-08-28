@@ -55,24 +55,33 @@ cardArray.sort(() => Math.random() - 0.5);
 
 // Where cards are 'stored'
 const gridDisplay = document.querySelector('.grid');
+const cardsChosen = []; /* Pushing selected cards into array */
 
 
 // Create an element for each item in array
 function createBoard() {
   for (let i = 0; i < cardArray.length; i++) {
     const card = document.createElement('img');
-    card.setAttribute('class', 'card');
+    // card.setAttribute('class', 'card');
     card.setAttribute('src', 'assets/images/card-images/card-reverse.png');
     card.setAttribute('data-id', i);
+    card.addEventListener('click', flipCard)
     gridDisplay.appendChild(card);
-    console.log(card);
+    // console.log(card);
   }
 }
 
 createBoard();
 
 
-
+function flipCard() {
+  console.log(cardArray);
+  /* Allowing us to interact with the element we click */
+  const cardId = this.getAttribute('data-id');
+  cardsChosen.push(cardArray[cardId].pair);
+  console.log('clicked', cardId);
+  console.log (cardsChosen);
+}
 
 // const results = document.getElementById("results");
 // const cardContainer = document.getElementById('card-container');
