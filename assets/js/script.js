@@ -50,7 +50,7 @@ const cardArray = [
   },
 ]
 
-
+// Game initialisation, shuffle cards
 cardArray.sort(() => Math.random() - 0.5);
 
 // Where cards are 'stored'
@@ -73,21 +73,23 @@ function createBoard() {
 
 createBoard();
 
-
 function checkMatch() {
+  /* Look for all cards on grid via img tag */
   const cards = document.querySelectorAll('img');
-
-  console.log(cardArray.pair);
+  // // console.log(cards);
+  // console.log(cardArray[i].pair);
 
   console.log("Check for match");
-  if (cardsChosen[0] == cardsChosen[1]) {
+  if (cardsChosen[0] === cardsChosen[1]) {
     alert('You found a match')
-    cards[cardsChosenIds[0].setAttribute('src', 'assets/images/card-images/card-match.png')]
+    cards[cardsChosenIds[0]].setAttribute('src', 'assets/images/card-images/card-match.png');
+    cards[cardsChosenIds[1]].setAttribute('src', 'assets/images/card-images/card-match.png');
   }
 }
 
+
 function flipCard() {
-  /* Allowing us to interact with the element we click */
+  /* This --> allowing us to interact with the element we click */
   const cardId = this.getAttribute('data-id');
   cardsChosen.push(cardArray[cardId].pair);
   cardsChosenIds.push(cardId);
