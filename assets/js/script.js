@@ -94,8 +94,13 @@ function checkMatch() {
     cards[optionOneId].revmoveEventListener('click', flipCard);
     cards[optionTwoId].revmoveEventListener('click', flipCard);
     cardsWon.push(cardsChosen);
+  } else {
+    cards[optionOneId].setAttribute('src', 'assets/images/card-images/card-reverse.png');
+    cards[optionTwoId].setAttribute('src', 'assets/images/card-images/card-reverse.png');
+    alert("Sorry try again!");
   }
   cardsChosen = [];
+  cardsChosenIds = [];
 }
 
 
