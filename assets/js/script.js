@@ -55,8 +55,9 @@ cardArray.sort(() => Math.random() - 0.5);
 
 // Where cards are 'stored'
 const gridDisplay = document.querySelector('.grid');
-const cardsChosen = []; /* Pushing selected cards into array */
-const cardsChosenIds = [];
+let cardsChosen = []; /* Pushing selected cards into array */
+let cardsChosenIds = [];
+const cardsWon = [];
 
 
 // Create an element for each item in array
@@ -84,7 +85,11 @@ function checkMatch() {
     alert('You found a match')
     cards[cardsChosenIds[0]].setAttribute('src', 'assets/images/card-images/card-match.png');
     cards[cardsChosenIds[1]].setAttribute('src', 'assets/images/card-images/card-match.png');
+    cards[cardsChosenIds[0]].revmoveEventListener('click', flipCard);
+    cards[cardsChosenIds[1]].revmoveEventListener('click', flipCard);
+    cardsWon.push(cardsChosen);
   }
+  cardsChosen = [];
 }
 
 
