@@ -77,16 +77,19 @@ createBoard();
 function checkMatch() {
   /* Look for all cards on grid via img tag */
   const cards = document.querySelectorAll('img');
+  const optionOneId = cardsChosenIds[0];
+  const optionTwoId = cardsChosenIds[1];
+
   // // console.log(cards);
   // console.log(cardArray[i].pair);
 
   console.log("Check for match");
   if (cardsChosen[0] === cardsChosen[1]) {
     alert('You found a match')
-    cards[cardsChosenIds[0]].setAttribute('src', 'assets/images/card-images/card-match.png');
-    cards[cardsChosenIds[1]].setAttribute('src', 'assets/images/card-images/card-match.png');
-    cards[cardsChosenIds[0]].revmoveEventListener('click', flipCard);
-    cards[cardsChosenIds[1]].revmoveEventListener('click', flipCard);
+    cards[optionOneId].setAttribute('src', 'assets/images/card-images/card-match.png');
+    cards[optionTwoId].setAttribute('src', 'assets/images/card-images/card-match.png');
+    cards[optionOneId].revmoveEventListener('click', flipCard);
+    cards[optionTwoId].revmoveEventListener('click', flipCard);
     cardsWon.push(cardsChosen);
   }
   cardsChosen = [];
