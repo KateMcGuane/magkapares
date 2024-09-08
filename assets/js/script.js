@@ -55,9 +55,10 @@ cardArray.sort(() => Math.random() - 0.5);
 
 // Where cards are 'stored'
 const gridDisplay = document.querySelector('.grid');
+const resultDisplay = document.querySelector('#result');
 let cardsChosen = []; /* Pushing selected cards into array */
 let cardsChosenIds = [];
-const cardsWon = [];
+let cardsWon = [];
 
 
 // Create an element for each item in array
@@ -67,7 +68,7 @@ function createBoard() {
     card.setAttribute('class', 'card');
     card.setAttribute('src', 'assets/images/card-images/card-reverse.png');
     card.setAttribute('data-id', i);
-    card.addEventListener('click', flipCard)
+    card.addEventListener('click', flipCard);
     gridDisplay.appendChild(card);
   }
 }
@@ -91,16 +92,24 @@ function checkMatch() {
     alert('You found a match')
     cards[optionOneId].setAttribute('src', 'assets/images/card-images/card-match.png');
     cards[optionTwoId].setAttribute('src', 'assets/images/card-images/card-match.png');
-    cards[optionOneId].revmoveEventListener('click', flipCard);
-    cards[optionTwoId].revmoveEventListener('click', flipCard);
+    cards[optionOneId].removeEventListener('click', flipCard);
+    cards[optionTwoId].removeEventListener('click', flipCard);
     cardsWon.push(cardsChosen);
   } else {
     cards[optionOneId].setAttribute('src', 'assets/images/card-images/card-reverse.png');
     cards[optionTwoId].setAttribute('src', 'assets/images/card-images/card-reverse.png');
     alert("Sorry try again!");
   }
+  /* Can also use innerHTML instead of textContent */
+  resultDisplay.textContent = cardsWon.length;
   cardsChosen = [];
   cardsChosenIds = [];
+
+  /* Check for if match function */
+
+  if (cardsWon.length === cardArray.length/2) {
+    resultDisplay.textContent = "Congratulations you found them all!"
+  }
 }
 
 
