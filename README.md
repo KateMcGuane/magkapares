@@ -57,12 +57,12 @@ Both fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
 ### Imagery
 
-All card-images created using [Canva](https://www.canva.com/)
+All card-images created using [Canva](https://www.canva.com/).
 
 
 ### Favicon
 
-The favicon is rectangular-shaped (card), with a black question mark and bright pink background to ensure that it stands out when other tabs are open.
+The favicon is rectangular-shaped (card), with a black question mark and bright pink background to ensure that it is identifiable when other tabs are open.
 
 ### Flowchart
 
@@ -160,7 +160,7 @@ As majority of the code was re-written for this project, so too may have been so
 
 |  | First Edition | Second Edition |
 | --- | --- | --- |
-| CSS | <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project as a guide towards my own project. Referenced throughout where code was used [Github](https://github.com/IuliiaKonovalova/flash_cards/tree/main).</li></ul> | [Alien Memory Game](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) had useful references for aligning the cards correctly & responsiveness.
+| CSS | <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project, [Flash Cards](https://github.com/IuliiaKonovalova/flash_cards/tree/main), as a guide towards my own project. It is referenced throughout where used.</li></ul> | <ul><li>[Alien Memory Game](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) had useful references for aligning the cards correctly & responsiveness.</li></ul>
 | JavaScript | | <ul><li>[Stackoverflow How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)</li> <li>[Battle City](https://github.com/Dima-Bulavenko/BattleCity), a project I worked on, was used to help re-structure the layout of this project.</li><li>[Learn JavaScript by Building 7 Games - Full Course](https://www.youtube.com/watch?v=ec8vSKJuZTk) helped me re-structure the layout of my project & how I approached the fundamental logic.</ul> |
 
   #### MarkUp

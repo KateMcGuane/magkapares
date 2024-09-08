@@ -22,8 +22,6 @@ The website was tested on three different browsers: Brave, Chrome, & Microsoft E
   ![Microsoft Edge](INSERT_GIF_FILE_HERE)
 
 
-See [Gameplay](LINK_TO_SECTION) for everything that was tested for on these browsers.
-
 
 ---
 
@@ -114,8 +112,8 @@ DUPLICATE THE ABOVE & LABEL FOR ANY EXTRA PAGES CREATED.
 
   | # | Bug | How I solved the issue | Screenshots |
   | --- | --- | --- | --- |
-  | 1 | --- | --- | --- |
-  | 2 | --- | --- | --- |
+  | 1 | Matching cards not registering. This applies to all types of pairs.  | --- | ![Not Matching 1](assets/images/bugs/pairs-not-matching-1.PNG)  ![Not Matching 2](assets/images/bugs/pairs-not-matching-2.PNG) |
+  | 2 | When the same image is clicked twice, it is registering as a matched pair. Furthermore, when this registered as a matched pair, the image changes. | --- | ![Click Same Image 1](assets/images/bugs/click-same-image-1.PNG) ![Click Same Image 2](assets/images/bugs/click-same-image-2.PNG) ![Click Same Image 3](assets/images/bugs/click-same-image-3.PNG) |
   | 3 | --- | --- | --- |
   | 4 | --- | --- | --- |
   | 5 | --- | --- | --- |
