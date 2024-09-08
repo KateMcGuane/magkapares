@@ -76,35 +76,23 @@ I used a flowchart to illustrate some of the main logical points before I began 
 
 ## Features
 
-| Features | Existing Features | Future Implementations | Screenshots |
-| --- | --- | --- | --- |
 
-
-THIS WHOLE FEATURES SECTION NEEDS TO BE RE-STRUCTURED.
 
 ### Existing Features
 
-- Cards are shown face down upon starting the game.
-- When you click on the first card, a hidden image reveals itself.
-- When you click on another card, it matches and disappears, removing it as a selection option.
-- When you choose a card that doesn't match, the cards return to their original facedown position.
-- The game is complete when all the cards have matched.
-
-
-### Future Features
-
-  #### Potential Future Developments
-
-  | | Feature | Description |
+  | Feature | | Screenshots |
   | --- | --- | --- |
-  | Visuals | - Enhance assets such as images, with clearer visuals and wording.
-  <br> - When you hover on the title "Magkapares", the heading flips around/fades into the English version of the word, "Pairs".
-  <br> - You can click the information [i] icon that creates a pop-up window when you click on it of how to play the game. |
-  | Audio | Sound effects to match the pronounciation of the words revealed.
-  | Gameplay | - Create different levels within the game so that the user can progress and advance their memory/learning skills.
-  <br>- A countdown timer that counts back from a set time limit.
-  <br> - A pop-up banner that states if the user has won when all the cards have matched or if they have run out of time before getting the chance.
-  <br> - A reset button so the player can play again. |
+  | Visuals | <ul><li>When you click the information [i] icon, a modal appears with a set of instructions on how to play the game.</li></li><li>Upon game completion, a modal appears. This states <ol type="a"><li>**WIN** - if all pairs are found before the timer runs out</li>*or*<li>**LOSS** - if the timer runs out before all pairs are found.</li></ol><li>A reset button on the game completion modal so the player can play again.</li></ul>|
+  | Game Algorithm | <ul><li>Cards are shown face down upon starting the game.</li><li>When you click on the first card, a hidden image reveals itself.</li><li>When you click on second card, a hidden image reveals itself. <li>If the cards: <ol type="a"><li>**match** - the illustration changes, allowing no further selections be made to the paired cards. A score is added to the scoreboard for every pair matched.</li>*or*<li>**don't match**, the cards flip back to their original position. The gamescore remains unchanged.</li></ol></li><li>The game is complete when all the cards have matched.</li></ul> |
+  | Timer & Score System | <ul><li>A countdown timer that counts back from a set time limit. When the timer runs out the game is over.</li></ul> |
+
+### Future Gameplay Features
+
+  | Feature |  |
+  | --- | --- |
+  | Visuals | <ul><li>When you hover on the title, "Magkapares", the word transitions into the English version of the word, "Pairs".</li></ul>|
+  | Audio | <ul><li>When a card is revealed, it pronounces the word written on the card.</li><li>Audio cues for matching pairs, mistakes, or game completion.</li></ul>|
+  | Game Progression | <ul><li>Create different levels within the game so that the user can progress and advance their memory/learning skills.</li></ul> |
 
 
 ---
@@ -123,10 +111,10 @@ THIS WHOLE FEATURES SECTION NEEDS TO BE RE-STRUCTURED.
 - [Am I Responsive?](http://ami.responsivedesign.is/)  was used to demonstrate the website on a range of devices.
 - [Canva](https://www.canva.com/) was used to create the favicon.
 - [Coolors](https://coolors.co/) was used to create a colour palette for the site.
-- [DevTools] was used to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created, most notably while logging to the console for JavaScript.
 - [Favicon.io](https://favicon.io/favicon-converter/) was used to convert the favicon image into suitable sizes.
 - [GitHub](https://github.com/) was used to store associated files & developments of the website.
 - [Gitpod](https://www.gitpod.io/) was the IDE used on the second edition of this project.
+- [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) was used to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created, most notably while logging to the console for JavaScript.
 - [Google Fonts](https://fonts.google.com/) was used to extract fonts for the website.
 - [Lucidchart](https://www.lucidchart.com/pages) was used to create a schema for the website.
 - [VS Code](https://code.visualstudio.com/) was the IDE used on the first edition of this project.
