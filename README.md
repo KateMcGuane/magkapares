@@ -117,6 +117,7 @@ I used a flowchart to illustrate some of the main logical points before I began 
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) was used to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created, most notably while logging to the console for JavaScript.
 - [Google Fonts](https://fonts.google.com/) was used to extract fonts for the website.
 - [Lucidchart](https://www.lucidchart.com/pages) was used to create a schema for the website.
+- [Stack Overflow](https://stackoverflow.com/) was used for general consultation and specific coding needs.
 - [VS Code](https://code.visualstudio.com/) was the IDE used on the first edition of this project.
 
  Any specific uses to the following webpages can be found within their relative subtitle of application.
