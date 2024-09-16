@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const gridDisplay = document.querySelector('.grid');
   const resultDisplay = document.querySelector('#result');
   let cardsChosen = []; /* Pushing selected cards into array */
-  let cardsChosenIds = [];
+  let cardsChosenId = [];
   let cardsWon = [];
 
 
@@ -79,18 +79,16 @@ document.addEventListener('DOMContentLoaded', () => {
   function checkMatch() {
     /* Look for all cards on grid via img tag */
     const cards = document.querySelectorAll('img');
-    const optionOneId = cardsChosenIds[0];
-    const optionTwoId = cardsChosenIds[1];
+    const optionOneId = cardsChosenId[0];
+    const optionTwoId = cardsChosenId[1];
 
     console.log(cards);
 
     if (optionOneId == optionTwoId) {
+      console.log("Check for match");
       alert("You have clicked the same image!")
-    }
-
-    console.log("Check for match");
-    if (optionOneId == optionTwoId) {
-      alert('You found a match')
+    } else if (cardsChosen[0] === cardsChosen[1]) {
+      alert('You found a match');
       cards[optionOneId].setAttribute('src', 'assets/images/card-images/card-match.png');
       cards[optionTwoId].setAttribute('src', 'assets/images/card-images/card-match.png');
       cards[optionOneId].removeEventListener('click', flipCard);
@@ -104,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
     /* Can also use innerHTML instead of textContent */
     resultDisplay.textContent = cardsWon.length;
     cardsChosen = [];
-    cardsChosenIds = [];
+    cardsChosenId = [];
 
     /* Check for if match function */
 
@@ -130,99 +128,3 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
 })
-
-
-// const results = document.getElementById("results");
-// const cardContainer = document.getElementById('card-container');
-// let match = false
-// // Credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
-// let shufflecardData = cardData.sort(() => Math.random() - 0.5);
-
-
-// document.addEventListener('DOMContentLoaded', function () {
-//   displayCards();
-//   let cards = document.querySelectorAll('.card-box');
-//   for (let i = 0; i < cards.length; i++) {
-//     cards[i].addEventListener('click', handleCardClick);
-//   }
-// })
-
-
-// function displayCards() {
-//   for (let i = 0; i < shufflecardData.length; i++) {
-
-//     // New div element with id, attribute, classes(card-box, card-back); child of card-container
-//     const card = document.createElement('div');
-//     card.id = shufflecardData[i].word;
-
-//     // Assigning pair number to card
-//     card.setAttribute('data-pair', shufflecardData[i].pair);
-//     card.classList.add('card-box');
-//     card.classList.add('card-back');
-
-//     // card is now a child element of the cardContainer
-//     cardContainer.appendChild(card);
-
-//     // new img element with attribute, child of card; assigning given image to card img
-//     const cardImage = document.createElement('img');
-//     cardImage.setAttribute('src', shufflecardData[i].image);
-
-//     // create class to add to image
-//     cardImage.classList.add('image-hidden');
-//     cardImage.id = `${shufflecardData[i].word}-image`;
-//     cardImage.setAttribute('alt', shufflecardData[i].image);
-//     card.appendChild(cardImage);
-//   }
-// }
-
-// let clickedCurrentCards = [];
-
-
-// // logic checker
-// function handleCardClick(event) {
-//   let currentCardImage = document.getElementById(`${event.target.id}-image`);
-//   currentCardImage.classList.remove('image-hidden');
-
-//   clickedCurrentCards.push({
-//     id: event.target.id,
-//     pair: event.target.dataset.pair,
-//   });
-
-//   console.log(event.target.dataset.pair)
-
-//   if (clickedCurrentCards.length >= 2) {
-
-//     if (clickedCurrentCards[0]["pair"] === clickedCurrentCards[1]["pair"]) {
-//       let deleteFirstCard = document.getElementById(clickedCurrentCards[0]['id']);
-//       let deleteSecondCard = document.getElementById(clickedCurrentCards[1]['id']);
-
-//       deleteFirstCard.classList.remove('card-box');
-//       deleteSecondCard.classList.remove('card-box');
-//     } else {
-//       /* Remove pop-up notification */
-//       // let confirmation = window.confirm('no match, proceed');
-//       match = false
-//       results.innerHTML = "is not a match"
-
-//       // if (!match) {
-//       //   let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
-//       //   let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
-//       //   firstCardImage.classList.add('image-hidden');
-//       //   secondCardImage.classList.add('image-hidden');
-//       // }
-
-//       let firstCardImage = document.getElementById(`${clickedCurrentCards[0]['id']}-image`);
-//       let secondCardImage = document.getElementById(`${clickedCurrentCards[1]['id']}-image`);
-
-//       /* Timeout added from https://github.com/IuliiaKonovalova/May-Hackathon-Chats */
-//       setTimeout(function () {
-//         firstCardImage.classList.add('image-hidden');
-//         secondCardImage.classList.add('image-hidden');
-//         results.innerHTML = "try more"
-//       }, 2500);
-//     }
-//     clickedCurrentCards = [];
-//   } else {
-//   }
-// }
-
