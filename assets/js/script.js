@@ -74,7 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  createBoard();
 
   function checkMatch() {
     /* Look for all cards on grid via img tag */
@@ -128,3 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   
 })
+
+
+createBoard();
