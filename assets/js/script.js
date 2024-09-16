@@ -4,49 +4,49 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       'pair': 1,
       'image': 'assets/images/card-images/bread-en.png',
-      'alt': 'image of a loaf of bread; "Bread" translates to "Tinapay" in tagalog',
+      'alt': 'image of a loaf of bread (English)',
       'word': 'bread'
     },
     {
       'pair': 1,
       'image': 'assets/images/card-images/bread-tg.png',
-      'alt': 'image of a loaf of bread; "Tinapay" translates to "Bread" in english',
+      'alt': 'image of a loaf of bread (Tagalog: tinapay)',
       'word': 'tinapay'
     },
     {
       'pair': 2,
       'image': 'assets/images/card-images/egg-en.png',
-      'alt': 'image of an egg; "Egg" translates to "Itlog" in tagalog',
+      'alt': 'image of an egg (English)',
       'word': 'egg'
     },
     {
       'pair': 2,
       'image': 'assets/images/card-images/egg-tg.png',
-      'alt': 'image of an egg; "Itlog" translates to "Egg" in english',
+      'alt': 'image of an egg (Tagalog: itlog)',
       'word': 'itlog'
     },
     {
       'pair': 3,
       'image': 'assets/images/card-images/fish-en.png',
-      'alt': 'image of a cooked fish; "Fish" translates to "Isda" in tagalog',
+      'alt': 'image of a cooked fish (English)',
       'word': 'fish'
     },
     {
       'pair': 3,
       'image': 'assets/images/card-images/fish-tg.png',
-      'alt': 'image of a cooked fish; "Isda" translates to "Fish" in english',
+      'alt': 'image of a cooked fish; (Tagalog: isda)',
       'word': 'isda'
     },
     {
       'pair': 4,
       'image': 'assets/images/card-images/fruit-en.png',
-      'alt': 'image of a bowl of fruit; "Fruit" translates to "Prutas" in tagalog',
+      'alt': 'image of a bowl of fruit (English)',
       'word': 'fruit'
     },
     {
       'pair': 4,
       'image': 'assets/images/card-images/fruit-tg.png',
-      'alt': 'image of a bowl of fruit; "Prutas" translates to "fruit" in english',
+      'alt': 'image of a bowl of fruit; "(Tagalog: prutas)',
       'word': 'prutas'
     },
   ]
