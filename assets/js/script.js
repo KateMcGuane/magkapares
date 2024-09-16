@@ -4,49 +4,49 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       'pair': 1,
       'image': 'assets/images/card-images/bread-en.png',
-      'alt': 'image of a loaf of bread',
+      'alt': 'image of a loaf of bread; "Bread" translates to "Tinapay" in tagalog',
       'word': 'bread'
     },
     {
       'pair': 1,
       'image': 'assets/images/card-images/bread-tg.png',
-      'alt': 'image of a loaf of bread; translates to "tinapay" in tagalog',
+      'alt': 'image of a loaf of bread; "Tinapay" translates to "Bread" in english',
       'word': 'tinapay'
     },
     {
       'pair': 2,
       'image': 'assets/images/card-images/egg-en.png',
-      'alt': 'image of an egg',
+      'alt': 'image of an egg; "Egg" translates to "Itlog" in tagalog',
       'word': 'egg'
     },
     {
       'pair': 2,
       'image': 'assets/images/card-images/egg-tg.png',
-      'alt': 'image of an egg; translates to "itlog" in tagalog',
+      'alt': 'image of an egg; "Itlog" translates to "Egg" in english',
       'word': 'itlog'
     },
     {
       'pair': 3,
       'image': 'assets/images/card-images/fish-en.png',
-      'alt': 'image of a cooked fish',
+      'alt': 'image of a cooked fish; "Fish" translates to "Isda" in tagalog',
       'word': 'fish'
     },
     {
       'pair': 3,
       'image': 'assets/images/card-images/fish-tg.png',
-      'alt': 'image of a cooked fish; translates to "isda" in tagalog',
+      'alt': 'image of a cooked fish; "Isda" translates to "Fish" in english',
       'word': 'isda'
     },
     {
       'pair': 4,
       'image': 'assets/images/card-images/fruit-en.png',
-      'alt': 'image of a bowl of fruit',
+      'alt': 'image of a bowl of fruit; "Fruit" translates to "Prutas" in tagalog',
       'word': 'fruit'
     },
     {
       'pair': 4,
       'image': 'assets/images/card-images/fruit-tg.png',
-      'alt': 'image of a bowl of fruit; translates to "prutas" in tagalog',
+      'alt': 'image of a bowl of fruit; "Prutas" translates to "fruit" in english',
       'word': 'prutas'
     },
   ]
@@ -116,10 +116,10 @@ document.addEventListener('DOMContentLoaded', () => {
     /* This --> allowing us to interact with the element we click */
     const cardId = this.getAttribute('data-id');
     cardsChosen.push(cardArray[cardId].pair);
-    cardsChosenIds.push(cardId);
+    cardsChosenId.push(cardId);
 
     console.log(cardsChosen);
-    console.log(cardsChosenIds);
+    console.log(cardsChosenId);
 
     this.setAttribute('src', cardArray[cardId].image);
     if (cardsChosen.length === 2) {
