@@ -54,8 +54,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Game initialisation, shuffle cards
   cardArray.sort(() => Math.random() - 0.5);
 
-  // Where cards are 'stored'
-  const gridDisplay = document.querySelector('.grid');
+  // Global Variables 
+  const gridDisplay = document.querySelector('.grid');  /* Where cards are 'stored' */
   const resultDisplay = document.querySelector('#result');
   let cardsChosen = []; /* Pushing selected cards into array */
   let cardsChosenId = [];
