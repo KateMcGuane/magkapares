@@ -76,55 +76,62 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   function checkMatch() {
-    /* Look for all cards on grid via img tag */
     const cards = document.querySelectorAll('img');
     const optionOneId = cardsChosenId[0];
     const optionTwoId = cardsChosenId[1];
-
-    console.log(cards);
-
-    if (optionOneId == optionTwoId) {
-      console.log("Check for match");
-      alert("You have clicked the same image!")
-    } else if (cardsChosen[0] === cardsChosen[1]) {
-      alert('You found a match');
+  
+    // Case 1: A match found
+    if (cardsChosen[0] === cardsChosen[1]) {
+      alert('You found a match!');
       cards[optionOneId].setAttribute('src', 'assets/images/card-images/card-match.png');
       cards[optionTwoId].setAttribute('src', 'assets/images/card-images/card-match.png');
+      // Remove event listeners to prevent further clicks on matched cards
       cards[optionOneId].removeEventListener('click', flipCard);
       cards[optionTwoId].removeEventListener('click', flipCard);
+      // Push the matched pair to cardsWon
       cardsWon.push(cardsChosen);
-    } else {
-      cards[optionOneId].setAttribute('src', 'assets/images/card-images/card-reverse.png');
-      cards[optionTwoId].setAttribute('src', 'assets/images/card-images/card-reverse.png');
-      alert("Sorry try again!");
+    } 
+    // Case 2: No match
+    else {
+      // Flip both cards back to their reverse side after a short delay
+      setTimeout(() => {
+        cards[optionOneId].setAttribute('src', 'assets/images/card-images/card-reverse.png');
+        cards[optionTwoId].setAttribute('src', 'assets/images/card-images/card-reverse.png');
+        // Re-enable click event on both cards since they didn't match
+        cards[optionOneId].addEventListener('click', flipCard);
+        cards[optionTwoId].addEventListener('click', flipCard);
+        alert("Sorry, try again!");
+      }, 500); // Add delay for better user experience
     }
-    /* Can also use innerHTML instead of textContent */
+  
+    // Update the score/result display
     resultDisplay.textContent = cardsWon.length;
+  
+    // Clear the arrays for the next turn
     cardsChosen = [];
     cardsChosenId = [];
-
-    /* Check for if match function */
-
-    if (cardsWon.length === cardArray.length/2) {
-      resultDisplay.textContent = "Congratulations you found them all!"
+  
+    // Case 3: Game won (all matches found)
+    if (cardsWon.length === cardArray.length / 2) {
+      resultDisplay.textContent = "Congratulations! You've found them all!";
     }
   }
 
 
   function flipCard() {
-    /* This --> allowing us to interact with the element we click */
     const cardId = this.getAttribute('data-id');
     cardsChosen.push(cardArray[cardId].pair);
     cardsChosenId.push(cardId);
-
-    console.log(cardsChosen);
-    console.log(cardsChosenId);
-
     this.setAttribute('src', cardArray[cardId].image);
+    
+    // Remove the event listener for the card that's clicked
+    this.removeEventListener('click', flipCard);
+    
     if (cardsChosen.length === 2) {
-      setTimeout( checkMatch, 500)
+      setTimeout(checkMatch, 500); // Delay to allow flipping animation
     }
   }
+  
   
   createBoard();
 
