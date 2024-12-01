@@ -75,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
       card.addEventListener('click', flipCard);
       gridDisplay.appendChild(card);
     }
-    startCountdown();
   }
 
 
@@ -92,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function flipCard() {
+    startCountdown();
     const cardId = this.getAttribute('data-id');
 
     if (!cardsChosenId.includes(cardId)) {
