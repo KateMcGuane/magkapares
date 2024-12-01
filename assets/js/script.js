@@ -55,9 +55,9 @@ document.addEventListener('DOMContentLoaded', () => {
   cardArray.sort(() => Math.random() - 0.5);
 
   // Global Variables
-  // Where cards are 'stored' 
   const gridDisplay = document.querySelector('.grid');  /* Where cards are 'stored' */
   const resultDisplay = document.querySelector('#result');
+  // Where cards are 'stored' 
   let cardsChosen = []; /* Pushing selected cards into array */
   let cardsChosenId = [];
   let cardsWon = [];
@@ -72,6 +72,21 @@ document.addEventListener('DOMContentLoaded', () => {
       card.setAttribute('data-id', i);
       card.addEventListener('click', flipCard);
       gridDisplay.appendChild(card);
+    }
+  }
+
+
+  function flipCard() {
+    const cardId = this.getAttribute('data-id');
+
+    if (!cardsChosenId.includes(cardId)) {
+      cardsChosen.push(cardArray[cardId].pair);
+      cardsChosenId.push(cardId);
+      this.setAttribute('src', cardArray[cardId].image);
+  
+      if (cardsChosen.length === 2) {
+        setTimeout(checkMatch, 500); // Delay for flipping animation
+      }
     }
   }
 
@@ -115,21 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Case 3: Game won (all matches found)
     if (cardsWon.length === cardArray.length / 2) {
       resultDisplay.textContent = "Congratulations! You've found them all!";
-    }
-  }
-
-
-  function flipCard() {
-    const cardId = this.getAttribute('data-id');
-    cardsChosen.push(cardArray[cardId].pair);
-    cardsChosenId.push(cardId);
-    this.setAttribute('src', cardArray[cardId].image);
-    
-    // Remove the event listener for the card that's clicked
-    this.removeEventListener('click', flipCard);
-    
-    if (cardsChosen.length === 2) {
-      setTimeout(checkMatch, 500); // Delay to allow flipping animation
     }
   }
   
