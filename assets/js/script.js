@@ -57,10 +57,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // Global Variables
   const gridDisplay = document.querySelector('.grid');  /* Where cards are 'stored' */
   const resultDisplay = document.querySelector('#result');
-  // Where cards are 'stored' 
+  const timerDisplay = document.querySelector('.time-remaining');
   let cardsChosen = []; /* Pushing selected cards into array */
   let cardsChosenId = [];
   let cardsWon = [];
+  let timeRemaining = 60;
+  let countdownInterval;
  
 
   // Create an element for item in array
@@ -73,8 +75,21 @@ document.addEventListener('DOMContentLoaded', () => {
       card.addEventListener('click', flipCard);
       gridDisplay.appendChild(card);
     }
+    startCountdown();
   }
 
+
+  function startCountdown() {
+    timerDisplay.textContent = timeRemaining;
+    countdownInterval = setInterval(() => {
+      timeRemaining--;
+      timerDisplay.textContent = timeRemaining;
+      if (timeRemaining <= 0) {
+        clearInterval(countdownInterval);
+        endGame(false);
+      }
+    }, 1000);
+  }
 
   function flipCard() {
     const cardId = this.getAttribute('data-id');
