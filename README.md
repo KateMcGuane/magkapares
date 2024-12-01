@@ -13,7 +13,7 @@ The website acts as a stepping stone to learning more about the Phillippines, in
 
 Upon revision of this project, there were some key elements changed. The following are all major changes that were applied, along with the reasoning.
 
-| First Edition | Second Edition | Reason for change |
+| 1st Edition | 2nd Edition | Reason for change |
 | --- | --- | --- |
 | &lt;div&gt; id="results">Score: &lt;/div&gt; |	&lt;h3&gt;Score: &lt;span&gt;id="result">&lt;/span&gt;&lt;/h3&gt; | More semantically meaningful & better suited for dynamic content that needs to be updated frequently. This is essential as our score changes as the game progresses. |
 
@@ -159,10 +159,10 @@ Please see [TESTING.md](TESTING.md) for a comprehensive list of tests performed.
 
 As majority of the code was re-written for this project, so too may have been some of the references from the first edition. I have left them as reference as they contributed to my fundamental understanding of how this project should work.
 
-|  | First Edition | Second Edition |
+|  | 1st Edition | 2nd Edition |
 | --- | --- | --- |
 | CSS | <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project, [Flash Cards](https://github.com/IuliiaKonovalova/flash_cards/tree/main), as a guide towards my own project. It is referenced throughout where used.</li></ul> | <ul><li>[Alien Memory Game](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) had useful references for aligning the cards correctly & responsiveness.</li></ul>
-| JavaScript | | <ul><li>[Stackoverflow How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)</li> <li>[Battle City](https://github.com/Dima-Bulavenko/BattleCity), a project I worked on, was used to help re-structure the layout of this project.</li><li>[Learn JavaScript by Building 7 Games - Full Course](https://www.youtube.com/watch?v=ec8vSKJuZTk) helped me re-structure the layout of my project & how I approached the fundamental logic.</ul> |
+| JavaScript | | <ul><li>[Stackoverflow How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)</li> <li>[Battle City](https://github.com/Dima-Bulavenko/BattleCity), a project I worked on, was used to help re-structure the layout of this project.</li><li>[Learn JavaScript by Building 7 Games - Full Course](https://www.youtube.com/watch?v=ec8vSKJuZTk) @(0:18:42) helped me re-structure the layout of my project & how I approached the fundamental logic.</ul> |
 
   #### MarkUp
 
@@ -179,7 +179,7 @@ As majority of the code was re-written for this project, so too may have been so
 
 ### Acknowledgements
 
-  - To Sarah, thank you so much for your time, energy and commitment to helping me understand a bit better, and helping me set up my VS Code workspace. I am positive that all those growing pains will pay off in the near future.
+  - To Sarah, thank you so much for your time, energy and commitment to my learning.
   - Thank you to my mentor, Juliia, who managed to fit a super-human amount into our sessions. Your guidance, patience and empathy kept me going.
   - Thank you to my partner Mikhail, for your support and nourishing meals.
   ---
