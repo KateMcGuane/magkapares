@@ -54,13 +54,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // Game initialisation, shuffle cards
   cardArray.sort(() => Math.random() - 0.5);
 
-  // Global Variables 
+  // Global Variables
+  // Where cards are 'stored' 
   const gridDisplay = document.querySelector('.grid');  /* Where cards are 'stored' */
   const resultDisplay = document.querySelector('#result');
   let cardsChosen = []; /* Pushing selected cards into array */
   let cardsChosenId = [];
   let cardsWon = [];
-
+ 
 
   // Create an element for item in array
   function createBoard() {
