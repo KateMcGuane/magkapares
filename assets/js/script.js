@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const gridDisplay = document.querySelector('.grid');  // Where cards are 'stored'
   const resultDisplay = document.querySelector('#result');
   const timerDisplay = document.querySelector('.time-remaining');
-  const resetButton = document.getElementById('#reset-button');
+  const resetButton = document.getElementById('reset-button');
   let cardsChosen = []; // Pushing selected cards into array
   let cardsChosenId = [];
   let cardsWon = [];
@@ -200,7 +200,6 @@ document.addEventListener('DOMContentLoaded', () => {
     timerDisplay.textContent = timeRemaining;
     countdownStarted = false;
     clearInterval(countdownInterval);
-    createBoard();
   }
   
   resetButton.addEventListener('click', resetGame);
