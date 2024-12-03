@@ -25,10 +25,9 @@
     width: 100px;
 }
 
-
-/* body {
-    background-image: url("../images/philippines-map.png");
-    background-color: #d7ad25;
+body {
+    /* background-image: url("../images/philippines-map.png"); */
+    background-color: #1effbc;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -37,7 +36,7 @@
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-} */
+}
 
 /* header {
     padding: 0 1rem;
@@ -57,9 +56,9 @@
     text-align: center;
 } */
 
-/* h1 {
+h1 {
     font-family: "Patrick Hand SC", sans-serif;
-} */
+}
 
 /* #card-container {
     background-color: #1effbc;
@@ -84,7 +83,7 @@
     from flash_cards
     cursor: pointer;
     from flash_cards
-} */ 
+}
 
 /* Target specifics of card div */
 /* .card-back img{
@@ -115,5 +114,5 @@ button {
 
 #reset-button {
     border: 3px solid #3c28a1;
-    background-color: #24c956;
+    background-color: #e3433d;
 }
