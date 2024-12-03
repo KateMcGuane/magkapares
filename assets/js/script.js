@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let timeRemaining = 60;
   let countdownStarted = false;
   let countdownInterval;
-  let isCheckingMatch;
+  let isCheckingMatch = false;
  
 
   // Create an element for item in array
@@ -153,7 +153,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Clear the arrays for the next turn
     cardsChosen = [];
     cardsChosenId = [];
-    isCheckingMatch = false; // Reset to enable further clicks
+
+    // Reset to enable further clicks
+    isCheckingMatch = false;
   
     // Case 3: Game won (all matches found)
     if (cardsWon.length === cardArray.length / 2) {
