@@ -90,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 1000);
   }
 
+
   function flipCard() {
     startCountdown();
     const cardId = this.getAttribute('data-id');
@@ -144,7 +145,21 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Case 3: Game won (all matches found)
     if (cardsWon.length === cardArray.length / 2) {
+      endGame(true); // All matches found, so end the game
+    }
+  }
+
+  function endGame(hasWon) {
+    clearInterval(countdownInterval); // Stop the countdown timer
+    if (hasWon) {
       resultDisplay.textContent = "Congratulations! You've found them all!";
+      alert("You won the game!");
+    } else {
+      resultDisplay.textContent = "Game over! Time's up!";
+      alert("Time's up! Better luck next time!");
+      // Disable all cards
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(card => card.removeEventListener('click', flipCard));
     }
   }
   
