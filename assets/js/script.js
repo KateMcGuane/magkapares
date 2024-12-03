@@ -58,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const gridDisplay = document.querySelector('.grid');  // Where cards are 'stored'
   const resultDisplay = document.querySelector('#result');
   const timerDisplay = document.querySelector('.time-remaining');
+  const resetButton = document.getElementById('#reset-button');
   let cardsChosen = []; // Pushing selected cards into array
   let cardsChosenId = [];
   let cardsWon = [];
@@ -176,8 +177,33 @@ document.addEventListener('DOMContentLoaded', () => {
       cards.forEach(card => card.removeEventListener('click', flipCard));
     }
   }
-  
-  
-  createBoard();
 
+
+  function resetGame() {
+    alert("Game has been reset!");
+
+    // Clear all card states
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+      card.setAttribute('src', 'assets/images/card-images/card-reverse.png');
+      card.addEventListener('click', flipCard);
+    });
+    
+    // Shuffle card array
+    cardArray.sort(() => Math.random() - 0.5);
+    // Clear the game state variables
+    cardsChosen = [];
+    cardsChosenId = [];
+    cardsWon = [];
+    resultDisplay.textContent = '0';
+    timeRemaining = 60;
+    timerDisplay.textContent = timeRemaining;
+    countdownStarted = false;
+    clearInterval(countdownInterval);
+    createBoard();
+  }
+  
+  resetButton.addEventListener('click', resetGame);
+
+  createBoard();
 })

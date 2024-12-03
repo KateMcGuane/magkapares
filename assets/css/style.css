@@ -100,21 +100,20 @@
     display: none;
 } */
 
-/* button {
+button {
     display: block;
     margin: auto;
     font-weight: bold;
     border-radius: 10px;
     padding: 7px;
-} */
+}
 
 /* #start-button {
     border: 3px solid #3c28a1;
     background-color: hotpink;
 } */
 
-/*decorative for now*/
-/* #reset-button {
+#reset-button {
     border: 3px solid #3c28a1;
     background-color: #24c956;
-} */
+}
