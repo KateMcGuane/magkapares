@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       'pair': 3,
       'image': 'assets/images/card-images/fish-tg.png',
-      'alt': 'image of a cooked fish; (Tagalog: isda)',
+      'alt': 'image of a cooked fish (Tagalog: isda)',
       'word': 'isda'
     },
     {
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       'pair': 4,
       'image': 'assets/images/card-images/fruit-tg.png',
-      'alt': 'image of a bowl of fruit; "(Tagalog: prutas)',
+      'alt': 'image of a bowl of fruit "(Tagalog: prutas)',
       'word': 'prutas'
     },
   ]
@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let timeRemaining = 60;
   let countdownStarted = false;
   let countdownInterval;
+  let isCheckingMatch;
  
 
   // Create an element for item in array
@@ -93,8 +94,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   function flipCard() {
-    if (cardsChosen.length >=2) {
-      return;
+    if (cardsChosen.length >=2 || isCheckingMatch) {
+      return; // Prevent flipping if 2 cards chosen or match check in progress
     }
 
     if (!countdownStarted) {
@@ -110,6 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
       this.setAttribute('src', cardArray[cardId].image);
   
       if (cardsChosen.length === 2) {
+        isCheckingMatch =true;
         setTimeout(checkMatch, 500); // Delay for flipping animation
       }
     }
@@ -151,10 +153,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Clear the arrays for the next turn
     cardsChosen = [];
     cardsChosenId = [];
+    isCheckingMatch = false; // Reset to enable further clicks
   
     // Case 3: Game won (all matches found)
     if (cardsWon.length === cardArray.length / 2) {
-      endGame(true); // All matches found, so end the game
+      endGame(true); // All matches found => end game
     }
   }
 
