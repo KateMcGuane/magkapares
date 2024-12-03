@@ -93,6 +93,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   function flipCard() {
+    if (cardsChosen.length >=2) {
+      return;
+    }
+
     if (!countdownStarted) {
       startCountdown();
       countdownStarted = true;
