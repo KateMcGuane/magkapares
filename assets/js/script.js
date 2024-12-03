@@ -55,10 +55,10 @@ document.addEventListener('DOMContentLoaded', () => {
   cardArray.sort(() => Math.random() - 0.5);
 
   // Global Variables
-  const gridDisplay = document.querySelector('.grid');  /* Where cards are 'stored' */
+  const gridDisplay = document.querySelector('.grid');  // Where cards are 'stored'
   const resultDisplay = document.querySelector('#result');
   const timerDisplay = document.querySelector('.time-remaining');
-  let cardsChosen = []; /* Pushing selected cards into array */
+  let cardsChosen = []; // Pushing selected cards into array
   let cardsChosenId = [];
   let cardsWon = [];
   let timeRemaining = 60;
