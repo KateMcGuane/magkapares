@@ -62,6 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let cardsChosenId = [];
   let cardsWon = [];
   let timeRemaining = 60;
+  let countdownStarted = false;
   let countdownInterval;
  
 
@@ -92,7 +93,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   function flipCard() {
-    startCountdown();
+    if (!countdownStarted) {
+      startCountdown();
+      countdownStarted = true;
+    }
+    
     const cardId = this.getAttribute('data-id');
 
     if (!cardsChosenId.includes(cardId)) {
