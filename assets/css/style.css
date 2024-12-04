@@ -10,24 +10,50 @@
     text-align: center;
 }
 
-/* Sets dimension for gridDisplay */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
 .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 20px 0;
+}
+
+/* Sets dimension for gridDisplay */
+/* .grid {
     margin: 5px 0 10px;
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 5px;
+    grid-gap: 10px;
     justify-content: center;
     perspective: 1000px;
-}
+} */
 
 .card {
     height: 100px;
     width: 100px;
+    cursor: pointer;
+    transition: transform 0.3 ease;
 }
 
-body {
+.card:hover {
+    transform: scale(1.05); /* Create zoom effect over hover */
+}
+
+/* body {
     /* background-image: url("../images/philippines-map.png"); */
-    background-color: #1effbc;
+   /* background-color: #1effbc;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -36,7 +62,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-}
+} */ 
 
 /* header {
     padding: 0 1rem;
@@ -112,7 +138,27 @@ button {
     background-color: hotpink;
 } */
 
-#reset-button {
+/* #reset-button {
     border: 3px solid #3c28a1;
     background-color: #e3433d;
+} */
+
+#result, .time-remaining {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#reset-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#reset-button:hover {
+    background-color: #218838;
 }
