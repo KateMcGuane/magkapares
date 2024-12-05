@@ -82,8 +82,10 @@ body {
     text-align: center;
 } */
 
-h1 {
+#logo {
     font-family: "Patrick Hand SC", sans-serif;
+    color: #e3433d;
+    font-size: 50px;
 }
 
 /* #card-container {
@@ -146,6 +148,15 @@ button {
 #result, .time-remaining {
     font-size: 1.5em;
     margin-top: 20px;
+    display: inline-block;  /* Make the span behave like a box */
+    padding: 5px 10px;      /* Add padding for space inside the box */
+    background-color: #f0f0f0;  /* Light gray background for shading */
+    border: 1px solid #ccc;  /* Add a border */
+    border-radius: 5px;      /* Optional: Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    font-weight: bold;       /* Make the text bold */
+    min-width: 50px;         /* Minimum width for the box */
+    text-align: center;      /* Center the text inside the box */
 }
 
 #reset-button {
