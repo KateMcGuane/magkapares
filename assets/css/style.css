@@ -23,6 +23,22 @@ body {
     background-color: #f0f0f0;
 }
 
+#logo {
+    font-family: "Patrick Hand SC", sans-serif;
+    color: #e3433d;
+    font-size: 4em;
+}
+
+h4 {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+h5 {
+    font-size: 1em;
+    padding: 5px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -30,62 +46,18 @@ body {
     margin: 20px 0;
 }
 
-/* Sets dimension for gridDisplay */
-/* .grid {
-    margin: 5px 0 10px;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
-    justify-content: center;
-    perspective: 1000px;
-} */
-
 .card {
     height: 100px;
     width: 100px;
     cursor: pointer;
-    transition: transform 0.3 ease;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card:hover {
     transform: scale(1.05); /* Create zoom effect over hover */
-}
-
-/* body {
-    /* background-image: url("../images/philippines-map.png"); */
-   /* background-color: #1effbc;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-} */ 
-
-/* header {
-    padding: 0 1rem;
-    position: relative;
-    z-index: 99;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    background-color: #e3433d;
-} */
-
-/* div {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    text-align: center;
-} */
-
-#logo {
-    font-family: "Patrick Hand SC", sans-serif;
-    color: #e3433d;
-    font-size: 50px;
 }
 
 /* #card-container {
@@ -127,6 +99,47 @@ body {
     display: none;
 } */
 
+/* Sets dimension for gridDisplay */
+/* .grid {
+    margin: 5px 0 10px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    justify-content: center;
+    perspective: 1000px;
+} */
+
+/* body {
+    /* background-image: url("../images/philippines-map.png"); */
+   /* background-color: #1effbc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+} */ 
+
+/* header {
+    padding: 0 1rem;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #e3433d;
+} */
+
+/* div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+} */
+
 button {
     display: block;
     margin: auto;
@@ -135,28 +148,18 @@ button {
     padding: 7px;
 }
 
-/* #start-button {
-    border: 3px solid #3c28a1;
-    background-color: hotpink;
-} */
-
-/* #reset-button {
-    border: 3px solid #3c28a1;
-    background-color: #e3433d;
-} */
-
 #result, .time-remaining {
     font-size: 1.5em;
     margin-top: 20px;
-    display: inline-block;  /* Make the span behave like a box */
-    padding: 5px 10px;      /* Add padding for space inside the box */
+    display: inline-block;   /* Make the span behave like a box */
+    padding: 5px 10px;  /* Add padding for space inside the box */
     background-color: #f0f0f0;  /* Light gray background for shading */
     border: 1px solid #ccc;  /* Add a border */
-    border-radius: 5px;      /* Optional: Rounded corners */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-    font-weight: bold;       /* Make the text bold */
-    min-width: 50px;         /* Minimum width for the box */
-    text-align: center;      /* Center the text inside the box */
+    border-radius: 5px;  /* Optional: Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);  /* Add a subtle shadow */
+    font-weight: bold;  /* Make the text bold */
+    min-width: 50px;  /* Minimum width for the box */
+    text-align: center;  /* Center the text inside the box */
 }
 
 #reset-button {
@@ -172,4 +175,85 @@ button {
 
 #reset-button:hover {
     background-color: #218838;
+}
+
+
+/* #start-button {
+    border: 3px solid #3c28a1;
+    background-color: hotpink;
+} */
+
+/* #reset-button {
+    border: 3px solid #3c28a1;
+    background-color: #e3433d;
+} */
+
+/* Mobile responsiveness: Breakpoints for different screen sizes */
+
+/* For screens smaller than 768px (tablets and small screens) */
+@media (max-width: 768px) {
+    #logo {
+        font-size: 3em;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    h5 {
+        font-size: 0.9em;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row for smaller screens */
+    }
+
+    .card {
+        height: 80px;
+        width: 80px;
+    }
+
+    #result, .time-remaining {
+        font-size: 1.2em;
+    }
+
+    #reset-button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
+
+/* For screens smaller than 480px (phones) */
+@media (max-width: 480px) {
+    #logo {
+        font-size: 2.5em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+
+    h5 {
+        font-size: 0.8em;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row for smaller screens (adjusted for both 768px and 480px) */
+        justify-items: center;
+        width: 90%;
+    }
+
+    .card {
+        height: 70px;
+        width: 70px;
+    }
+
+    #result, .time-remaining {
+        font-size: 1em;
+    }
+
+    #reset-button {
+        padding: 7px 14px;
+        font-size: 0.8em;
+    }
 }

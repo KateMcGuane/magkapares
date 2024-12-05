@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Case 1: A match found
     if (cardsChosen[0] === cardsChosen[1]) {
-      alert('You found a match!');
+      // alert('You found a match!');
       cards[optionOneId].setAttribute('src', 'assets/images/card-images/card-match.png');
       cards[optionTwoId].setAttribute('src', 'assets/images/card-images/card-match.png');
       // Remove event listeners to prevent further clicks on matched cards
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Re-enable click event on both cards since they didn't match
         cards[optionOneId].addEventListener('click', flipCard);
         cards[optionTwoId].addEventListener('click', flipCard);
-        alert("Sorry, try again!");
+        // alert("Sorry, try again!");
       }, 500); // Add delay for better user experience
     }
   
@@ -168,10 +168,10 @@ document.addEventListener('DOMContentLoaded', () => {
     clearInterval(countdownInterval); // Stop the countdown timer
     if (hasWon) {
       resultDisplay.textContent = "Congratulations! You've found them all!";
-      alert("You won the game!");
+      // alert("You won the game!");
     } else {
       resultDisplay.textContent = "Game over! Time's up!";
-      alert("Time's up! Better luck next time!");
+      // alert("Time's up! Better luck next time!");
       // Disable all cards
       const cards = document.querySelectorAll('.card');
       cards.forEach(card => card.removeEventListener('click', flipCard));
@@ -180,13 +180,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   function resetGame() {
-    alert("Game has been reset!");
+    // alert("Game has been reset!");
 
     // Clear all card states
     const cards = document.querySelectorAll('.card');
     cards.forEach(card => {
       card.setAttribute('src', 'assets/images/card-images/card-reverse.png');
       card.addEventListener('click', flipCard);
+      card.style.transform = 'scale(1)'; // Ensure cards return to original scale
     });
     
     // Shuffle card array
