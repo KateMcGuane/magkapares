@@ -206,6 +206,8 @@ button {
 
     .grid {
         grid-template-columns: repeat(2, 1fr); /* 2 items per row for smaller screens */
+        justify-items: center;
+        width: 95%;
     }
 
     .card {
