@@ -25,9 +25,15 @@ body {
 
 #logo {
     font-family: "Patrick Hand SC", sans-serif;
-    color: #e3433d;
+    color: #fff1da;
     font-size: 4em;
+    text-shadow: -2px -2px 0 #323030, 2px -2px 0 #323030, -2px 2px 0 #320030, 2px 2px 0 #323030;
+    /* outline: 2px solid #323030; */
 }
+
+/* #logo.outline-text {
+    text-shadow: -1px -1px 0 #3203030, 1px -1px 0 #3203030, -1px 1px 0 #3203030, 1px 1px 0 #3203030;
+} */
 
 h4 {
     font-size: 1.5em;
@@ -109,9 +115,8 @@ h5 {
     perspective: 1000px;
 } */
 
-/* body {
-    /* background-image: url("../images/philippines-map.png"); */
-   /* background-color: #1effbc;
+body {
+    background-image: url("../images/philippines-beach.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -120,7 +125,7 @@ h5 {
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
-} */ 
+}
 
 /* header {
     padding: 0 1rem;
@@ -163,7 +168,7 @@ button {
 }
 
 #reset-button {
-    background-color: #28a745;
+    background-color: #1effbc;
     color: white;
     border: none;
     padding: 10px 20px;

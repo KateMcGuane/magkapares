@@ -92,7 +92,7 @@ I used a flowchart to illustrate some of the main logical points before I began 
   | --- | --- |
   | Visuals | <ul><li>When you hover on the title, "Magkapares", the word transitions into the English version of the word, "Pairs".</li></ul>|
   | Audio | <ul><li>When a card is revealed, it pronounces the word written on the card.</li><li>Audio cues for matching pairs, mistakes, or game completion.</li></ul>|
-  | Game Progression | <ul><li>Create different levels within the game so that the user can progress and advance their memory/learning skills.</li></ul> |
+  | Game Progression | <ul><li>Create different levels within the game so that the user can progress and advance their memory, learning and language skills.</li></ul> |
 
 
 ---
@@ -112,6 +112,7 @@ I used a flowchart to illustrate some of the main logical points before I began 
 - [Canva](https://www.canva.com/) was used to create the favicon.
 - [Coolors](https://coolors.co/) was used to create a colour palette for the site.
 - [Favicon.io](https://favicon.io/favicon-converter/) was used to convert the favicon image into suitable sizes.
+- [Freepik.com](https://www.freepik.com/) was used for sourcing the background image.
 - [GitHub](https://github.com/) was used to store associated files & developments of the website.
 - [Gitpod](https://www.gitpod.io/) was the IDE used on the second edition of this project.
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) was used to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created, most notably while logging to the console for JavaScript.
@@ -161,12 +162,12 @@ As majority of the code was re-written for this project, so too may have been so
 
 |  | 1st Edition | 2nd Edition |
 | --- | --- | --- |
-| CSS | <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project, [Flash Cards](https://github.com/IuliiaKonovalova/flash_cards/tree/main), as a guide towards my own project. It is referenced throughout where used.</li></ul> | <ul><li>[Alien Memory Game](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) had useful references for aligning the cards correctly & responsiveness.</li></ul>
+| CSS | <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project, [Flash Cards](https://github.com/IuliiaKonovalova/flash_cards/tree/main), as a guide towards my own project. It is referenced throughout where used.</li></ul> | <ul><li>[Alien Memory Game](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) had useful references for aligning the cards correctly & responsiveness.</li> <li>[Squash How to Apply Outline Effect to Text in CSS](https://www.squash.io/how-to-apply-outline-effect-to-text-in-css/) for enhancing some of the wording on the page.</li></ul>
 | JavaScript | | <ul><li>[Stackoverflow How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)</li> <li>[Battle City](https://github.com/Dima-Bulavenko/BattleCity), a project I worked on, was used to help re-structure the layout of this project.</li><li>[Learn JavaScript by Building 7 Games - Full Course](https://www.youtube.com/watch?v=ec8vSKJuZTk) @(0:18:42) helped me re-structure the layout of my project & how I approached the fundamental logic.</ul> |
 
   #### MarkUp
 
-  Referred to structures and resources used by CI Students & Github markup:
+  Referred to structures and resources used by fellow CI Students & Github markup:
   - [Student README: Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club/blob/main/README.md)
   - [Student README: My To Do List](https://github.com/luandretta/my-to-do-list/tree/main)
   - [Mentor README: Yingwen](https://github.com/IuliiaKonovalova/flash_cards/tree/main)
