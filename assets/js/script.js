@@ -58,6 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const gridDisplay = document.querySelector('.grid');  // Where cards are 'stored'
   const resultDisplay = document.querySelector('#result');
   const timerDisplay = document.querySelector('.time-remaining');
+  const gameInfoButton = document.getElementById('game-info');  // How to Play button
+  const instructionsModal = document.querySelector('.instructions-modal');
+  const closeButton = document.querySelector('.close-button');
   const resetButton = document.getElementById('reset-button');
   let cardsChosen = []; // Pushing selected cards into array
   let cardsChosenId = [];
@@ -203,7 +206,21 @@ document.addEventListener('DOMContentLoaded', () => {
     clearInterval(countdownInterval);
   }
   
+  gameInfoButton.addEventListener('click', () => {
+    instructionsModal.style.display = 'block';
+  });
+
+  closeButton.addEventListener('click', () => {
+    instructionsModal.style.display = 'none';
+  });
+
+  window.addEventListener('click', (event) => {
+    if(event.target === instructionsModal) {
+      instructionsModal.style.display = 'none';
+    }
+  });
+
   resetButton.addEventListener('click', resetGame);
 
   createBoard();
-})
+});

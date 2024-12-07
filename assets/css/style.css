@@ -115,7 +115,7 @@ button {
     text-align: center;  /* Center the text inside the box */
 }
 
-.modal {
+.instructions-modal {
     display: none;  /* Hidden by default */
     position: fixed;
     z-index: 1;
