@@ -121,8 +121,10 @@ I used a flowchart to illustrate some of the main logical points before I began 
 - [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/overview/) was used to assist in the testing process throughout the project. It helped me identify any errors I was making and refine the code I had created, most notably while logging to the console for JavaScript.
 - [Google Fonts](https://fonts.google.com/) was used to extract fonts for the website.
 - [Lucidchart](https://www.lucidchart.com/pages) was used to create a schema for the website.
+- [RGBA Color Picker](https://rgbacolorpicker.com/hex-to-rgba) was used to convert the chosen colour palette to rgb to accommodate opacity needs for the design.
 - [Stack Overflow](https://stackoverflow.com/) was used for general consultation and specific coding needs.
 - [VS Code](https://code.visualstudio.com/) was the IDE used on the first edition of this project.
+- [W3Schools](https://www.w3schools.com/) was used to consult general code best practices and how to.
 
  Any specific uses to the following webpages can be found within their relative subtitle of application.
 
@@ -167,6 +169,7 @@ As majority of the code was re-written for this project, so too may have been so
 | --- | --- | --- |
 | CSS | <ul><li>Copied some of the code from my own Portfolio Project 1, [Hobby](https://github.com/KateMcGuane/hobby), and modified it to suit the needs of this project.</li> <li> Used my mentors project, [Flash Cards](https://github.com/IuliiaKonovalova/flash_cards/tree/main), as a guide towards my own project. It is referenced throughout where used.</li></ul> | <ul><li>[Alien Memory Game](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game/tree/master) had useful references for aligning the cards correctly & responsiveness.</li> <li>[Squash How to Apply Outline Effect to Text in CSS](https://www.squash.io/how-to-apply-outline-effect-to-text-in-css/) for enhancing some of the wording on the page.</li></ul>
 | JavaScript | | <ul><li>[Stackoverflow How to randomize (shuffle) a JavaScript array?](https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array)</li> <li>[Battle City](https://github.com/Dima-Bulavenko/BattleCity), a project I worked on, was used to help re-structure the layout of this project.</li><li>[Learn JavaScript by Building 7 Games - Full Course](https://www.youtube.com/watch?v=ec8vSKJuZTk) @(0:18:42) helped me re-structure the layout of my project & how I approached the fundamental logic.</ul> |
+| General |  | <ul><li>[How TO - CSS/JS Modal](https://www.w3schools.com/howto/howto_css_modals.asp) to create the instructions modal.</li></ul>
 
   #### MarkUp
 
