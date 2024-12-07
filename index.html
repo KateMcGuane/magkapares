@@ -48,21 +48,23 @@
 	<div class="grid"></div>
 
 	<!-- Featured Elements -->
-	<div class="word-box"><h3 class="timer">Time: <span class="time-remaining"></span> seconds</h3></div>
+	<div class="word-box"><h3 class="timer">Time: <span class="time-remaining"></span> seconds left</h3></div>
 
-	<button class="game-info">How To Play</button>
+	<div>
+		<button class=button id="game-info">How To Play</button>
+		<button class="button" id="reset-button">Reset Game</button>
+	</div>
 
-	<button class="button" id="reset-button">Reset Game</button>
-
-	<div id="instructions-modal" class="modal">
+	<div class="instructions-modal">
 		<div class="modal-content">
 		  <span class="close-button">&times;</span>
 			<h2>How to Play Magkapares</h2>
-				<p>Magkapares is the Tagalog word for "Pairs".<br>
+				<p>Magkapares is the Tagalog word for "Pairs"<br>
 				Click any card to start<br>
 				Click a second card to find the matching card<br>
 				Match each pair before the timer runs out<br>
 				Each pair has the English and Tagalog word for the item shown<br>
+				When you've found all the pairs, you've won the game!
 				</p>
 		</div>
 	</div>	  
