@@ -178,6 +178,7 @@ button {
 #game-info-button:hover,
 #reset-button:hover {
     background-color: #87ad2c;
+    transform: scale(1.05); /* Create zoom effect over hover */
 }
 
 /* Mobile responsiveness: Breakpoints for different screen sizes */
