@@ -40,9 +40,12 @@ The site’s goal is to provide a fun and beginner friendly learning/memorisatio
 ### Colour Scheme
 
 The colour scheme of the website was inspired by the tropical and rich colours of the Phillippines. They can be found in their coastlines, dense forests and colourful foods.
-Many of the colours chosen reflect many of those seen in the Philippines as a place and its culture.
+Many of the colours chosen reflect many of those seen in the Philippines as a place and its culture. The colours below were extracted from the background beach image and the twilight sky seascape (both can be found in the images directory).
 
-![Magkapares Website Colour Palette](documentation/philippines.png)
+![Twilight Colour Palette](documentation/philippines_twilight_palette.png)
+![Blush Colour Palette](documentation/philippines_blush.png)
+![Blue Colour Palette](documentation/philippines_blues.png)
+![Green Colour Palette](documentation/philippines_greens.png)
 
 ### Typography
 
