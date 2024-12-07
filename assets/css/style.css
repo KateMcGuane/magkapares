@@ -34,10 +34,6 @@ body {
     text-shadow: -4px -4px 0 #323030, 4px -4px 0 #323030, -4px 4px 0 #320030, 4px 4px 0 #323030;
 }
 
-/* #logo.outline-text {
-    text-shadow: -1px -1px 0 #3203030, 1px -1px 0 #3203030, -1px 1px 0 #3203030, 1px 1px 0 #3203030;
-} */
-
 h4 {
     font-size: 1.5em;
 }
@@ -52,7 +48,19 @@ h4, h5 {
     text-shadow: -1px -1px 0 #77eaf8, 1px -1px 0 #77eaf8, -1px 1px 0 #77eaf8, 1px 1px 0 #77eaf8;
 }
 
-.heading-box {
+body {
+    background-image: url("../images/philippines-beach.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.word-box {
     padding: 5px;  /* Space inside the box */
     background-color: rgba(255, 241, 218, 0.8);  /* Light background color */
     border: 5px solid #77eaf8;  /* Border around the box */
@@ -85,85 +93,6 @@ h4, h5 {
     transform: scale(1.05); /* Create zoom effect over hover */
 }
 
-/* #card-container {
-    background-color: #1effbc;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* Holds front of card */
-/* .card-box {
-    width: 100px;
-    height: 100px;
-    background-color: #d7ad25;
-    border: 5px solid #3c28a1;
-    border-radius: 10px;
-    transition: transform 900ms;
-    from flash_cards
-    /* transform-style: preserve-3d;
-    from flash_cards
-    position: relative;
-    from flash_cards
-    cursor: pointer;
-    from flash_cards
-}
-
-/* Target specifics of card div */
-/* .card-back img{
-    width: 100px;
-    height: 100px;
-} */
-
-/* .card-back {
-    background-color: #e3433d;
-} */
-
-/* .image-hidden {
-    display: none;
-} */
-
-/* Sets dimension for gridDisplay */
-/* .grid {
-    margin: 5px 0 10px;
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
-    justify-content: center;
-    perspective: 1000px;
-} */
-
-body {
-    background-image: url("../images/philippines-beach.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-}
-
-/* header {
-    padding: 0 1rem;
-    position: relative;
-    z-index: 99;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    background-color: #e3433d;
-} */
-
-/* div {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    text-align: center;
-} */
-
 button {
     display: block;
     margin: auto;
@@ -174,7 +103,7 @@ button {
 
 #result, .time-remaining {
     font-size: 1.5em;
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;   /* Make the span behave like a box */
     padding: 5px 10px;  /* Add padding for space inside the box */
     background-color: #f0f0f0;  /* Light gray background for shading */
@@ -203,17 +132,6 @@ button {
 #reset-button:hover {
     background-color: #87ad2c;
 }
-
-
-/* #start-button {
-    border: 3px solid #3c28a1;
-    background-color: hotpink;
-} */
-
-/* #reset-button {
-    border: 3px solid #3c28a1;
-    background-color: #e3433d;
-} */
 
 /* Mobile responsiveness: Breakpoints for different screen sizes */
 
