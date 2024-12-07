@@ -28,10 +28,10 @@ body {
 
 #logo {
     font-family: "Patrick Hand SC", sans-serif;
-    color: #fff1da;
+    color: #bb514e;
     font-size: 4em;
-    letter-spacing: .4rem;
-    text-shadow: -4px -4px 0 #323030, 4px -4px 0 #323030, -4px 4px 0 #320030, 4px 4px 0 #323030;
+    letter-spacing: .5rem;
+    text-shadow: -4px -4px 0 #77eaf8, 4px -4px 0 #77eaf8, -4px 4px 0 #77eaf8, 4px 4px 0 #77eaf8;
 }
 
 h4 {
