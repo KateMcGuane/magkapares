@@ -26,6 +26,18 @@ body {
     background-color: #f0f0f0;
 }
 
+body {
+    background-image: url("../images/philippines-beach.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
 #logo {
     font-family: "Patrick Hand SC", sans-serif;
     color: #323030;
@@ -42,22 +54,18 @@ h5 {
     font-size: 1em;
 }
 
-h4, h5 {
-    /* padding: 5px; */
+h2, h4, h5 {
     color: #0f2324;
     text-shadow: -1px -1px 0 #77eaf8, 1px -1px 0 #77eaf8, -1px 1px 0 #77eaf8, 1px 1px 0 #77eaf8;
 }
 
-body {
-    background-image: url("../images/philippines-beach.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
+p {
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: #0f2324;
+    text-shadow: none;
+    padding: 10px;
 }
 
 .word-box {
@@ -115,6 +123,11 @@ button {
     text-align: center;  /* Center the text inside the box */
 }
 
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
 .instructions-modal {
     display: none;  /* Hidden by default */
     position: fixed;
@@ -137,12 +150,17 @@ button {
     text-align: center;
 }
 
+#how-to-play {
+    font-weight: bold;
+}
+
 .close-button {
     float: right;
     font-size: 24px;
     cursor: pointer;
 }
-
+ 
+#game-info-button,
 #reset-button {
     background-color: #429B55;
     color: #fff1da;
@@ -157,6 +175,7 @@ button {
     margin-top: 20px;
 }
 
+#game-info-button:hover,
 #reset-button:hover {
     background-color: #87ad2c;
 }
