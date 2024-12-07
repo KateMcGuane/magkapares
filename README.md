@@ -91,11 +91,11 @@ I used a flowchart to illustrate some of the main logical points before I began 
 
 ### Future Gameplay Features
 
-  | Feature |  |
-  | --- | --- |
-  | Visuals | <ul><li>When you hover on the title, "Magkapares", the word transitions into the English version of the word, "Pairs".</li></ul>|
-  | Audio | <ul><li>When a card is revealed, it pronounces the word written on the card.</li><li>Audio cues for matching pairs, mistakes, or game completion.</li></ul>|
-  | Game Progression | <ul><li>Create different levels within the game so that the user can progress and advance their memory, learning and language skills.</li></ul> |
+  | Feature |  |  |
+  | --- | --- | --- |
+  | Visuals |  | <ul><li>When you hover on the title, "Magkapares", the word transitions into the English version of the word, "Pairs".</li></ul>|
+  | UX | Audio | <ul><li>When a card is revealed, it pronounces the word written on the card.</li><li>Audio cues for matching pairs, mistakes, or game completion.</li></ul>| Gameplay | <ul><li>Once the game is complete the Score section will update to showcase the final score.</li><li>Once the game is complete the Timer section will declare how long it took for the player to complete the game.</li></ul>
+  | Game Progression |  | <ul><li>Create different levels within the game so that the user can progress and advance their memory, learning and language skills.</li><li>The player can be log into the game with a username (for record keeping).</li><li>The score is logged along with the username.</li><li>High scores of previous players along with their high score are displayed on a modal.</li></ul> |
 
 
 ---
