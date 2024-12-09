@@ -125,6 +125,7 @@ I used a flowchart to illustrate some of the main logical points before I began 
 - [Stack Overflow](https://stackoverflow.com/) was used for general consultation and specific coding needs.
 - [VS Code](https://code.visualstudio.com/) was the IDE used on the first edition of this project.
 - [W3Schools](https://www.w3schools.com/) was used to consult general code best practices and how to.
+- [11zon](https://imagecompressor.11zon.com/en/image-compressor/) was used to compress the back ground image.
 
  Any specific uses to the following webpages can be found within their relative subtitle of application.
 
