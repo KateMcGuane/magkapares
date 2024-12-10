@@ -62,6 +62,18 @@ I used a flowchart to illustrate some of the main logical points before I began 
 
 ![Magkapares Flowchart](documentation/magkapares-flowchart.png)
 
+### Wireframes
+
+Wireframes were created for desktop (1920px x 1080px), iPad (768px x 1024px) and iPhone 12Pro (436px x 867px).
+
+#### Gameplay
+
+![Gameplay](documentation/wireframes/gameplay.png)
+
+#### Instructions Modal
+
+![Instructions Modal](documentation/wireframes/instructions-modal.png)
+
 
 ---
 
