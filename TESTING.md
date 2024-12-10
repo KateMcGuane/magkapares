@@ -1,6 +1,6 @@
 # Magkapares - Testing
 
-![Magkapares shown on a variety of screen sizes](INSERT_FILE_HERE)
+![Magkapares shown on a variety of screen sizes](documentation/magkapares_am_i_responsive.PNG)
 
 Visit the deployed site [Magkapares](https://katemcguane.github.io/magkapares/) here.
 
@@ -66,14 +66,9 @@ The responsiveness was confirmed with [Responsive Website Design Tester](https:/
 ## LightHouse report
 
 
-I used Lighthouse in DevTools to confirm that the website is performing well, accessiblility and readability of fonts & colours. Testing was done for both mobile & desktop.
+I used Lighthouse in DevTools to confirm that the website is performing well, accessiblility and readability of fonts & colours. The performance needs improving and will be done so on further iterations.
 
-  #### Desktop
-  ![Magkapares Lighthouse Mobile](INSERT_FILE_HERE)
-  #### Mobile
-  ![Magkapares Lighthouse Desktop](INSERT_FILE_HERE)
-
-DUPLICATE THE ABOVE & LABEL FOR ANY EXTRA PAGES CREATED.
+  ![Magkapares Lighthouse](documentation/testing/lighthouse_magkapares.PNG)
 
 
 ---
