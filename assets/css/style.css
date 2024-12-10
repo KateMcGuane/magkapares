@@ -3,209 +3,216 @@
 
 /* Asterisk wildcard selector to override default styles added by the broswer */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
-    text-align: center;
-    letter-spacing: .1rem;
-    color: #0f2324;
-    text-shadow: -1px -1px 0 #77eaf8, 1px -1px 0 #77eaf8, -1px 1px 0 #77eaf8, 1px 1px 0 #77eaf8;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  color: #0f2324;
+  text-shadow: -1px -1px 0 #77eaf8, 1px -1px 0 #77eaf8, -1px 1px 0 #77eaf8,
+    1px 1px 0 #77eaf8;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex: 1 0 auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #053d7f;
-    background-image: url("../images/philipppines-beach_11zon.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #053d7f;
+  background-image: url("../images/philipppines-beach_11zon.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 #logo {
-    font-family: "Patrick Hand SC", sans-serif;
-    color: #323030;
-    font-size: 4em;
-    letter-spacing: .5rem;
-    text-shadow: -4px -4px 0 #77eaf8, 4px -4px 0 #77eaf8, -4px 4px 0 #77eaf8, 4px 4px 0 #77eaf8;
-    max-width: 90%;
-    max-height: 90%;
-    min-height: 60px;
-    flex-shrink: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+  font-family: "Patrick Hand SC", sans-serif;
+  color: #323030;
+  font-size: 4em;
+  letter-spacing: 0.5rem;
+  text-shadow: -4px -4px 0 #77eaf8, 4px -4px 0 #77eaf8, -4px 4px 0 #77eaf8,
+    4px 4px 0 #77eaf8;
+  max-width: 90%;
+  max-height: 90%;
+  min-height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 p {
-    font-size: 1em;
-    font-weight: 700;
-    letter-spacing: .1rem;
-    padding: 10px;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  padding: 10px;
 }
 
 .word-box {
-    padding: 5px;  /* Space inside the box */
-    background-color: rgba(255, 241, 218, 0.8);  /* Light background color */
-    border: 5px solid #77eaf8;  /* Border around the box */
-    border-radius: 20px;  /* Rounded corners */
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
-    text-align: center;  /* Center the text inside the box */
-    margin: 15px 0;
+  padding: 5px; /* Space inside the box */
+  background-color: rgba(255, 241, 218, 0.8); /* Light background color */
+  border: 5px solid #77eaf8; /* Border around the box */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center the text inside the box */
+  margin: 15px 0;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    margin: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 20px 0;
 }
 
 .card {
-    height: 120px;
-    width: 120px;
-    cursor: pointer;
-    border-radius: 30px;
-    border: 5px solid #77eaf8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 5px solid #77eaf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card:hover {
-    transform: scale(1.05); /* Create zoom effect over hover */
+  transform: scale(1.05); /* Create zoom effect over hover */
 }
 
 button {
-    display: block;
-    margin: auto;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 7px;
-    text-shadow: -1px -1px 0 #323030, 1px -1px 0 #323030, -1px 1px 0 #320030, 1px 1px 0 #323030;
-    color: #fff1da;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 7px;
+  text-shadow: -1px -1px 0 #323030, 1px -1px 0 #323030, -1px 1px 0 #320030,
+    1px 1px 0 #323030;
+  color: #fff1da;
 }
 
-#result, .time-remaining {
-    font-size: 1.5em;
-    margin-top: 10px;
-    display: inline-block;   /* Make the span behave like a box */
-    padding: 5px 10px;  /* Add padding for space inside the box */
-    background-color: #f0f0f0;  /* Light gray background for shading */
-    border: 1px solid #ccc;  /* Add a border */
-    border-radius: 5px;  /* Optional: Rounded corners */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);  /* Add a subtle shadow */
-    font-weight: bold;  /* Make the text bold */
-    min-width: 50px;  /* Minimum width for the box */
-    text-align: center;  /* Center the text inside the box */
+#result,
+.time-remaining {
+  font-size: 1.5em;
+  margin-top: 10px;
+  display: inline-block; /* Make the span behave like a box */
+  padding: 5px 10px; /* Add padding for space inside the box */
+  background-color: #f0f0f0; /* Light gray background for shading */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Optional: Rounded corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  font-weight: bold; /* Make the text bold */
+  min-width: 50px; /* Minimum width for the box */
+  text-align: center; /* Center the text inside the box */
 }
 
 .button-container {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .instructions-modal {
-    display: none;  /* Hidden by default */
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(15, 35, 36, 0.4);
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 35, 36, 0.4);
 }
 
 .modal-content {
-    background-color: #fff1da;
-    margin: 15% auto;
-    padding: 20px;
-    border: 2px solid #0f2324;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 500px;
-    text-align: center;
+  background-color: #fff1da;
+  margin: 15% auto;
+  padding: 20px;
+  border: 2px solid #0f2324;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
 }
 
 .how-to-play {
-    font-weight: bold;
-    color: #0f2324;
-    text-shadow: none;
+  font-weight: bold;
+  color: #0f2324;
+  text-shadow: none;
 }
 
 .close-button {
-    float: right;
-    font-size: 24px;
-    cursor: pointer;
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
 }
- 
+
 #game-info-button,
 #reset-button {
-    background-color: #429B55;
-    color: #fff1da;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    letter-spacing: .05rem;
-    cursor: pointer;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #fff1da;
-    margin-top: 20px;
+  background-color: #429b55;
+  color: #fff1da;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #fff1da;
+  margin-top: 20px;
 }
 
 #game-info-button:hover,
 #reset-button:hover {
-    background-color: #87ad2c;
-    transform: scale(1.05); /* Create zoom effect over hover */
+  background-color: #87ad2c;
+  transform: scale(1.05); /* Create zoom effect over hover */
 }
 
 /* Mobile responsiveness: Breakpoints for different screen sizes */
 
 /* For screens smaller than 768px (tablets and small screens) */
 @media (max-width: 768px) {
-    #logo {
-        font-size: 3em;
-        margin-top: 30px;
-    }
+  #logo {
+    font-size: 3em;
+    margin-top: 30px;
+  }
 
-    .grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 items per row for smaller screens */
-        justify-items: center;
-        width: 95%;
-    }
+  .grid {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 items per row for smaller screens */
+    justify-items: center;
+    width: 95%;
+  }
 
-    .card {
-        height: 80px;
-        width: 80px;
-    }
+  .card {
+    height: 80px;
+    width: 80px;
+  }
 }
 
 /* For screens smaller than 480px (phones) */
 @media (max-width: 480px) {
-    #logo {
-        font-size: 2.5em;
-        margin-top: 40px;
-    }
+  #logo {
+    font-size: 2.5em;
+    margin-top: 40px;
+  }
 
-    .grid {
-        width: 90%;
-    }
+  .grid {
+    width: 90%;
+  }
 
-    .card {
-        height: 70px;
-        width: 70px;
-    }
+  .card {
+    height: 70px;
+    width: 70px;
+  }
 }

@@ -4,18 +4,7 @@ Magkapares is the Tagalog (Filipino) equivalent of the word "Pairs". This projec
 This game will exercise memory and recollection, all the while learning a new language. It is suitable for children and adults alike.
 The website acts as a stepping stone to learning more about the Phillippines, in a fun way through learning a language.
 
-[View Magkapares here](INSERT_LINK_TO_DEPLOYED_SITE)
-
-
----
-
-## Refactoring
-
-Upon revision of this project, there were some key elements changed. The following are all major changes that were applied, along with the reasoning.
-
-| 1st Edition | 2nd Edition | Reason for change |
-| --- | --- | --- |
-| &lt;div&gt; id="results">Score: &lt;/div&gt; |	&lt;h3&gt;Score: &lt;span&gt;id="result">&lt;/span&gt;&lt;/h3&gt; | More semantically meaningful & better suited for dynamic content that needs to be updated frequently. This is essential as our score changes as the game progresses. |
+[View Magkapares here](https://katemcguane.github.io/magkapares/)
 
 
 ---
@@ -78,7 +67,6 @@ I used a flowchart to illustrate some of the main logical points before I began 
 
 
 ## Features
-
 
 
 ### Existing Features
