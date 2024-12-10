@@ -27,20 +27,7 @@ The website was tested on three different browsers: Brave, Chrome, & Microsoft E
 ## Responsiveness
 
 The website was tested manually throughout the project development using DevTools to check for responsiveness.
-
-The responsiveness was confirmed with [Responsive Website Design Tester](https://responsivedesignchecker.com/). The following are samples of some of the responsiveness implemented.
-
-
-  ### Desktop Screens
-  ![Desktop Responsiveness](INSERT_GIF_FILE_HERE)
-
-
-  ### Tablet Screens
-  ![Tablet Responsiveness](INSERT_GIF_FILE_HERE)
-
-
-  ### Mobile Screens
-  ![Mobile Responsiveness](INSERT_GIF_FILE_HERE)
+However, a bug was found late in development for smaller screens. See known bugs below.
 
 
 ---
@@ -89,5 +76,6 @@ I used Lighthouse in DevTools to confirm that the website is performing well, ac
   ### Known Bugs
 
   | # | Bug | Cause | Screenshots |
+  | --- | --- | --- | --- |
   | 1 | Spacing between the cards changes when the game is won | This is a minor issue being caused by the span adjusting in size above the cards. Most of the game was made at this point. It does not affect the game's functionality or warrant a complete overhaul as it is a minor inconveniece to UX. This can be adjusted on future iterations. | ![Game Won Spacing](documentation/testing/bugs/gamewon-spacing-bug.PNG) |
   | 2 | The logo is being cut off on smaller screen sizes. | I realised it cut off on final review, however some of the CSS is overlapping and I will need to investigate further to find a solution. | ![Logo Cut Off](documentation/testing/bugs/logo_cutoff.PNG) |
