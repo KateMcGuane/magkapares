@@ -50,15 +50,15 @@ The responsiveness was confirmed with [Responsive Website Design Tester](https:/
 
 #### HTML
   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
-  (documentation/)
+  ![HTML](documentation//testing/w3c_index.html.PNG)
 
 #### CSS
   No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-  (INSERT_GIF_FILE_HERE)
+  ![CSS](documentation/testing//w3c_css.PNG)
 
 #### JavaScript
   No errors were found when passing through the official [Jshint validator](https://jshint.com/)
-  (INSERT_GIF_FILE_HERE). There were some warnings, but of nothing of consequence.
+  ![JSHint1](documentation/testing/jshint_1.PNG) ![JSHint2](documentation/testing/jshint_2.PNG) ![JSHint3](documentation/testing/jshint_3.PNG). There were some warnings, but of nothing of consequence.
 
 ---
 
