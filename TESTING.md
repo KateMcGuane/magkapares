@@ -12,14 +12,13 @@ Visit the deployed site [Magkapares](https://katemcguane.github.io/magkapares/) 
 The website was tested on three different browsers: Brave, Chrome, & Microsoft Edge. It was compatable across all three.
 
   ### Brave
-  ![Brave](documentation/testing/magkapares-brave-compatibility.PNG)
-
+  ![Brave](documentation/testing/browser/magkapares_brave_compatibility.PNG)
 
   ### Chrome
-  ![Chrome](documentation/testing/magkapares-chrome-compatibility.PNG)
+  ![Chrome](documentation/testing/browser/magkapares_chrome_compatibility.PNG)
 
   ### Microsoft Edge
-  ![Microsoft Edge](documentation/testing/magkapares-edge-compatibility.PNG)
+  ![Microsoft Edge](documentation/testing/browser/magkapares_edge_compatibility.PNG)
 
 
 ---
@@ -51,7 +50,7 @@ The responsiveness was confirmed with [Responsive Website Design Tester](https:/
 
 #### HTML
   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
-  (INSERT_GIF_FILE_HERE)
+  (documentation/)
 
 #### CSS
   No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
@@ -59,7 +58,7 @@ The responsiveness was confirmed with [Responsive Website Design Tester](https:/
 
 #### JavaScript
   No errors were found when passing through the official [Jshint validator](https://jshint.com/)
-  (INSERT_GIF_FILE_HERE)
+  (INSERT_GIF_FILE_HERE). There were some warnings, but of nothing of consequence.
 
 ---
 
