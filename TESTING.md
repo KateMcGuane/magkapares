@@ -86,26 +86,6 @@ DUPLICATE THE ABOVE & LABEL FOR ANY EXTRA PAGES CREATED.
 
 ---
 
-
-## Gameplay
-
-| Feature | Action | Expected Result | Tested | Comments |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- |
-
-
----
-
 ## Bugs
 
   ### Solved Bugs
@@ -116,20 +96,11 @@ DUPLICATE THE ABOVE & LABEL FOR ANY EXTRA PAGES CREATED.
   | 2 | When the same image is clicked twice, it is registering as a matched pair. Furthermore, when this registered as a matched pair, the image changes. | --- | ![Click Same Image 1](assets/images/bugs/click-same-image-1.PNG) ![Click Same Image 2](assets/images/bugs/click-same-image-2.PNG) ![Click Same Image 3](assets/images/bugs/click-same-image-3.PNG) |
   | 3 | The timer starts as normal when the first card is clicked. Two bugs occur: (i) Any clicks thereafter encourages the timer to countdown even faster. It duplicates the current countdown speed for every card clicked. <br> (ii) Once the timer surpasses the allocated 60 seconds, it runs on into minus figures. | Code refactored: <br> (i) Moved the startCountdown function inside conditional block to ensure it is only triggered once, on the first card flip.  (ii) Implement endGame function fully & create new variable to track that the timer has started. | ![Timer Glitch](assets/images/bugs/timer-glitch.PNG) |
   | 4 | If clicked in quick succession, the player can click more than two cards on any given turn. Up to 5 cards can be clicked in between the first and second selection. Not all of the cards selected turn around, and remain revealed to the player.| Add a check in the flipCard() function to see if there are already two cards flipped. This will prevent further clicks from triggering a flip until the current two cards are checked. | ![Multiple Card Selection](assets/images/bugs/too-many-flips.PNG) |
-  | 5 | --- | --- | --- |
-  | 6 | --- | --- | --- |
-  | 7 | --- | --- | --- |
-  | 8 | --- | --- | --- |
-  | 9 | --- | --- | --- |
-  | 10 | --- | --- | --- |
 
-
-
-  - Once all of the solutions were carried out, I reviewed each issue to ensure all corrections were applied & no further issues were occurring.
+  - Once all of the solutions were carried out, I reviewed each issue to ensure all corrections were applied & no further major issues were occurring.
 
   ### Known Bugs
 
-  1. When the second card is clicked on the game, it does not display the image unless they are a matching pair. This will be resolved in future versions. For now, an alert will pop up to say that the pairs do not match, so the user is still aware that it is a mis-match.
-  2. The styling for when the cards are clicked is slightly off and needs to be fixed (this was the only error until my final review, see point 3).
-  3. I missed a bug that I created at some point while adding my final CSS. I did not have enough time to rectify this bug. It shows up when the pairs match, the card containers take up the entire screen.
-  4. The reset button does not have any functionality incorported; the JavaScript code needs to be written for it. I ran out time before I could add it in, and did not want to compromise the game with additional bugs.
+  | # | Bug | Cause | Screenshots |
+  | 1 | Spacing between the cards changes when the game is won | This is a minor issue being caused by the span adjusting in size above the cards. Most of the game was made at this point. It does not affect the game's functionality or warrant a complete overhaul as it is a minor inconveniece to UX. This can be adjusted on future iterations. | ![Game Won Spacing] |
+  | 2 | --- | --- | --- |
