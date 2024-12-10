@@ -10,8 +10,7 @@
   text-align: center;
   letter-spacing: 0.1rem;
   color: #0f2324;
-  text-shadow: -1px -1px 0 #77eaf8, 1px -1px 0 #77eaf8, -1px 1px 0 #77eaf8,
-    1px 1px 0 #77eaf8;
+  text-shadow: -1px -1px 0 #77eaf8, 1px -1px 0 #77eaf8, -1px 1px 0 #77eaf8, 1px 1px 0 #77eaf8;
 }
 
 body {
@@ -39,8 +38,7 @@ body {
   color: #323030;
   font-size: 4em;
   letter-spacing: 0.5rem;
-  text-shadow: -4px -4px 0 #77eaf8, 4px -4px 0 #77eaf8, -4px 4px 0 #77eaf8,
-    4px 4px 0 #77eaf8;
+  text-shadow: -4px -4px 0 #77eaf8, 4px -4px 0 #77eaf8, -4px 4px 0 #77eaf8, 4px 4px 0 #77eaf8;
   max-width: 90%;
   max-height: 90%;
   min-height: 60px;
@@ -96,8 +94,7 @@ button {
   font-weight: bold;
   border-radius: 10px;
   padding: 7px;
-  text-shadow: -1px -1px 0 #323030, 1px -1px 0 #323030, -1px 1px 0 #320030,
-    1px 1px 0 #323030;
+  text-shadow: -1px -1px 0 #323030, 1px -1px 0 #323030, -1px 1px 0 #320030, 1px 1px 0 #323030;
   color: #fff1da;
 }
 

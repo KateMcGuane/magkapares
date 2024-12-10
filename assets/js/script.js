@@ -126,12 +126,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // Case 1: A match found
     if (cardsChosen[0] === cardsChosen[1]) {
       cards[optionOneId].setAttribute(
-        "src",
-        "assets/images/card-images/card-match.png"
+        "src", "assets/images/card-images/card-match.png"
       );
       cards[optionTwoId].setAttribute(
-        "src",
-        "assets/images/card-images/card-match.png"
+        "src", "assets/images/card-images/card-match.png"
       );
       // Remove event listeners to prevent further clicks on matched cards
       cards[optionOneId].removeEventListener("click", flipCard);
@@ -144,12 +142,10 @@ document.addEventListener("DOMContentLoaded", () => {
       // Flip both cards back to their reverse side after a short delay
       setTimeout(() => {
         cards[optionOneId].setAttribute(
-          "src",
-          "assets/images/card-images/card-reverse.png"
+          "src", "assets/images/card-images/card-reverse.png"
         );
         cards[optionTwoId].setAttribute(
-          "src",
-          "assets/images/card-images/card-reverse.png"
+          "src", "assets/images/card-images/card-reverse.png"
         );
         // Re-enable click event on both cards since they didn't match
         cards[optionOneId].addEventListener("click", flipCard);
