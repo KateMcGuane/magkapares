@@ -2,7 +2,7 @@
 
 ![Magkapares shown on a variety of screen sizes](INSERT_FILE_HERE)
 
-Visit the deployed site [Magkapares](INSERT_LINK_HERE) here.
+Visit the deployed site [Magkapares](https://katemcguane.github.io/magkapares/) here.
 
 
 ---
@@ -12,15 +12,14 @@ Visit the deployed site [Magkapares](INSERT_LINK_HERE) here.
 The website was tested on three different browsers: Brave, Chrome, & Microsoft Edge. It was compatable across all three.
 
   ### Brave
-  ![Brave](INSERT_GIF_FILE_HERE)
+  ![Brave](documentation/testing/magkapares-brave-compatibility.PNG)
 
 
   ### Chrome
-  ![Chrome](INSERT_GIF_FILE_HERE)
+  ![Chrome](documentation/testing/magkapares-chrome-compatibility.PNG)
 
   ### Microsoft Edge
-  ![Microsoft Edge](INSERT_GIF_FILE_HERE)
-
+  ![Microsoft Edge](documentation/testing/magkapares-edge-compatibility.PNG)
 
 
 ---
